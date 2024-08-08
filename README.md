@@ -1,5 +1,8 @@
 ## Evaluating GPT-3.5-turbo for Action Item Extraction in Meeting Transcripts 
+
 By: Atanas Komsiyski
+
+_Natural Language Processing_
 
 ![Poster](https://github.com/atanas-kom/honours-project/blob/main/dissertation_poster.png)
 
