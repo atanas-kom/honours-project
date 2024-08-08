@@ -1,0 +1,607 @@
+me022: Yeah.
+me013: Um, so. If we can't, we can't. But uh we're gonna try to make this an abbreviated meeting cuz the - the next - next occupants were pushing for it, so. Um. So. Agenda is - according to this, is transcription status, DARPA demos XML tools, disks, backups, et cetera and CrossPads.
+me011: Does anyone have anything to add to the agenda?
+me013: OK. Should we just go in order? Transcription status? Who's - that's probably you.
+fe008: I can do that quickly. Um I hired several more transcribers, They're making great progress. Seve- several, several.
+me013: Seven? Oh.
+fe008: And uh - and uh, uh I've been uh finishing up the uh double checking. I hoped to have had that done by today but it's gonna take one more week.
+me011: Um
+mn014: I g-
+me011: as a somewhat segue into the next topic, um could I get a hold of uh the data even if it's not really corrected yet just so I can get the data formats and make sure the information retrieval stuff is working?
+fe008: Certainly. Yeah I mean, it's in the same place it's been.
+me011: So can you just - Oh, it is. OK. Just - So, "transcripts"
+fe008: Uh-huh. No change. Uh -
+me011: is the sub-directory?
+fe008: Yes. Uh-huh.
+me011: OK. So I'll - I'll probably just make some copies of those rather than use the ones that are there.
+fe008: OK.
+me011: Um and then just - we'll have to remember to delete them once the corrections are made.
+fe008: OK.
+me013: OK, wh-
+mn014: I also got anot- a short remark to the transcription. I've uh just processed the first five EDU meetings and they are chunked up so they would - they probably can be sent to IBM whenever they want them.
+me018: Well the second one of those
+me001: Cool.
+mn014: Yep. It's already at IBM, but the other ones - Yeah.
+me018: is already at IBM. That's the one that we're waiting to hear from them on.
+mn014: Yeah.
+me018: Yeah.
+fe008: OK. These are separate from the ones that - I mean, these are -
+me018: As soon as - They're the IBM set.
+me011: It's this one.
+mn014: Yep.
+fe008: Excellent. Good.
+me018: Yeah.
+me011: Is my mike on? Yeah.
+me018: And so as soon as we hear from Brian that this one is OK and we get the transcript back and we find out that hopefully there are no problems matching up the transcript with what we gave them, then uh we'll be ready to go and we'll just send them the next four as a big batch,
+fe008: Excellent.
+me018: and let them work on that.
+me011: And so we're doing those as disjoint from the ones we're transcribing here?
+me018: Yes, exactly. We're sort of doing things in parallel, that way we can get as much done a- at once. Yeah.
+me011: OK, good. Yeah, I think that's the right way to do it, especially for the information retrieval stuff. Anything else on transcription status?
+fe008: Hm-mmm.
+me011: OK.
+me013: DARPA demos, we had the submeeting the other day.
+me011: Right, which uh - So I've been working on using the THISL tools to do information retrieval on meeting data and the THISL tools are - there're two sets, there's a back-end and a front-end, so the front-end is the user interface and the back-end is the indexing tool and the querying tool. And so I've written some tools to convert everything into the right for- file formats. And the command line version of the indexing and the querying is now working. So at least on the one meeting that I had the transcript for uh conveniently you can now do information retrieval on it, do - type in a - a string and get back a list of start-end times for the meeting, uh of hits.
+me018: What - what kind of uh - what does that look like? The string that you type in. What are you - are you - are they keywords, or are they - ? OK.
+me011: Keywords.
+me018: I see.
+me011: Right? And so - and then it munges it to pass it to the THISL IR which uses an SGML-like format for everything.
+me018: I see.
+me013: And then does it play something back or that's something you're having to program?
+me011: Um, right now, I have a tool that will do that on a command line using our standard tools,
+me013: Yeah.
+me011: but my intention is to do a prettier user interface based either - So - so that's the other thing I wanted to discuss, is well what should we do for the user interface? We have two tools that have already been written. Um the SoftSound guys did a web-based one,
+me013: Mm-hmm.
+me011: um, which I haven't used, haven't looked at. Dan says it's pretty good
+me013: Mm-hmm.
+me011: but it does mean you need to be running a web server.
+me013: Mm-hmm.
+me011: And so it - it's pretty big and complex. Uh and it would be difficult to port to Windows because it means porting the web server to Windows.
+me013: Mm-hmm.
+me011: Uh the other option is Dan did the Tcl-TK THISL GUI front-end
+me013: Yeah.
+me011: for Broadcast News which I think looks great. I think that's a nice demo. Um and that would be much easier to port to Windows. And so I think that's the way we should go.
+fe008: I - Can I ask a question? So um
+me011: Mm-hmm.
+fe008: as it stands within the - the Channeltrans interface, it's possible to do a find and a play. You can find a searched string and play. So e- Are you - So you're adding like um, I don't know, uh are they fuzzy matches or are they uh - ?
+me011: It's a sort of standard, text-retrieval-based - So it's uh term frequency, inverse document frequency scoring.
+fe008: OK.
+me011: Um and then there are all sorts of metrics for spacing how far apart they have to be and things like that. So it - it's
+fe008: It's a lot more sophisticated than the uh
+me011: i- it's like doing a Google query or anyth- anything else like that.
+fe008: the basically Windows-based -
+me011: So i- it uses - So it pr- produces an index ahead of time so you don't - you're not doing a linear search through all the documents.
+fe008: OK.
+me011: Cuz you can imagine if - with - if we have the sixty hours' worth you do - wouldn't wanna do a search.
+fe008: Hm-mmm.
+me011: Um you have to do preindexing and so that - these tools do all that.
+fe008: Good.
+me011: And so the work to get the front-end to work would be porting it - well - uh to get it to work on the UNIX systems, our side is just rewriting them and modifying them to work for meetings. So that it understands that they're different speakers and that it's one big audio file instead of a bunch of little ones and just
+me013: Mm-hmm. Mm-hmm.
+me011: sorta things like that.
+fe016: Mm-hmm.
+me018: So what does the user see as the result of the query?
+me011: On which tool?
+me018: THISL.
+me011: The THISL GUI tool which is the one that Dan wrote, Tcl-TK
+me018: Yeah.
+me011: um you type in a query and then you get back a list of hits and you can type on them and listen to them. Click on them rather with a mouse.
+me018: Ah. So if you typed in "small heads" or something you could
+me013: Mmm
+me011: Right, you'd get -
+me018: get back a uh uh
+me011: something -
+me018: something that would let you click and listen to some audio where that phrase had occurred or some-
+me011: You - you'd get to listen to "beep".
+me013: That was a really good look. It's too bad that that couldn't come into the -
+me011: You couldn't get a video.
+fe016: Guess who I practice on?
+fe008: At some point we're gonna have to say what that private joke is, that keeps coming up.
+me013: Yeah. And then again, maybe not. So, uh - Yeah, that soun- that sounds reasonable. Yeah, it loo- it - my - my recollection of it is it's - it's a pretty reasonable
+me011: Right.
+me013: uh demo sort of format.
+me018: Yeah that sounds good. That sounds really neat.
+me011: And so I think there'd be minimal effort to get it to work, minimally and then we'd wanna add things like query by speaker and by meeting and all that sort of stuff. Um Dave Gelbart expressed some interest in working on that so I'll work with him on it. And it - it's looking pretty good, you know, the fact that I got the query system working. So if we wanna just do a video-based one I think that'll be easy.
+me013: Mm-hmm.
+me011: If we wanna get it to Windows it's gonna be a little more work because the THISL IR, the information retrieval tool's - um, I had difficulty just compiling them on Solaris.
+me013: Mm-hmm.
+me011: So getting them to compile on Windows might be challenging.
+me013: Mm-hmm.
+me018: But you were saying that - that the uh -
+me011: So.
+me018: that there's that set of tools, uh, Cygnus tools, that -
+me011: It certainly helps. Um, I mean without those I wouldn't even attempt it.
+me018: Uh-huh. Yeah.
+me013: Mm-hmm.
+me011: But what those - they - what those do is provide sort of a BSD compatibility layer, so that the normal UNIX function calls all work.
+me013: Mm-hmm. Mm-hmm.
+me011: Um,
+me018: And you have to have all the o-
+me011: But the problem is that - that the THISL tools didn't use anything like Autoconf and so you have the normal porting problems of different header files and th- some things are defined and some things aren't and uh different compiler work-arounds and so on. So the fact that um it took me a day to get it c- to compile under Solaris means it's probably gonna take me s- significantly more than that to get it to compile under Windows.
+me013: How about having it run under free BSD?
+me022: Well what you need -
+me011: Free BSD would probably be easier.
+me022: All you need to do is say to Dan "gee it would be nice if this worked under Autoconf " and it'll be done in a day.
+me011: That's true.
+me022: Right?
+mn014: Uh -
+me011: Actually you know I should check because he did port it to SPRACHcore so he might have done that already.
+me022: Right. I - I - I wouldn't be surprised.
+me013: So -
+me011: I'll check at that -
+me018: How does it play?
+me022: What I -
+me013: But it would - what would serve - would serve both purposes, is if you contact him and ask him if he's already done it.
+me011: Yeah, right.
+me013: If he has then you learn, if he hasn't then he'll do it.
+me011: Right.
+fe008: Wow.
+me018: I hope he never listens to these meetings.
+me011: That's right. So, and I've been corresponding with Dan and also with uh
+fe008: It's amazing.
+me013: Yeah.
+me011: uh, SoftSound guy, uh - Blanking on his name.
+me018: Tony Robinson?
+me013: Tony Robinson?
+me011: Do I mean Tony? I guess I do.
+me013: Yeah.
+me011: Or S- or Steve Renals.
+me022: James Christie.
+me011: Which one do I mean?
+me013: Steve Renal- Steve Renals.
+me022: Steve Renals is not SoftSound, is he?
+me013: No.
+me011: My brain is not working, I don't remember who I've been corresponding with.
+me013: OK.
+me022: Steve wro- i- it's Ste- Steve Renals wrote THISL IR.
+me011: Then it's Steve Renals.
+me022: OK.
+me013: Oh, OK.
+me011: So uh just getting documentation and uh and f- and formats, so that's all going pretty well, I think we'll be OK with that.
+me013: Yeah.
+me022: Right.
+me013: Assuming we're -
+me018: What about issues of playing sound files @@ between the two platforms?
+me011: Um we have - Well, that's a good point too.
+me022: Here's a - here's a crazy idea actually.
+me011: I don't know.
+me022: Why don't you try and merge Transcriber and THISL IR?
+me011: Well this is one of the reasons -
+me022: They're both Tcl interfaces.
+me011: This is the - one of the reasons that I'm gonna have uh Dave Gelbart - Gelbart - Having him volunteer to work on it is a really good thing because he's worked on the Transcriber stuff
+me022: Right.
+me011: and he's more familiar with Tcl-TK than I am.
+me022: And then you get - they - then you get the Windows media playing for free.
+me011: Well that's Snack, not - not Transcriber.
+me022: Right. But the point is that the Transcriber uses Snack and then you can - but you can use a - a lot of the same functionality and it's -
+me011: Yeah, yeah, I mean, I - I think THISL - THISL GUI probably uses Snack. And so my intention was just to base it on that.
+me022: Yeah. Well my thought was is that it would be nice - it would be nice to have the running transcripts
+me011: And if it doesn't -
+me022: um eh you know, from speaker to speaker. Right? Do you have - you have, you know, a speaker mark here and a speaker mark here?
+me011: Right, we'll have to figure out a user interface for that, so.
+me022: Right. Well that - eh my thought was if you had like Multitrans or whatever do it. Or whatever.
+me011: Yeah. It might be fairly difficult to get that to work in the little short segments we'd be talking about and having the search tools and so on. We - we can look into it, but -
+me022: Yeah.
+me013: The thing I was asking about with, um, free BSD is that it might be easier to get PowerPoint shows running in free BSD than to get this other package running in -
+me011: Yeah, I mean we have to - I have to sit down and try it before I make too many judgments, so uh
+me013: Yeah.
+me011: Um My experience with the Gnu compatibility library is really it's just as hard and just as easy to port to any system. Right? The Windows system isn't any harder because it - it looks like a BSD system.
+me013: Mm-hmm.
+me011: It's just, you know, just like all of them, the "include" files are a little different and the function calls are a little different.
+me013: Right.
+me011: So I - it might be a little easier but it's not gonna be a lot easier.
+me013: OK. So there was that demo, which was one of the main ones, then we talked about um some other stuff which would basically be um showing off the - the Transcriber interface itself and as you say, maybe we could even merge those in some sense, but - but um, uh - and part of that was showing off what the speech-non- uh nonspeech stuff that Thilo has done s- looks like.
+mn014: Yeah.
+fe008: Can I ask one more thing about THISL?
+me011: Mm-hmm.
+fe008: So with the IR stuff then you end up with a somewhat prioritized um - ?
+me011: Mm-hmm, ranked.
+fe008: Excellent. Excellent. Yeah.
+fe016: So another idea I w- t- had just now actually for the demo was whether it might be of interest to sh- to show some of the prosody uh work that Don's been doing.
+me013: Mm-hmm.
+fe016: Um actually show some of the features and then show for instance a task like finding sentence boundaries or finding turn boundaries. Um, you know, you can show that graphically, sort of what the features are doing. It, you know, it doesn't work great but it's definitely giving us something.
+me013: Well I think at -
+fe016: I don't know if that would be of interest or not.
+me013: at the very least we're gonna want something illustrative with that cuz I'm gonna want to talk about it and so i- if there's something that shows it graphically
+fe016: Yeah.
+me013: it's much better than me just having a bullet point pointing at something I don't know much about, so.
+fe016: I mean, you're looking at this now - Are you looking at Waves or Matlab?
+me001: Um yeah I'm starting to and um - Yeah we can probably find some examples of different type of prosodic
+fe016: Yeah def-
+me001: events going on.
+me013: S- so when we here were having this demo meeting, what we're sort of coming up with is that we wanna have all these pieces together, to first order, by the end of the month
+fe016: I-
+me013: and then that'll give us a week or so.
+fe016: Oh, the end of this month or next month?
+me001: Ooo. The end of -
+me011: This month.
+fe016: Oh, you mean like today?
+me013: Ju-
+fe016: Oh.
+me011: Oh sorry, next month. Today isn't June first, is it.
+me013: June. June. June.
+fe016: Next month. Sorry. OK.
+me001: Yeah.
+me018: There's another one.
+me022: Exactly.
+me013: Uh - that'll - that'll give us -
+fe016: Sorry.
+me013: that'll give us a week or so to uh - to port things over to my laptop and make sure that works, yeah.
+fe016: I think, I mean eh where -
+me001: Yeah, I mean I'll be here.
+fe016: Yeah if d- if Don can sort of talk to whoever's - cuz we're doing this anyway as part of our -
+me013: Yeah.
+fe016: you know, the research, visualizing what these features are doing and so either -
+me013: Yeah.
+fe016: it might not be integrated but it - it could potentially be in it. Could find some.
+me013: Yeah. Well, this is to an audience of researchers so I mean, you know, to let s- the goal is to let them know what it is we're doing. So that's -
+fe016: I mean it's different. I don't think anyone has done this on meeting data so it might be neat, you know.
+me013: Yeah. Good. Done with that. XML tools?
+me011: Um. So I've been doing a bunch of XML tools where you - we're sort of moving to XML as the general format for everything and I think that's definitely the right way to go because there are a lot of tools that let you do extraction and reformatting of XML tools. Um. So yet again we should probably meet to talk about transcription formats in XML because I'm not particularly happy with what we have now. I mean it works with Transcriber but it - it's a pain to use it in other tools uh because it doesn't mark start and end.
+me018: Start and end of each - ?
+me011: Uh -
+mn014: Yeah.
+me011: Utterance.
+me018: Utterance. Just marks - ?
+me011: So it's implicit in - in there but you have to do a lot of processing to get it.
+me018: Yeah. Right. Right.
+me011: And so - and also I'd like to do the indirect time line business. Um but regardless, I mean, w- that's something that you, me, and Jane can talk about later. Um, but I've installed XML tools of various sorts in various languages and so if people are interested in doing - extracting any information from any of these files, either uh information on users because the user database is that way - I'm converting the Key files to XML so that you can extract m- uh
+me001: Cool.
+me011: various inf- uh sorted information on individual meetings
+mn014: Yeah.
+me011: and then also the transcripts. And so l- just let me know there - it's mostly Java and Perl but we can get other languages too if - if that's desirable.
+fe016: Oh, quick question on that. Is - do we have the - the seat information? In - in the Key files now?
+fe008: Mm-hmm.
+me011: The seat information is on the Key files for the ones which
+fe008: Ah.
+fe016: Oh in -
+me011: it's been recorded, yeah.
+fe016: For the new one- OK. Great.
+me013: Seat?
+fe016: Sea- yeah.
+me011: Where - where you're sitting.
+me013: Oh! Not - not the quality or anything. No. OK. I see.
+mn014: n-
+me011: Right. "It's pretty soft and squishy."
+me013: Yeah.
+fe016: Alright .
+me013: Yeah. OK.
+me011: Oh, but that might just be me.
+fe016: OK.
+me011: Um.
+fe016: Alright.
+me013: That's more seat information than we wanted.
+fe016: Never mind.
+me022: Hmm.
+fe016: I'm just trying to figure out, you know, when Morgan's voice appears on someone's microphone are they next to him or are they across from him?
+me011: Maybe we should bleep that out.
+me013: Yeah. Mmm, yeah.
+me018: Wait a minute, how - how w- eh where is it in the Key file?
+me011: Right.
+me013: Yeah.
+me011: The square bracket.
+fe016: Cuz I mean I haven't been putting it in and - in by -
+me011: You haven't been putting it in.
+fe016: Right. I have not. And -
+fe008: Well bu-
+me011: Oh, OK.
+fe008: Isn't it always on the digits?
+me013: Some of these are missing. Aren't they?
+fe008: Isn't it always on the digits forms?
+me013: Some fall out of -
+fe016: Well it-
+me011: Yeah so we can go back and fill them in for the ones we have.
+me001: Ooo.
+fe016: I mean they're on th- right, these, but I just hadn't ever been putting it in the Key files. And I don't think Chuck was either cuz -
+me018: Yeah I - I never - I never knew we were supposed to put it in the Key file.
+me011: I had told you guys about it but -
+fe016: Oh, so we're both sorry. So -
+me018: Oh really?
+me011: I mean this is why I wanna use a g- a tool to do it rather than the plain text because with the plain text it's very easy to skip those things.
+fe016: OK.
+me018: OK.
+fe016: OK.
+me011: So. Um if you use the Edit-key, or Key-edit - I think it's Edit-key,
+mn014: Edit-key.
+me011: command - Did I show you guys that?
+mn014: Yep.
+me011: I did show it to you, but I think you both said "no, you'll just use
+me018: You mentioned it, yeah. Yeah.
+me011: text file". Um it has it in there, a place to fill it in.
+me018: Text.
+fe016: OK.
+me018: OK.
+me011: Yeah, and so if you don't fill it in, you're not gonna get it in the meetings. So.
+fe016: So if - Right. Well I - I just realized I hadn't been doing it and probably - So -
+me011: Yep.
+me001: u-
+me011: Yeah and then the other thing also that Thilo noticed is, on the microphone, on channel zero it says hand-held mike or Crown mike,
+fe016: Yeah. Right.
+me011: you actually have to say which one. So.
+fe016: I know - Yeah, I usually delete the - I don't, maybe I forgot to d-
+me018: Oh! OK. I didn't do that either.
+mn014: Yeah.
+me018: Takes me no time at all to edit these.
+fe016: But it's almost - Yeah.
+me011: Yeah that's cuz you kn- I - I know why.
+me018: I'm not doing anything.
+fe016: And I was - I was looking at Chuck's, like, "oh what did Chuck do, OK I'll do that ". So.
+me011: And then uh also in a couple of places instead of filling the participants under "participants" they were filled in under "description".
+me013: Ah, OK.
+fe016: Uh -
+me011: And so that's also a problem. So anyway.
+fe016: We will do better.
+me011: That's it. Oh uh also I'm working on another version of this tool, the - the one that shows up here, that will flash yellow if the mike isn't connected. And it's not quite ready to go yet because um it's hard to tell whether the mike's connected or not because the best quality ones, the Crown ones, are about the same level if they're off and no one's o- off or if they're on and no one's talking.
+me001: Huh.
+me011: Um these - these ones, they are much easier, there's a bigger difference. So I'm working on that and it - it sorta works and so eventually we will change to that and then you'll be able to see graphically if your mike is dropping in or out.
+me001: Will that also include like batteries dying?
+me011: Yep.
+me001: Just a- any time the mike's putting out zeros basically.
+me011: Yep. Yep.
+me018: But with the screensaver kicking in, it -
+me011: Now -
+mn014: But y- yeah.
+me011: Well I'll turn off the screensaver too.
+me001: Yeah.
+mn014: Yeah.
+me001: Oops. Speaking of which.
+me011: Um the other thing is as I've said before, it is actually on the thing. There's a little level meter but of course no one ever pays attention to it. So I think having it on the screen is more easy to notice.
+fe008: It would be nice if - if these had little light indicators, little LEDs for -
+me011: Uh buzzer. "Bamp, bamp!"
+fe008: Yeah, a buzzer.
+me013: Small shocks administered to the -
+fe008: Yeah. Actually -
+me013: OK. Oh -
+me011: OK, disk backup, et cetera? Um I spoke with Dave Johnson about putting all the Meeting Recorder stuff on non-backed-up disk to save the overhead of backup and he pretty much said "yeah, you could do that if you want" but he thought it was a bad idea. In fact what he said is doing the manual one, doing uh NW archive to copy it is a good idea and we should do that and have it backed up. He w- he's a firm believer in - in lots of different modalities of backup. I mean, his point was well taken. This data cannot be recovered.
+fe016: Yeah.
+me011: And so if a mistake is made and we lose the backup we should have the archive and if then a mistake is made and we lose the archive we should have the backup.
+me013: Well I guess it is true that even with something that's backed up it's not gonna - if it's stationary it's not going to go through the increment- it's not gonna burden things in the incremental backups.
+me011: Just - just the monthly full.
+fe008: Hmm.
+me013: Yeah, so the monthly full will be a bear but -
+me011: Yeah. But he said that - that we sh- shouldn't worry too much about that, that we're getting a new backup system and we're far enough away from saturation on full backups that it's w-
+me013: Really?
+me011: probably OK. And uh, so the only issue here is the timing between getting more disks and uh recording meetings.
+me013: So I guess the idea is that we would be reserving the non-backed-up space for things that took less than twenty-four hours to recreate or something like that, right?
+me011: Things that are recreatable easily and also - Yeah, basically things that are recreatable.
+me013: Yeah. Yeah.
+me011: The expanded files and things like that.
+me013: OK .
+me011: They take up a lot more room anyway.
+me013: Yeah.
+me011: Uh but we do need more disk.
+me013: So we can get more disk. Yeah. So.
+me011: Yeah. And I - I think I agree with him. I mean his point was well taken that if we lose one of these we cannot get it back.
+me013: OK.
+me011: I don't think there was any other et cetera there.
+me013: Well I was allowing someone else to come up with something related that they had uh -
+me022: I thought you guys were gonna burn CDs?
+me011: Um unfortunately - we could burn CDs but first of all it's a pain.
+me022: Yeah.
+me011: Because you have to copy it down to the PC and then burn it and that's a multi-step procedure. And second of all the - the write-once burners as opposed to a professional press don't last.
+me022: Yeah.
+me011: So I think burning them for distribution is fine but burning them for backup is not a good idea.
+me022: I see.
+me011: Cuz th- they - they
+me022: OK.
+me011: fail after a couple years.
+me022: Alright.
+fe008: I do have uh uh - It's a different topic. Can I add one top- topic? We have time? I wanted to ask, I know that uh that Thilo you were, um, bringing the Channeltrans interface onto the Windows machine?
+mn014: Yeah it's - it - Basically it's done, yeah.
+fe008: And I wanted to know is th- It's all done? That's g- wonderful. Great.
+mn014: Yeah.
+me011: Yes, since Tcl-TK runs on it, basically
+mn014: Yeah it -
+me011: things'll just work.
+mn014: Yeah, it was just a problem with the Snack version and the Transcriber version but it's solved. So.
+fe008: Does - and that - does that mean, I - maybe I should know this but I don't. Does this mean that the - that this could be por- uh ported to a Think-Pad note- or some other type of uh -
+mn014: Yeah, basically uh I did install it on my laptop and yeah
+fe008: Wonderful.
+mn014: it worked.
+me013: Hmm!
+fe008: Wonderful.
+me013: Good. CrossPads?
+me011: Uh got an email from uh James Landay who basically said "if you're not using them, could you return them?" So he said he doesn't need them, he just periodically w- at the end of each term sends out email to everyone who was recorded as having them and asks them if they're still using them.
+me013: So we've never used them.
+fe008: We used them once.
+me011: We - we used them a couple times, but -
+me013: Once?
+fe008: Mm-hmm.
+me018: Them? There's more than one?
+fe008: Couple times.
+me011: Yeah, we have two.
+fe008: Yeah.
+me013: i-
+me011: Um.
+me013: But -
+me011: My opinion on it is, first, I never take notes anyway so I'm not gonna use it, um and second, it's another level of infrastructure that we have to deal with.
+fe008: And I have - uh so my - my feeling on it is that I think in principle it's a really nice idea, and you have the time tags which makes it better tha- than just taking ra- raw notes. On the other hand, I - the down side for me was that I think the pen is really noisy. So you have ka- kaplunk, kaplunk, kaplunk. And I - and I don't know if it's audible on the - but I - I sort of thought that was a disadvantage. I do take notes, I mean, I could be taking notes on these things and I guess the plus with the CrossPads would be the time markings but - I don't know.
+mn014: Uh, what is a CrossPad?
+me013: So it's - it's um - it's a regular pad, just a regular pad of paper but there's this pen
+me001: Thank you.
+me013: which indicates position. And so you have time and position
+mn014: OK.
+me013: stuff stored so that you can - you have a record of whatever it is you've written.
+mn014: OK.
+me011: And then you can download it and they have OCR and searching and all sorts of things.
+mn014: OK. OK.
+me011: So i- if you take notes it's a great little device.
+fe008: Could - Mm-hmm.
+me011: But I don't take notes, so.
+me013: And one of the reasons that it was brought up originally was because uh we were interested in - in higher-level things, not just the, you know, microphone stuff but also summarization and so forth and the question is if you were going to go to some gold standard of what wa- what was it that happened in the meeting you know, where would it come from? And um I think that was one of the
+mn014: Yeah.
+me011: Yep.
+fe016: Yeah.
+me013: things, right? And so the - it seemed like a neat idea. We'll have a - you know, have a scribe, have somebody uh take good notes and then that's part of the record of the meeting. And then we did it once or twice and we sort of -
+me011: Yep, and then just sort of died out.
+me013: probably chose the wrong scribe but it was - It's uh -
+fe016: I mean -
+me011: Yeah that's right.
+fe008: Well I did it one time but um -
+me011: Yep.
+me013: Yeah.
+fe008: u- but I guess the - the other thing I'm thinking is if we wanted that kind of thing I wonder if we'd lose that much by having someone be a scribe by listening to the tape, to the recording afterwards and taking notes in some other interface.
+me018: I mean we're transcribing it anyways, why do we need notes?
+fe008: Oh it's la- it's useful, have a summary and high points.
+me011: Because that's summary.
+fe016: I think -
+me013: Summary.
+fe016: there's also - there's this use that -
+me018: Summarize it from the transcription.
+fe016: the - Well, what if you're sitting there and you just wanna make an X and you don't wanna take notes and you're - you just wanna
+me018: Doodle.
+fe016: get the summary of the transcript from this time location like - you know, and - and then while you're bored you don't do anything and once in a while, maybe there's a joke and you put a X and - But - in - in other words you can use that just to highlight times in a very simple way. Also with - I was thinking and I know Morgan disagrees with me on this but suppose you have a group in here and you wanna let them note whenever they think there might be something later that they might not wanna distribute in terms of content, they could just sort of make an X near that point or a question mark that sort of alerts them that when they get the transcript back they c- could get some red flags in that transcript region and they can then look at it. So. I know we haven't been using it but I w- I can imagine it being useful just for sort of marking time periods which you then
+me011: Right.
+fe016: get back in a transcript so.
+fe008: Well.
+me013: I guess - so, you know, what - what makes one think i- is maybe we should actually schedule some periods where people go over something later and - and - and put some kind of summary or something uh you know, some - there'd be some scribe who would actually listen, w- who'd agreed to actually listen to the whole thing, not transcribe it, but just sort of write down things that struck them as important. But - then you don't - you don't have the time reference
+fe016: Right.
+me013: uh that you'd have if you had it live.
+fe016: And you don't have a lot of other cues that might be useful, so.
+me013: Yeah.
+me018: How do you synchronize the time in the CrossPad and the time of the recording?
+me011: I mean that was one of the issues we talked about originally and that- that's w- part of the difficulty is that we need an infrastructure for using the time - the CrossPads and so that means synchronizing the time -
+fe016: Uh.
+fe008: Mm-hmm.
+me011: You know you want it pretty close and there's a fair amount of skew because it's a hand-held unit with a battery
+fe008: Well when - when I d-
+me011: and so you -
+fe008: OK.
+me011: so you have to synchronize at the beginning of each meeting all the pads that are being used, so that it's synchronized with the time on that and then you have to download to an application, and then you have to figure out what the data formats are and convert it over if you wanna do anything with this information.
+fe008: w- Mm-hmm.
+me011: And so there's a lot of infrastructure which
+me022: Why -
+fe008: There is an alternative.
+me011: unless someone -
+fe008: There is an alternative, I mean, it's still, there's uh - you know, your point stands about there be - needing to be an infrastructure, but it doesn't have to be synchronized with the little clock's timer on it. You c- I mean, I - when I - when I did it I synchronized it by voice, by whispering "one, two, three, four" onto the microphone and uh, you know.
+me011: Hmm. Well, but then there's the infrastructure at the other end which someone has to listen to that and find that point,
+me022: Right.
+fe008: Yeah, it's transcribed. It's in the transcript.
+me011: and then mark it. So.
+fe008: Yeah. Well it's in the transcript.
+fe016: Well, could we keep one of these things for another year? Would h- I mean is there a big cau-
+me011: We can keep all - both of them for the whole whole year. I mean, it's just -
+fe016: just - just in case we - even maybe some of the transcribers who might be wanting to annotate uh f- just there's a bunch of things that might be neat to do but I - it might not be the case that we can actually synchronize them and then do all the infrastructure but we could at least try it out.
+me013: Well - one thing that we might try um is on some set of meetings, some collection of meetings, maybe EDU is the right one or maybe something else, we - we get somebody to buy into the idea of doing this as part of the task. I mean,
+fe016: Right.
+me013: uh part of the reason - I think part of the reason that Adam was so interested in uh the SpeechCorder sort of f- idea from the beginning is he said from the beginning he hated taking notes and -
+me011: Yep.
+me013: and so forth so and - and Jane is more into it but eh uh you know I don't know if you wanna really do - do this all the time so I think the thing is to - to get someone to actually buy into it and have at least some series of meetings where we do it. Um - and if so, it's probably worth having one. The p- the - the problem with the - the more extended view, all these other you know with uh quibbling about particular applications of it is that it looks like it's hard to get people to um uh routinely use it, I mean it just hasn't happened anyway. But maybe if we can get a person to -
+fe016: Yeah I don't think it has to be part of a- what everybody does in a meeting but it might be a useful, neat part of the project that we can, you know, show off as a mechanism for synchronizing events in time that happen that you just wanna make a note of, like what Jane was talking about with some later browsing, just - just as a convenience, even if it's not a full-blown note taking substitute.
+me022: Well if you wanted to do that maybe the right architecture for it is to get a PDA with a wireless card. And - and that way you can synchronize very easily with the - the - the meeting because you'll be synchroni- you can synchronize with the - the Linux server and uh -
+fe016: So what kind of input would you be - ?
+me022: so - so, I mean, if you're not worried about -
+me011: Buttons.
+fe016: You'd just be pressing like a - a -
+me022: Well - well you have a PDA and may- and you could have the same sort of X interface or whatever, I mean, you'd have to do a little eh a little bit of coding to do it.
+fe016: Mm-hmm.
+me022: But you could imagine, I mean, if - if all you really wanted was - you didn't want this
+fe016: Yeah, that be good.
+me022: secondary note-taking channel but just sort of being able to use m- markers of some sort, a PDA with a l- a wireless card would be the - probably the right way to go. I mean even buttons you could do, sort of, I mean, as you said.
+me011: I mean for what - what you've been describing buttons would be even more convenient than anything else, right? You have the -
+fe016: M- right. That would be fine too. I mean, I don't have, you know, grandiose ideas in mind but I'm just sort of thinking
+me022: Right.
+fe016: well we've - we're getting into the next year now and we have a lot of these things worked out at - in terms of the speech maybe somebody will be interested in this and -
+fe008: I like this PDA idea. Yeah.
+me013: Yeah, I do like the idea of having a couple buttons where like one - one button was "uh-oh"
+me011: Well I'm sure there would -
+fe016: Yeah.
+fe008: Yeah.
+me013: and then another button was "that's great" and another button "that's f-"
+fe016: Or like this is my "I'm supposed to do this" kind of button, like "I better remember to -"
+fe008: Yeah.
+me011: Action item.
+fe016: Yeah something like that or -
+me011: I mean I think the CrossPad idea is a good one.
+fe008: And then - Uh-huh.
+me011: It's just a question of getting people to use it and getting the infrastructure set up in such a way that it's not a lot of extra work. I mean that's part of the reason why it hasn't happened is that
+fe016: Yeah.
+me011: it's been a lot of extra work for me
+me013: Right.
+me011: and -
+fe008: Well, and not just for you. But it's also, it has this problem of having to
+fe016: W-
+fe008: go from an analog to a d- a digital record too, doesn't it? I mean -
+me011: Well it's digital but it's in a format that
+fe008: But I mean, say, if i- if -
+me011: is not particularly standard.
+fe008: if you're writing - if you're writing notes in it does - it - it can't do handwriting recognition, right?
+me013: No, no, but it's just - it's just storing the pixel
+fe008: OK.
+me013: informa- position information, it's all digital.
+fe008: I - I guess what I'm thinking is that the PDA solution you h- you have it already without needing to go from the pixelization to a - to a - I mean -
+me013: Right. You don't have to -
+me022: The transfer function is less errorful, yes.
+fe016: Yeah, yeah.
+me013: Yeah.
+fe008: Oh, nicely put.
+me013: Yeah. Yeah.
+fe016: Well it also - it's maybe realistic cuz people are supposed to be bringing their PDAs to the meeting eventually, right? That's why we have this little - I don't know what - I don't wanna cause more work for anyone but I can imagine some interesting things that you could do with it and so if we don't have to return it and we can keep it for a year - I don't know.
+me011: Well - w- we don't - we certainly don't have to return it, as I said. All - all he said is that if you're not using it could you return it, if you are using it feel free to keep it. The point is that we haven't used it at all and are we going to?
+me013: So we have no but - uh by I - I would suggest you return one.
+me011: OK.
+fe016: Yeah.
+me013: Because we - we you know, we - we haven't used it at all.
+fe016: We c-
+me013: We have some aspirations of using them and -
+fe016: One would probably be fine. Maybe we could do like a student project, you know, maybe someone who wants to do this as their main like
+me013: Yeah.
+fe016: s- project for something would be cool.
+me011: Yep. I mean if we had them out and sitting on the table people might use them a little more
+me013: Maybe Jeremy could sit in some meetings and press a button when there - when - when somebody laughed.
+me011: although there is a little -
+fe016: Well, I'm - yeah, that's not a bad -
+me013: Yeah, yeah. Yeah.
+fe016: Jeremy's gonna be an - he's a new student starting on modeling brea- breath and laughter, actually, which sounds funny but I think it should be cool, so.
+me013: Yeah.
+me011: Sounds breathy to me.
+fe016: OK.
+me011: Breath and lau- "ha-ha-ha-ha".
+fe016: "Ha-ha-ha."
+me011: "Ha-ha-ha-ha."
+me013: Well dear.
+me011: Um.
+me013: Hmm.
+me011: That reminded me of something. Oh well, too late. It slipped out.
+me013: OK.
+me011: Oh, equipment.
+fe016: You're - you're gonna tease me? OK.
+me011: Ordered - Uh, well I'm always gonna do that. W- uh - We ordered uh more wireless, and so they should be coming in at some point.
+fe016: Great.
+me011: And then at the same time I'll probably rewire the room as per Jane's suggestion so that uh the first N channels are wireless, eh are the m- the close-talking and the next N are far-field.
+me013: You know what he means but isn't that funny sounding? "We ordered more wireless. " It's like wires are the things so you're wiring - you're - you're - you - we're - we ordered more absence of the thing.
+fe016: That's a very philosophical statement from Morgan. I just - it's sort of a anachronism, I mean it's like -
+me011: wired less , wired more.
+me013: Anyway.
+fe016: It's great.
+me011: Should we do digits? Do we have anything else?
+me013: Yeah.
+fe008: OK.
+me013: I mean there's - there's all this stuff going on uh between uh Andreas and - and - and Dave and Chuck and others with various kinds of runs uh um - recognition runs, trying to figure things out about the features but it's - it's all sort of in process, so there's not much to say right now. Uh why don't we start with our - our esteemed guest.
+me022: OK. Alright.
+me011: So just the transcript number and then the - then the -
+me022: This is - Yes, this is number two for me today.
+me013: See all you have to do is go away to move way up in the -
+me022: Oh.
+fe016: We could do simultaneous. Initiate him.
+me013: We - we could.
+me011: Should we do simultaneous?
+fe016: Well, I'm just thinking, are you gonna try to save the data before this next group comes in?
+me013: Yeah.
+me011: Yeah, absolutely.
+fe016: Yeah, so we might wanna do it simultaneous.
+me011: I mean you hav- sorta have to.
+fe016: Right, so -
+me013: Well OK, so let's do one of those simultaneous ones. That sounds good.
+fe016: so we might n- we might need to do that actually.
+me011: OK.
+me022: OK.
+me013: Everybody ready?
+fe008: Yeah.
+me013: A one.
+fe016: You have to plug your ears, by the way uh Eric, or -
+me011: Well I have to, I don't know about other people.
+me022: OK, alright.
+mn014: You don't have to.
+fe016: or you start laughing.
+me013: OK, a one and a two and a three. OK, babble, take five.

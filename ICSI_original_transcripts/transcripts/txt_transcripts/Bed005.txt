@@ -1,0 +1,659 @@
+me003: Yeah, I think I got my mike on. OK. Let's see.
+me010: OK. Ami, do yours then we'll open it and I think it'll be enough.
+me003: Mmm - Doesn't, uh - It should be the other way. Yeah, now it's on.
+mn036: Right. OK.
+me010: OK. So, we all switched on?
+me003: We are all switched on, yeah.
+me010: Alright. Anyway. So, uh, before we get started with the, uh, technical part, I just want to review what I think is happening with the -
+mn036: We are all switched on.
+me010: our data collection. So - Uh, probably after today, that shouldn't come up in this meeting. Th- this - this is s- should be im- it isn't - There's another thing going on of gathering data, and that's pretty much independent of this. But, uh, I just want to make sure we're all together on this. What we think is gonna happen is that, uh, in parallel starting about now we're gonna get Fey to, where you're working with me and Robert, draft a note that we're gonna send out to various CogSci c- and other classes saying, "here's an opportunity to be a subject. Contact Fey." And then there'll be a certain number of um, hours during the week which she will be available and we'll bring in people. Uh, roughly how many, Robert? We d- Do we know?
+mn015: Um, fifty was our - sort of our first -
+me010: OK. So, we're looking for a total of fifty people, not necessarily by any means all students but we'll s- we'll start with - with that. In parallel with that, we're gonna need to actually do the script. And, so, I guess there's a plan to have a meeting Friday afternoon Uh, with - uh, Jane, and maybe Liz and whoever, on actually getting the script worked out. But what I'd like to do, if it's O K, is to s- to, as I say, start the recruiting in parallel and possibly start running subjects next week. The week after that's Spring Break, and maybe we'll look for them - some subjects next door or i-
+mn015: Yeah . Yeah. Also, Fey will not be here during spring break. So.
+me010: Oh, OK, then we won't do it. OK. So that's easy. Um. So, is - Is that make sense to everybody?
+mn015: Yeah. Also, um, F- both Fey and I will, um, do something of which I may, eh - kindly ask you to - to do the same thing, which is we gonna check out our social infrastructures for possible subjects. Meaning, um, kid children's gymnastic classes, pre-school parents and so forth. They also sometimes have flexible schedules. So, if you happen to be sort of in a non-student social setting, and you know people who may be interested in being subjects - We also considered using the Berkeley High School and their teachers, maybe, and get them interested in
+me010: That's a good idea.
+mn015: stuff. And, um. So that's as far as our brainstorming was concerned.
+me010: Oh, yeah. The high school's a great idea.
+mn015: So. But I - I will just make a first draft of the, uh, note, the "write-up" note, send it to you and Fey and then -
+me010: And why don't you also copy Jane on it?
+mn015: And, um, Are we - Have we concurred that, uh, these - these forms are sufficient for us, and necessary?
+me010: Uh, th- I think they're necessary. This - The permission form.
+mn015: Mmm. Nuh.
+me010: Uh, there has to be one, and I think we're just gonna use it as it is, and
+mn015: N.
+me010: Um
+mn015: You happy with that?
+me010: Well, yeah. There's one tricky part about, um, they have the right um I- The last paragraph "if you agree to participate you have the opportunity to have anything excised which you would prefer not to have included in the data set." OK? Now that, we- had to be included for this other one which might have, uh, meetings, you know, about something. In this case, it doesn't really make sense.
+mn015: Mm-hmm.
+me010: Um, so what I'd like to do is also have our subjects sign a waiver saying "I don't want to see the final transcript".
+mn015: Mm-hmm.
+me010: And if they don't - If they say "no, I'm not willing to sign that", then we'll show them the final transcript. But, um.
+mn015: Yep . Makes sense.
+me010: That, uh - yeah , so we might actually, um S- i- Jane may say that, "you know, you can't do this", uh, "on the same form, we need a separate form." But anyway. I'd - I'd - I'd like to, e- e- um, add an- a little thi- eh - a thing for them to initial, saying "nah, do- I don't want to see the final transcript." But other than that, that's one's been approved,
+mn015: Mm-hmm.
+me010: this really is the same project, uh, rec- you know. And so forth. So I think we just go with it.
+mn015: Yeah . Yeah . OK. So much for the data, except that with Munich everything is fine now. They're gonna transcribe. They're also gonna translate the, uh, German data from the TV and cinema stuff for Andreas. So. They're - they all seem to be happy now, with that. So. w- c- sh- should we move on to the technical sides?
+me010: Yep.
+mn015: Well I guess the good - good news of last week was the parser. So, um Bhaskara and I started working on the - the parser. Then Bhaskara went to class and once he came back, um, it was finished. So. It, uh - I didn't measure it, but it was about an hour and ten minutes.
+me012: Yep. Something like that.
+mn015: And, um - and now it's - We have a complete English parser that does everything the German parser does.
+me010: Which is not a lot. But -
+me012: That's the, uh, point.
+mn015: The - uh, that's not a lot.
+me010: OK.
+me012: Yes.
+me010: Right.
+mn015: And um.
+fe004: What did you end up having to do? I mean, wha- Was there anything
+mn015: Well, if you, eh -
+me012: We'll show you.
+fe004: interesting about it at all? or are we gonna see that?
+me010: Yeah, we can show us, right?
+mn015: Well, w- w- We d- The first we did is we - we tried to - to do - change the - the "laufen" into "run", or "running", or "runs".
+me010: Yep.
+fe004: Mm-hmm.
+mn015: And we noticed that whatever we tried to do, it no effect.
+fe004: OK.
+mn015: And we were puzzled.
+fe004: Mm-hmm.
+mn015: And, uh, the reason was that the parser i- c- completely ignores the verb.
+fe004: Hmm. Interesting parser property.
+mn015: So this sentence - sentence is - parses the p- the same output, um, even if you leave out, um,
+fe004: I see. Yeah.
+mn015: all - all of this. So it's basically feature film and TV.
+fe004: Today OK. And the - t- and the time, right?
+mn015: That's what you need. If - if you'd add - add Today and Evening, it'll add Time or not. So it - i- it does look at that. But all the rest is p- simply frosting on the cake,
+fe004: OK.
+mn015: and it's optional for that parser.
+fe004: True.
+mn015: And -
+me010: So, you can sho- You - you - Are - are you gonna show us the little templates?
+fe004: S-
+mn015: Yeah. We ar- we can sh- er - I can show you the templates.
+fe004: "The former end g-" Oh, I see. Uh-huh.
+mn015: I - I also have it running here, so if I do this now, um, you can see that it parsed the wonderful English sentence, "Which films are on the cinema today evening?"
+me010: Well, that sounds -
+mn015: But, um. Uh do- don't worry about it. It could be
+me010: No i-
+mn015: " this evening, which - which films are on the cinema", or "running in the cinema, which -"
+fe004: OK.
+mn015: uh, "today evening", uh i- "Is anything happening in the cinema this evening?"
+fe004: OK. Key words, e- basically.
+me010: Well
+mn015: Ge- elaborate, or, more or less, uh -
+me010: Actually, it's a little tricky, in that there's some allowable German orders which aren't allowable English orders and so forth. And it is order-based. So it - it - Isn't it?
+me012: No.
+mn015: No.
+me010: Oh. So it - it doe- I- it - These - u- these optional elements, it's - it's actually a set, not a sequence?
+mn015: It is not - Yeah. We were - I was afraid that, um -
+me010: Oh!
+fe004: So it really is key word matching, basically.
+me010: Really a se-
+mn015: Um.
+mn036: e- yeah. Mm-hmm.
+me010: Oh, wow.
+mn015: Um, I mean, these sentences are just silly. I mean, uh, d- these were not the ones we - we actually did it.
+fe004: Hmm.
+mn015: Um. What's an idiomatic of phrasing this? Which films are
+me012: @@ Are pl- playing at the cinema?
+mn015: showing? playing?
+me012: Yeah.
+fe004: Tonight?
+me012: I changed that file, actually, where it's on my account.
+mn036: Actually, you would say, "which films are on tonight?"
+fe004: This - this evening?
+me012: You want to get it? Or - is - di- was it easy to get it?
+mn015: Um. I have no net here.
+me012: Oh, OK.
+me010: Do I?
+mn015: OK. So. Wonderful parse, same thing. Um.
+me010: Right.
+mn015: Except that we d- w- we don't have this, uh, time information here now, which is, um - Oh. This - are the reserve. Anyways. So. Um. These are the - sort of the ten different sentence types that the uh - the parser was able to do. And it still is, now in English.
+fe004: Mm-hmm.
+me010: Yeah.
+mn015: And, um - Sorry. And, um you have already to make it a little bit more elaborate, right?
+me012: Yeah, I mean I changed those sentences to make it, uh, more, uh, idiomatic. And, of course, you can have i- many variations in those sentences, they will still parse fine. So, in a sense it's pretty broad.
+me010: OK.
+mn015: OK. So, if you want to look at the templates, they're conveniently located in a file, "template". Um, and this is what I had to do. I had to change, @@ "Spielfilm" to "film", uh, "Film" to "movie", cinem- "Kino" to "cinema" - to- "today" - heu- "heute" to "today", evening - "Abend" to "evening"
+fe004: Huh.
+me010: Capitalized as well
+me003: Hmm.
+mn015: And, um.
+me010: Y- i-
+me012: One thing I was wondering, was, those functions there, are those things that modify the M-three-L basically?
+mn015: Yep.
+me012: OK.
+mn015: And that's - that's the next step, but we'll get to that in a second.
+me010: p-
+mn015: And so this means, um,
+me010: Oh.
+mn015: "this" and "see" are not optional. "Want I like" is all maybe in there, but may also not be in there.
+me010: So - so, the point is, if it says " this " and " see ", it also will work in " see " and " this "?
+fe004: S-
+me010: In the other order?
+mn015: Yeah.
+me010: with those two key words?
+mn015: Should we try it?
+me010: "This is the one I want to see" or whatever.
+mn015: OK. "Action watch",
+me012: Hmm.
+mn015: whatever. Nothing was specialfi- specified. except that it has some references to audio-visual media here.
+me012: AV medium. Yeah.
+mn015: Where it gets that from - It's correct, but I don't know where it gets it from.
+me012: " See ".
+mn015: Oh, " see ". Yeah.
+me012: I mean it's sort of -
+mn015: Yeah. Yep. OK. And "see this" is exactly the same thing.
+me010: OK, so it is set-based. Alright.
+me012: One thing I was wondering was, those percentage signs, right? So, I mean, why do we even have them? Because - if you didn't have them -
+mn015: Yep. Uh, I'll tell you why. Because it gives a - you a score.
+fe004: Mm-hmm.
+me012: Oh.
+mn015: And the value of the score is, v- I assume, I guess, the more of these optional things that are actually in there, the higher the r- score
+me012: OK.
+mn036: Right.
+fe004: It's a match.
+me012: So that's the main purpose. Alright.
+mn015: it is.
+fe004: Mm-hmm.
+me010: OK.
+mn015: So we - we shouldn't belittle it too much. It's doing something, some things, and it's very flexible. I've just tried to
+fe004: Mm-hmm.
+mn036: Right.
+mn015: be nice.
+me010: No, no. Fine. Yeah, yeah, yeah, flexible it is.
+fe004: Right - Yeah.
+mn036: But -
+mn015: OK. Um, let's hope that the generation will not be more difficult, even though the generator is a little bit more complex. Uh but we'll - Mmm, that means we may need two hours and twenty minutes rather than an hour ten minutes,
+me010: Alright.
+me012: Right.
+mn015: I hope. And the next thing I would like to be able to do, and it seems like this would not be too difficult either, is to say, "OK let's now pretend we actually wanted to not only change the - the mapping of - of, uh, words to the M-three-L but we also wanted to change - add a new sentence type and and make up some - some new M-three-L - s-"
+me010: Yep. So- That'd be great. It would be a good exercise to just see
+mn015: See th-
+me010: whether one can get that to run.
+mn015: Mm-hmm. Yep. And, um,
+me012: So, that's - Fine, yeah.
+mn015: that's - shouldn't be too tough.
+me012: Yeah, so where are those - those functions "Action", "Goodbye", and so on, right? Are they actually, um, Are they going to be called? Um, are they present in the code for the parser?
+mn015: Yeah. I think what it does, it i- i- it does something sort of fancy. It loads um - It has these style sheets and also the, um, schemata. So what it probably does, is it takes the, uh, um - Is this where it is? This is already the XML stuff? This is where it takes its own, um, syntax, and converts it somehow. Um. Where is the uh -
+me012: What are you looking for?
+mn015: Um, where it actually produces the - the XML out of the, uh, parsed stuff.
+me012: Oh, OK.
+mn015: No, this is not it. Uh. I can't find it now. You mean, where the - where the act- how the action "Goodbye" maps into something -
+me012: Yeah.
+me003: Yeah, where are those constructors defined?
+me012: Oh. No, that's not it.
+mn015: Nope. Yeah. This is sort of what happens. This is what you would need to - to change - to get the, uh, XML changed. So when it encounts- encounters "Day", it will, uh, activate those h- classes in the - in the XML stuff But, um - I saw those actions - uh, the "Goodbye" stuff somewhere. Hmm, hmm, hmm, hmm, hmm.
+me003: Grep for it?
+mn015: Yeah . Let's do that. Oh.
+me012: Mmm. M-three-L dot DTD?
+mn015: Yep.
+me012: That's just a specification for the XML
+mn015: Yep.
+me012: format.
+mn015: Well, we'll find that out. So whatever - n- this does - I mean this is, basically, looks l- to me like a function call, right?
+me010: Hmm? Oh, yeah.
+mn015: And, um - So, whenever it - it encounters "Goodbye", which we can make it do in a second, here
+me003: That function automatically generates an initialized XML structure?
+me012: I think each of those functions act on the current XML structure, and
+mn015: I-
+me012: change it in some way, for example, by adding a -
+me010: y-
+me012: a l- a field to it, or something.
+me010: Yeah. They also seem to affect state, cause some of them -
+mn015: Mm-hmm.
+me010: there were other actions
+me012: Right.
+me010: uh, that - that s- seemed to step - state variables somewhere, like the n- s- " Discourse Status Confirm".
+mn015: Yep.
+me010: OK. So that's going to be a call on the discourse and confirm that it's -
+mn015: W- we- Mm-hmm
+me012: Oh, you mean that's not going to actually modify the tree, but it's going to change the event. Oh. Oh.
+me010: I think that's right. I think it's actually - That looks like it's state modification.
+mn015: e- e- mmm Um, well i-
+me012: When there's a feature.
+mn015: There is a feature called "Discourse-Status",
+me010: Yeah.
+mn015: And so whenever I just say, "Write", it will - it will put this in here.
+me010: Oh, so it always just - Is it - So it - Well, go back, then, cuz it may be that all those th- things,
+mn015: h-
+me010: while they look like function calls, are just a way of adding exactly that to the XML.
+mn015: Yep.
+me010: Uh-huh! I'm not - I'm not sure.
+mn015: So, this -
+me010: e- I'm not sure - e- that -
+mn015: Um - well, we - we'll see, when we say, let's test something, "Goodbye", causes it to c- to create basically an "Action Goodbye-End-Action". Which is a means of telling the system to shut down.
+me010: Right. Right.
+mn015: Now, if we know that "Write" produces a "Feature Discourse-Status Confirm Discourse-Status". So if I now say "Write, Goodbye," it should do that. It sho- it creates this,
+me012: Mm-hmm.
+me010: Right.
+mn015: "Confirm Goodbye".
+me012: Right there.
+me010: Yep.
+me012: But there is some kind of function call, because how does it know to put Goodbye in Content, but, uh, Confirm in Features? So-
+mn015: Oh. It d- it - n- That's because -
+me012: So, it's not just that it's adding that field. It's
+me010: Right.
+me012: OK.
+me010: Absolutely. Good point. It's - it's - the - It's under what sub-type you're doing it. Yeah.
+mn015: Mm-hmm. Yeah .
+me003: It's mystery functions.
+me012: Well, they're defined somewhere, presumably.
+mn015: Well, sometimes it m- Sometimes, i-
+me010: Yeah, each is - S- so that's funny. You bury the s- the state in the function
+mn015: When it -
+me010: Alright. Uh @@
+mn015: it -
+me003: Well, it just automatically initializes things that are common, right? So it's just a shorthand.
+me010: Yeah.
+mn015: For example - Oh, this is German. Sorry. e- So, now, this, it cannot do anymore. Nothing comes out of here.
+me003: A "not a number" is a value. Awesome.
+mn015: So, it doesn't speak German anymore, but it does speak English. And there is, here, a reference - So, this tells us that whatever is - has the ID " zero " is referenced here - by @@ the restriction seed and this is exa- "I want -" What was the sentence?
+me010: "I want two seats here."
+mn015: "need two seats here." Nuh . "And where is it playing?" There should also be a reference to something, maybe. Our d- This is re- um Mmm . Here, we change - and so, we - Here we add something to the Discourse-Status, that the user wants to change something that was sort of done before And, uh - and that, whatever is being changed has something to do with the cinema.
+me003: So then, whatever takes this M-three-L is what actually changes the state, not the - Yeah, OK.
+me010: No, right, the Discourse Maintainer, yeah.
+me003: Yeah.
+me010: I see. And it - and it runs around looking for Discourse Status tags, and doing whatever it does with them. And other people ignore those tags. Alright. So, yeah. I definitely think it's - It's worth the exercise of trying to actually add something that isn't there.
+mn015: Hmm?
+me010: Uh
+mn015: Sort of get a complete understanding of the whole thing.
+me010: Disc- Yeah, a kid understanding what's going on. Then the next thing we talked about is actually, um, figuring out how to add our own tags, and stuff like that.
+mn015: OK. Point number two. I got the, uh, M-three-L for the routes today. Uh, so I got some more. This is sort of the uh, um, Hmm. Interesting. It's just going up, it's not going back down. So, this is - um, what I got today is the - the new um M-three-L for um, the Maps,
+me010: Yep.
+mn015: uh, and with some examples - So, this is the XML and this is sort of what it will look like later on, even though it - you can't see it on - on this resolution. And this is what it - sort of is the - the structure of Map requests, um also not very interesting, and here is the more interesting stuff for us, is the routes, route elements, and, again, as we thought it's really simple. This is sort of the, uh, um, parameters. We have @@ simple " from objects" and " to objects" and so forth, points of interest along the way - And, um, I asked them whether or not we could, um - First of all, I was little bit - It seemed to me that this m- way of doing it is sort of a stack- a step backwards from the way we've done it before. t- It seems to me that some notions were missing. So these are - these are -
+me010: S- So these are - these are your friends back at EML.
+mn015: Yep. Who are doing this.
+me010: So this is not a complicated negotiation. There's - there's not seven committees, or anything, right?
+mn015: No. No, this is very straightforward.
+me010: Great. So this is just trying to - It's a design thing, not a political thing.
+mn015: Yeah.
+me010: Once we've - eh - We can just sort of agree on what oughta be done.
+mn015: Exactly. And, um -
+me010: Good.
+mn015: And, uh - However, the, uh - e- So that you understand, it is really simple. Uh - You - you have a route, and you cut it up in different pieces. And every - every element of that e- r- r- f- of that - Every segment we call a "route element". And so, from A to B we cut up in three different steps, and every step has a " from object" where you start, a " to object" where y- where you sort of end, and some points of interest along the way. What w- I was sort of missing here, and uh, maybe it was just me being too stupid, is, I didn't sort of get the - the notion of the global goal of the whole route. Really, s- was not straightforward visibly for me. And some other stuff. And I suggested that they should n- be - k- uh, kind enough to do s- two things for us, is one, um, Also allocating, uh, some tags for our Action Schema Enter-Vista-Approach, and - And also, um, since you had suggested that - that, um, we figure out if we ever, for a demo reason, wanted to shortcut directly to the g- GIS and the Planner, of how we can do it. Now, what's the state of the art of getting to entrances, um, what's the syntax for that, how get- getting to vista points and calculating those on the spot. And the Approach mode, anyhow, is the default. That's all they do it these days. Wherever you'll find a route planner it n- does nothing but get to the closest point where the street network is
+me010: Mm-hmm.
+mn015: at minimal distance to the geometric center. @@ So.
+me010: So, well, let - Now, this is important. Let, uh - I want a- a- Again, outside of m- almost managerial point, um - You're in the midst of this, so you know better. But it seems to me it's probably a good idea to li- uh - minimize the number of uh, change requests we make of them. So it seemed to me, what we ought to do is get our story together. OK? And think about it some, internally, before asking them to make changes.
+mn015: Mm-hmm.
+me010: Oh. Does this - does this make sense to you guys? It - I mean you're - you're doing the - the interaction but it seemed to me that what we ought to do is come up with a - uh, something where you, um - And I - I don't know who's mok- working most closely on it. Probably Johno. OK. Uh, take what they have, send it to everybody saying "this is what they have, this is what we think we should add", OK? and then have a d- a - an iteration within our group saying "Hmm, well -" OK? And get our best idea of what we should add.
+mn015: Mm-hmm.
+me010: And then go back to them. Is i- or, I don't know does this make sense to you? Or
+mn015: Yeah. Especially if we want - Sort of, what I - my feeling was eh- we - we sort of reserved something that has a r- eh- an OK label. That's - th- that was my th- first sort of step.
+me010: Mm-hmm.
+mn015: I- w- No matter how we want to call it, this is sort of our playground. And if we get something in there that is a structure elaborate and - and - and - and - and complex enough to - to - to maybe enable a whole simulation,
+me010: Right. Right.
+mn015: one of these days, that would be - u- the - the perfect goal.
+me010: That's right. So. So, Yeah. The problem isn't the short ra- range optimization. It's the sort of - o- one or two year kind of thing. OK. What are the thl- class of things we think we might try to do in a year or two? How - how would we try to characterize those and what do we want to request now that's leave enough space to do all that stuff?
+mn015: Mm-hmm. Yep.
+me010: Right. And that re- that requires some thought.
+mn015: Yep.
+me010: And - so that sounds like a great thing to do as the priority item um, as soon as we can do it.
+mn015: Yep.
+me010: So y- so you guys will send to the rest of us um a version of um, this, and - the - uh, description -
+me003: With sugge- yeah, suggested improvements and -
+me010: Well b- Yeah. So, the - the - uh - Not everyone uh, reads German, so if you'd um
+me003: Mmm.
+me010: tu- uh, tur- change the description to, uh, English
+me003: OK.
+me010: and, um, Then - then, yeah. Then, with some sug- s- suggestions about where - where do we go from here? Uh, this - and this, of course, was just the
+me003: OK.
+me010: action end. Uh, at some point we're going to have to worry about the language end. But for the moment just uh, t- for this class of - of things, we might want to try to encompass. And -
+me003: Then the scope of this is beyond Approach and Vis- or Vista. Yeah, yeah.
+me010: Oh, yeah, yeah yeah yeah. This is - this is everything that - that, um, you know, um
+me003: Yeah, yeah.
+me010: we might want to do in the next couple years.
+mn015: Hmm?
+me003: So what would - OK.
+me010: We don't - I mean, that's an issue. We don't know what, entirely.
+me003: Uh, yeah. but I'm just - But the - Yeah, OK. So I just - this XML stuff here just has to do with Source-Path-Goal type stuff, in terms of traveling through Heidelberg.
+mn015: Hmm.
+me010: Right.
+me003: Or travel, specifically. So, but this O- Is the domain greater than that?
+me010: No. I think - I think the i- the idea is
+me003: OK.
+me010: that - Oh. It's beyond Source-Path-Goal, but I think we don't need to get beyond it @@ - tourists in Heidelberg. It seems to me we can get
+me003: OK.
+me010: all the complexity we want in actions and in language without going outside of tourists in Heidelberg. OK? But you know, i- depending on what people are interested in, one could have, uh, tours, one could have um, explanations of why something is - is, you know, why - why was this done, or - I mean, no - there's no end to the complexity you can build into the - uh, what a tourist in Heidelberg might
+me003: Mmm.
+me010: ask. So, at least - unless somebody else wants t- to suggest otherwise I think the general domain we don't have t- to uh, broaden. That is, tourists in Heidelberg. And if there's something somebody comes up with that can't be done that way, then, sure. W- we'll - we'll look at that, but uh I'd be s- I- I'd be surprised at - if there's any - important issue that - that - And, um - I mean if - if you want to uh, push us into reference problems, that would be great.
+mn036: OK.
+me010: OK, so this is - his specialty is - reference,
+mn015: Mm-hmm.
+me010: and - you know, what - what are these things referring to? Not only anaphora, but, uh, more generally the, uh - this whole issue of, uh, referring expressions, and, what is it that they're actually dealing with in the world?
+mn015: Mm-hmm.
+me010: And, again, this is li- in the databa- this is also pretty well formed because there is an ontology, and the database, and stuff. So it isn't like, um, you know, the Evening Star or stuff like that. I- i- it -
+mn036: Right.
+me010: All the entities do have concrete reference. Although th- the To get at them from a language may not be trivial.
+mn036: Right. Right.
+me010: There aren't really deep mysteries about um, what w- what things the system knows about.
+mn036: Right. And you have both proper names and descriptions and y- and you can ask for it.
+me010: All those things. Yeah. You have proper names, and descriptions.
+mn015: Mm-hmm.
+mn036: Right. OK.
+mn015: Nuh.
+me010: And a l- and a lot - and - and anaphora, and pronouns, and
+mn036: Right. Right.
+me010: all those things.
+mn015: Now , we hav- the - the whole - Unfortunately, the whole database is, uh, in German. We have just commissioned someone to translate some bits of it, IE the e- the shortest k- the - the more general descriptions of all the objects and, um, persons and events. So, it's a relational database with persons, events, and, um, objects. And it's - it's quite, um, there. But did y- I - uh - I think there will be great because the reference problem really is not trivial, even if you have such a g- well-defined world.
+me010: He knows.
+mn015: Ah- he- you are not, uh, throwing uh, uh, carrying owls to Athens.
+me003: Could you give me an example of a reference problem? so - so l- I can make it more concrete?
+mn015: Well - How do I get to the Powder-Tower? We sort of t- think that our bit in this problem is interesting, but, just to get from Powder-Tower to an object I- ID in a database is also not really trivial.
+mn036: Or - or if you take something even more scary, um, "how do I get to the third building after the Tower? the Ple- Powder-Tower?" Uh, you need some mechanism for
+me003: Mmm.
+me010: Yeah. Or, you know, the church across from City Hall, or -
+me003: Or the re- the restaurant where they wear lederhosen? Or is that -
+mn015: Or the-
+mn036: Right.
+me010: Yeah, that would be fine.
+fe004: Uniquely.
+mn036: Right.
+me003: OK.
+me010: Yeah.
+mn015: O- or - or tower, or this tower, or that building, or -
+mn036: Right.
+mn015: hmm?
+me003: OK.
+me010: Or you can say "how -" you know, "how do I get back? "
+me003: Trying to - Yeah, yeah.
+me010: OK. And, again, it's just a question of which of these things, uh, people want to dive into. What, uh, I think I'm gonna try to do, and I guess, pwww! let's say that by the end of spring break, I'll try to come up with some general story about, um, construction grammar, and what constructions we'd use and how all this might fit together. There's this whole framework problem that I'm feeling really uncomfortable about. And I haven't had a chance to think about it seriously. But I - I want to - I want to do that early, rather than late. And you and I will probably have to talk about this some.
+mn015: u- u- u- u- That's what strikes me, that we sort of - the de- g- uh, small - Something, uh, maybe we should address one of these days, is to - That most of the work people actually always do is look at some statements, and - and analyze those. Whether it's abstracts or newspapers and stuff like this.
+me010: Hmm.
+mn015: But the whole - i- is it - is it really relevant that we are dealing mostly with, sort of, questions?
+me010: Oh, yeah? Well, I mean yeah, I- d-
+mn015: Uh, you know - And this is - It seems to me that we should maybe at least spend a session or - or brainstorm a little bit about whether that l- this is special case in that sense.
+me012: Mm-hmm.
+mn015: Um, I don't know. You know - Did we ever find m- metaphorical use in - in questions in - in that sense, really?
+me010: Yeah.
+me012: @@
+me010: You will.
+mn015: And how soon, I don't know .
+me010: Oh, yeah. I mean, uh, we could take all the standard metaphor examples and make question versions of them. OK.
+mn036: Muh-
+mn015: " Who got kicked out of France?" Nuh.
+me010: Yeah, or, you know. "Wh- why is he - why is he pushing for promotion?" or, "who's pushing proof-" er, just pick - pick any of them and just
+mn036: Right.
+mn015: Nuh. Mm-hmm.
+me010: do the - eh - So I don't - I don't think, uh, it's at all difficult - Uh, to convert them to question forms that really exist and people say all the time, um - And - sort of - we don't know how to handle them, too. Right? I mean, it's - I d- It - We don't know how to handle the declarative forms, @@ really, and, then, the interrogative forms, ah-oh. Uh.
+me012: Ooo!
+me010: Yeah. Nancy, it looked like you were s-
+fe004: Oh. it's just that - that the goals are g- very different to cases - So we had this problem last year when we first thought about this domain, actually, was that most of the things we talked about are our story understanding. Uh, we're gonna have a short discourse and the person talking is trying to,
+me010: Right.
+fe004: I don't know, give you a statement and tell you something. And here, it's th-
+mn015: Help you create a mental model, blah-blah-blah. Yeah.
+fe004: Yea- eh - y- Yeah, I guess so. And then here, y- you are j- uh, the person is getting information and they or may not be following some larger plan,
+me010: Yes.
+fe004: you know, that we have to recognize or, you know, infer. And th- th- the - their discourse patterns probably don't follo- follow quite as many logical connec- Yeah.
+me010: Right. No, I think that's one of things that's interesting, is - is in this sort of over- arching story we - we worked it out for th- as you say, this - the storytelling scenario.
+fe004: Mm-hmm. Mm-hmm.
+me010: And I think it's really worth thinking through what it looks like. What is the simspec mean, et cetera.
+fe004: Mm-hmm. M- Right. Cuz for a while we were thinking, "well, how can we change the, um, data to sort of illicit tha- illicit, um, actions that are more like what we are used to?" But obviously we would rather, you know, try to figure out what's - what's, you know -
+me010: Well, I don't know. I mean, maybe - maybe that's what we'll do is - is s- u- e- We can do anything we want with it. I mean, once we have fulfilled these requirements,
+fe004: Yep. Mmm - Mm-hmm. Mm-hmm.
+me010: OK, and the one for next uh, summer is just half done and then the other half is this,
+fe004: Mm-hmm.
+me010: um, "generation thing" which we think isn't much different. So once that's done, then all the rest of it is, uh, sort of, you know, what we want to do for the research. And we can - w- we can do all sorts of things that don't fit into their framework at all. Th- there's no reason why we're c- we're constrained to do that.
+fe004: Mm-hmm.
+me010: If we can use all the, uh, execution engines, then we can, you know, really try things that
+fe004: Mm-hmm.
+me010: would be too - too much pain to do ourselves. But there's no obligation on any of this. So, if we want to turn it into u- understan- standing stories about Heidelberg, we can do that. I mean, that would just be a t- a- um -
+mn015: Or, as a matter of fact, we need - and if we if we'r- eh - take a ten year perspective, we need to do that, because w- e- w- a- Assuming we have this, um, we- we- ta- in that case we actually do have these wonderful stories, and historical anecdotes, and
+me010: Yeah.
+fe004: Mmm.
+mn015: knights jumping out of windows, and-and-and - tons of stuff. So, th- the database is huge, and if we want to answer a question on that, we actually have to go one step before that, and understand that.
+fe004: Mm-hmm.
+mn015: In order to e- do sensible information extraction. And so,
+fe004: Yeah. Mm-hmm.
+me010: You might, yeah.
+mn036: Mwa- Mm-hmm.
+mn015: um, this has been a - a - a Deep Map research issue that was - is - is part of the unresolved, and to-do's, and something for the future, is how can we sort of run our our text, our content, through a machine that will enable us, later, to
+fe004: Mm-hmm.
+mn015: retrieve or answer e- questions more sensibly?
+fe004: Mmm.
+me010: Right. Anyway. S-
+mn036: So, uh - So, uh, I was just going to ask, um, so,
+me010: Who's going?
+mn036: what is the - the basic thing that - that you are, um, obligated to do, um, uh, by the summer before w- uh y- c- we can move -
+me010: Ah! OK. So - eh - Yeah. So, what happened is, there's this, eh, uh - Robert was describing the - There's two packages there's a, uh, quote parser, there's a particular piece of this big system, which, in German, uh, takes these t- sentence templates and produces XML structures.
+mn036: Right.
+me010: And one of our jobs was to make the English equivalent of that.
+mn036: Right.
+me010: That, these guys did in a - in a day.
+mn036: Right.
+me010: The other thing is, at the other end, roughly at the same level, there's something that takes, uh, XM L structures, produces an output XML structure which is instructions for the generator.
+mn036: Right.
+me010: OK? And then there's a language generator, and then after that a s- a synthesizer that goes from an XML structure to, uh, language generation, to actual specifications for a synthesizer.
+mn036: Right.
+me010: Eh, but again, there's one module in which there's one piece that we have to convert to English.
+mn036: Right. Got it.
+me010: Is that - OK. And that - But as I say, this is - all along was viewed as a kind of - a m- a minor thing, necessary, but - but not -
+mn036: Right. Right. That's great!
+me010: OK? And much more interesting is the fact that, as part of doing this, we - we are, you know, inheriting this system that does all sort- of these other
+mn036: Right.
+me010: things. Not precisely what we want, and that's - that's wh- where it - it gets difficult. And I - I don't pretend to understand yet what I think we really ought to do.
+mn015: OK. So, e- enough of that, but I, uh, um, mmm, the e- sort of, Johno and I will take up that responsibility, and, um, get a first draft of that. Now, we have um just, I think two more short things.
+me010: OK.
+mn015: Um, y- you guys sort of started fighting, uh, on the Bayes-net "Noisy-OR" front?
+me012: Hmm. Yeah, I thought I should, um, talk a little bit about that, because that might be a good, uh, sort of architecture to have, in general for, uh, problems with,
+me010: Good! OK.
+me012: you know, multiple inputs to a node.
+me010: Good. And what's the other one? so that - just we know what the d- agenda is?
+mn015: Um, the Wu paper, I think maybe -
+me010: Oh, yeah. I've got a couple new Wu papers as well. Uh, so I - I've been in contact with Wu, so, probably let's put that off till I - I - till I understand better, uh, what he's doing. It's just a little embarrassing cause all this was in his thesis and I was on his thesis committee, and, so, I r- really knew this at one time.
+mn036: Ugh.
+me010: But, I - I - It's not only uh Is - Part of what I haven't figured out yet is - is how all this goes together. So I'll dig up some more stuff from Dekai. And - so why don't we just do the, uh -
+me012: OK. So - should I - Is there a white board here that I can use?
+me010: Yeah. You could -
+me012: Uh -
+fe004: Yeah.
+me012: Or shall I just use this?
+me010: squealing sound? It's probably just as easy. I-
+mn036: Yeah.
+me012: Yeah.
+me003: You can put the microphone in your pocket.
+me012: Hey!
+me003: I was envying you and your pocket cause I don't have one.
+fe004: It was a quick one, huh ?
+me010: That's why they invented "pocket T's".
+fe004: They have clips! Huh.
+me003: exactly
+me012: Yeah. So, um - Recall that, uh, we want to have this kind of structure in our Bayes-nets. Namely, that, um - You have these nodes that have several bands, right? So - Does I mean, they sort of - the typical example is that, um, these are all a bunch of cues for something, and this is a certain effect that we'd like to conclude. So, uh - Like, let's just look at the case when, um, this is actually the - the final action, right? So this is like, uh, you know,
+mn015: Y-
+me012: touch, or - Sorry. Uh
+mn015: E- EVA @@
+me012: Yeah, E- EVA , right?
+mn015: Yeah.
+me012: Enter, V- View, Approach, right?
+mn036: W- what was this? It - i- i- i- ehhh, i- ehhh.
+me012: So, this is -
+me010: Wri- write it out for- for -
+me012: Yeah. Enter,
+mn036: I mean -
+me012: View, Approach.
+mn036: OK. Right.
+me012: Right. So, I mean, we'd like to - take all these various cues, right? So this one might be, say, uh -
+mn036: Like the army. Yeah.
+fe004: New terminology? I haven't heard that before.
+me012: Well, let me pick a random one and say, uh -
+mn015: Hmm?
+me012: I don't know, it could be, like - This isn't the way it really is, but let me say - that, suppose someone mentioned, uh, admission fees Ah, it takes too long. Try - let me just say "Landmark". If the thing is a landmark, you know, um - then there's another thing that says if - um - if it's closed or not, at the moment. Alright, so you have nodes. Right? And the, uh, problem that we were having was that, you know, given Nnodes, there's "two to the N" Given Nnodes, and furthermore, the fact that there's three things here, we need to specify "three times", uh, "two to the N" probabilities. Right? That's assuming these are all binary, which f- they may not be. For example, they could be "time of day", in which case we could, uh, say, you know, "Morning, afternoon, evening, night". So, this could be more So, it's a lot, anyway. And, that's a lot of probabilities to put here, which is kind of a pain. So Noisy-ORs are a way to, uh, sort of deal with this. Um Where should I put this? So, the idea is that, um, Let's call these, uh, Cone, Ctwo, Cthree, and Cfour, and E, for Cause and Effect, I guess. The idea is to have these intermediate nodes. Right. Well, actually, the idea, first of all, is that each of these things has a - quote-unquote distinguished state, which means that this is the state in which we don't really know anything about it. So - right? So, for example, if we don't really know if the thing is a landmark or not, Or, i- if that just doesn't seem relevant, then that would be th- sort of the Disting- the Distinguish state. It's a really, you know, if there is something for the person talking about the admission fee, you know, if they didn't talk about it, that would be the Distinguish state.
+mn015: S- so, this is a fanciful way of saying "default"?
+me012: So - Yeah, yeah. That's just what they - the word they used in that paper.
+mn015: OK. Mm-hmm.
+me012: So, the idea is that, um, you have these intermediate nodes, right? Eone, Etwo, Ethree and Efour?
+me010: So, this is the Heckerman paper you're working with? Good.
+me012: Yeah. So The idea is that, each of these EI - is - represents what this would be - if all the other ones were in the distinguish state. Right? So, for example, suppose that the person - I mean, suppose the thing that they talked about is a landmark. But none of the other - sort of cues really apply. Then, this would be - W- The this would just represent the probability distribution of this, assuming that this cue is turned on and the other ones just didn't apply? So, you know, if it is a landmark, and no- none of the other things really ap- applicable, then - this would represent the probability distribution. So maybe in this case - Maybe we just t- k- Maybe we decide that, if the thing's a landmark and we don't know anything else, then we're gonna conclude that, um - They want to view it with probability, you know, point four. They want to enter it with probability, uh - with probability point five and they want to approach it probability point one, say - Right? So we come up with these l- little tables for each of those OK. And the final thing is that, um - this is a deterministic function of these, so we don't need to specify any probabilities. We just have to, um, say what function this is, right? So we can let this be, um - G of Eone comma Etwo. Ethree, Efour. Right? and our example G would be, um, a majority vote? Right?
+me010: Well. OK, so th- so the important point - is - W- not what the G function is. The important point is - that - Um - There is a - a - a general kind of idea of shortcutting the full CPT. Th- c- the full conditional probability table - with some function. OK? Which y- w- you choose appropriately for each case. So, depending on what your situation is, there are different functions which are most appropriate. And - So I gave - eh - Bhaskara a copy of this, eh - sort of "ninety-two" paper. D- and you got one, Robert. I don't know who else has seen it.
+me012: Mm-hmm. There's - I mean - yeah. it's Heckerman and Breese.
+me010: It's short. It's short.
+me012: Yeah.
+me010: So, I- u- w- Um, yo- uh - you - Have you read it yet?
+me012: Uh, you can - Yeah, you should take a look at it, I guess.
+me010: OK, so you should take a look. Nancy, I'm sure you read it at some point in life.
+me003: OK
+fe004: I - yeah. I - I think so, yeah.
+me010: OK.
+fe004: Yeah, @@ .
+me010: And - so, you other guys can decide how interested - Anyway. So the paper isn't th- isn't real hard. And -
+mn036: OK.
+me010: Uh - One of the questions just come at Bhaskara is, "How much of this does JavaBayes support?"
+me012: Yeah, it's a good question. Um The - so what we want, is basically JavaBayes to support deterministic, uh, functions.
+me010: Right.
+me012: And, um - In a sense it sup- we can make it supported by, um, manually, uh, entering, you know, probabilities that are one and zeros, right?
+me010: Right. So the little handout that - The little thing that I sent - I sent a message saying, uh, here is a way to take - One thing you could do, which is kind of s- in a way, stupid, is take this deterministic function, and use it to build the CPT. So, if Ba- JavaBayes won't do it for you,
+mn015: Mmm.
+me010: that you can convert all that into what the CPT would be. Um - and, what I sent out about a week ago, was an idea of how to do that, for, um, evidence combination. So one of - one function that you could use as your "G function" is an e- e- Evidence-Combining. So you just take the - uh, if each of th- if each of the ones has its own little table like that, then you could take the, uh, strength of each of those, times its little table, and you'd add up the total evidence for "V", "E", and "A".
+me012: Mmm. I don't think you can do this, because -
+fe004: Mm-hmm.
+me010: Yep.
+me012: G is a function from that to that.
+me010: Right.
+me012: Right? So there's no numbers. There's just - quadruplets of - well, Nduplets of, uh, EVs.
+me010: I- i- i- No, no - But I'm saying is - There - There is a w- I mean, if y- if - if you decide what's - what is appropriate, is probablistic evidence combination, you can write a function that does it. It's a pui- it's actually one of the examples he's got in there. But, anyway, s- skipping - skipping the question of exactly which functions - now is it clear that you might like to be able to shortcut the whole conditional probability table.
+mn015: I mean, in some - it seems very plausible in some sense, where we will be likely to not be - observe some of the stuff. Cuz we don't have the a- access to the information.
+me012: Oops, sorry.
+me010: Right. That's one of the problems, is, W- Is - is, Where would th- Where would it all come from?
+mn015: Yeah. So.
+me012: Is - Oh, right. W- would not be ab- able to observe
+fe004: Mmm.
+me012: What?
+mn015: I- if it's a - a - a discar- Discourse Initial Phrase, we will have nothing in the discourse history. So, if - if we ever want to wonder what was mention-
+me012: Oh - Oh. A- are you saying that we'll not be able to observe certain nodes? That's fine. That is sort of orthogonal thing.
+me010: Yeah, so there's - there's two separate things, Robert. The f- the - the - the Bayes-nets in general are quite good at saying, "if you have no current information about this variable just take the prior for that." OK? Th- that's what they're real good at. So, if you don't have any information about the discourse, you just use your priors of - of whatever - eh- the - discourse - uh, eh, basically whatever w- it's - Probabilistically, whatever it would be. And it's - it's sort of not a great estimate, but -
+mn015: Mm-hmm.
+me010: it's the best one you have, and, so forth. So that, they're good at. But the other problem is, how do you fill in all these numbers?
+fe004: Mm-hmm. Yeah.
+me010: And I think that's the one he was getting at.
+me012: Yeah. So, specifically in this case you have to - f- have this many numbers, whereas in this case you just have to have three for this, three for this, three for this. Right? So you have to have just
+mn015: Mm-hmm.
+me012: three N? So, this is much smaller than that.
+me003: Asymptotically.
+fe004: Mm-hmm.
+me012: Yeah. Right.
+me010: Well, pretty quickly.
+me003: U- yeah, yeah.
+fe004: So, you don't need da- data enough to cover - uh, nearly as much stuff.
+me010: I mean -
+me012: I don't know.
+me003: So, really, i- What a - A Noisy-OR seems to kind of "neural-net-acize" these Bayes-nets?
+me010: Eh - well- to- some- No, no. So, "Noisy-OR" is a funny way of referring to this, because the Noisy-OR is only one instance.
+me012: Yeah. This isn't a Noisy-OR anymore.
+me010: That one actually isn't a Noisy-OR. So we'll have to think of
+me003: Yeah.
+me010: of a way t- t-
+me012: it's a Noisy-arg-max or a Noisy-whatever.
+me010: Yeah, whatever. Yeah. So - Eh - Um
+me003: Well, my point was more that we just - eh - With the neural net, right, eh, things come in, you have a function that combines them and -
+me010: Yeah, it - it - Tha- that's true. It is a- is also more neural-net-like, although - Uh, it isn't necessarily sum - uh, s- you know, sum of weights or anything like that.
+me003: Right.
+me010: I mean i- You could have, uh, like the Noisy-OR function, really is one that's essentially says, uh, take the max.
+me012: Well, the "OR".
+me010: Same.
+me012: Right. I guess you're right. Yeah.
+me010: Uh But anyway. So - And, I thi- I think that's the standard way people get around the - uh There are a couple other ones. There are ways of breaking this up into s- to - to subnets and stuff like that. But, um The I think we definitely - I think it's a great idea tha- to - to pursue that.
+me012: Yep. So
+mn015: Wha- still sort of leaves one question. It - I mean you - you can always uh - see easily that - that I'm not grasping everything correctly, but what seemed attractive to me in im- uh in the last discussion we had, was that we find out a means of - of getting these point four, point five, point one, of Cfour, not because, you know, A is a Landmark or not, but we - we - we label this whatever object type, and if it's a garden, it's point three, point four, point two. If it's a castle, it's point eight, point one, point one. If it's, uh, a town hall, it's point two, point three, point five.
+me010: Right.
+mn015: And so forth. And we don't want to write this down - necessarily every time for something but, uh -
+me012: It'll be students - Where else would it be stored? That's the question.
+mn015: let's see. Well, in the beginning, we'll write up a flat file. We know we have twenty object types and we'll write it down in a flat file.
+me010: Oh. Yeah. No. So, i- is- Well, let me say something, guys, cuz there's not - There's a pretty point about this we might as well get in right now.
+me012: Mm-hmm.
+me010: Which is - The hierarchy that s- comes with the ontology is just what you want for this. So that - Uh, if you know about it - let's say, a particular town hall - that, it's one that is a monument, then, that would be stored there. If you don't, you look up the hierarchy, Eh - so, you - you - you may or - So, then you'd have this little vector of, um, you know, Approach Mode or EVA Mode. Let's - OK, so we have the EVA vector for - for various kinds of landmarks. If you know it for a specific landmark you put it there. If you don't, you just go up the hierarchy to the first place you find one.
+me012: OK. So, is the idea to put it in the ontology?
+me010: Absolutely.
+me012: OK.
+me010: Uh, or, link to - or - but - but in any case - i- View it logically as being in the ontology. It's part of what you know about - a - an object, is its EVA vector.
+me012: OK. Mm-hmm.
+me010: And, if yo- As I say, if you know about a specific object, you put it there. This is part of what Dekai was doing. So, when we get to Wu,
+me012: Right.
+me010: The- e- We'll see w- what he says about that. And, then if you - If it isn't there, it's higher, and if you don't know anything except that it's a b- it's - it's a - building, then up at the highest thing, you have the pr- what amounts to a prior. If you don't know anything else about a building, uh, you just take whatever your crude approximation is up at that level, which might be equal, or whatever it is.
+me012: Right. Yeah.
+me010: So, that's a very pretty relationship between these local vectors and the ontology. And it seems to me the obvious thing to do, unless we find a reason to do something different.
+me012: Yeah.
+me010: Does this make sense to you? Bhask- ?
+me012: So - Yeah. So, we are - but we - we're not doing the ontology, so we have to get to whoever is doing the - u- ultimately,
+me010: Indeed. So, that's another thing we're gonna need to do, is - is, to,
+me012: we have to get them to -
+me010: either - We're gonna need some way to either get a p- tag in the ontology, or add fields, or - some way to associate - Or, w- It may be that all we can do is, um, some of our own hash tables that it - Th- the - th- you know, there's always a way to do that. It's a just a question of - i-
+me003: Yeah, hash on object name to, you know, uh, the probabilities or whatever.
+me010: th- Yeah. e- Right. And, so, i- uh -
+mn015: But it's, uh - Well, it strikes me as a What For- If we get the mechanism, that will be sort of the wonderful part. And then, how to make it work is - is the second part, in the sense that - I mean, m- the guy who was doing the ontology - eh, eh, s- ap- apologized that i- it will take him another through - two to three days because they're having really trouble getting the upper level straight, and right now. The reason is, given the craw bet uh, the - the - the projects that all carry their own taxonomy and, on all history, they're really trying to build one top level ontology ft- that covers all the EML projects, and that's, uh, uh, sort of a tough cookie, a little bit tougher than they figured. I could have told them s- so. Uh.
+me010: Right. Yeah.
+mn015: But, nevertheless, it's going to be there by n- by, uh, next Monday and I will show you what's - what some examples from that for towers, and stuff. And, um, what I don't think is ever going to be in the ontology, is sort of, you know, the likelihood of, eh, people entering r- town halls, and looking at town halls, and approaching town halls, especially since we are b- dealing with a case-based, not an instance-based ontology. So, there will be nothing on - on that town hall, or on the Berkeley town hall, or on the Heidelberg town hall, it'll just be information on town halls.
+me010: Well, they - they - they - How ar- What are they gonna do with instances? I mean, you - y-
+mn015: But what - Well, that's - Hhh. That's - that's al- different question. I mean, th- the - first, they had to make a design question, "do we take ontologies that have instances? or just one that does not, that just has the types?"
+me010: OK.
+mn015: And, so, since the d- decision was on types, on a d- simply type-based, we now have to hook it up to instances. I mean this is one -
+me010: But what i- What is SmartKom gonna do about that? Cuz, they have instances all the time.
+mn015: Yeah, but the ontology is really not a SmartKom thing, in - in and of itself. That's more something that I kicked loose in - in EML. So it's a completely EML thing.
+me010: But - Uh - uh - SmartKom's gonna need an ontology.
+mn015: Yes, u- a w- a lot of people are aware of that.
+me010: I understand, but is anybody doing anything about it?
+mn015: Um -
+me010: OK. It's a political problem. We won't worry about it.
+mn015: No, but - th- the r- eh - I th- I still think that there is enough information in there. For example, whether - OK. So, th- it will know about the twenty object types there are in the world. Let's assume there are only twenty object types in this world. And it will know if any of those have institutional meanings. So, in a sense, "I" used as Institutions for some s- in some sense or the other. Which makes them - enterable. Right? In a sense. You know.
+me010: Yeah. Anyway. So we may have to - This is with the whole thing, we may have to build another data stru-
+mn015: Yep. Yep.
+me010: Conceptually, we know what should be done. When we see what people have done, it may turn out that the easiest thing to do is to build a - a separate thing that - that just pools i- i- Like, i- i- it - it may be, that, the - the instance - w- That we have to build our own instance, uh,
+me012: Yeah, it's - Right, we can just assume -
+me010: things, that, with their types, and then it goes off to the ontology once you have its type. So we build a little data structure And so what we would do in that case, is, in our instance gadget have our EVAs. And if we- d- there isn't one we'd get the type and then have the EVAs for the type. So we'd have our own little, uh, EVA tree.
+me012: Yeah. Right.
+me010: And then, for other, uh, vectors that we need. So, we'd have our own little things so that whenever we needed one, we'd just use the ontology to get the type,
+me012: Mm-hmm. Mm-hmm.
+me010: and then would hash or whatever we do to say, "ah! If it's that type of thing, and we want its EVA vector, pppt-pppt! it's that. " So, I- I think we can handle that. And then - But, the combination functions, and whether we can put those in Java Bayes, and all that sort of stuff, is, uh - is the bigger deal.
+me012: Yeah.
+me010: I think that's where we have to get technically clever.
+me012: Um -
+me003: We could just steal the classes in JavaBayes and then interface to them with our own code.
+me010: Well, I me- ye eh, yeah, the -
+me012: That requires understanding the classes in JavaBayes, I guess.
+me010: Yeah, I mean, it's, uh, e- e- e- e- e- cute. I mean, you've been around enough to - I mean - Just?
+me003: Well, it depends on -
+me010: I mean, there's this huge package which - which may or may not be consistent and - you know. But, yeah, we could look at it.
+me003: Well, I was j- OK. Yeah.
+me010: Yeah. It's b- It - It's an inter- sort of a kind of a - it - The thing is, it's kind of an interpreter and i- i- it expects its data structures to be in a given form, and if you say, "hey, we're gonna make a different kind of data structure to stick in there -"
+me003: Well, no, but that just means there's a protocol, right? That you could -
+me010: It may or may not. I don't know. That's the question is "to what extent does it allow us to put in these G functions?" And I don't know.
+me003: Well, no, but - I mean - What I uh the - So you could have four different Bayes-nets that you're running, and then run your own - write your own function that would take the output of those four, and make your own "G function", is what I was saying.
+me010: Yeah, that's fine if it's - if it comes only at the end. But suppose you want it embedded?
+me003: Well, then you'd have to break all of your Bayes-nets into smaller Bayes-nets, with all the -
+me010: Oh, that - Yeah, that's a truly horrible way to do d- it. One would hope -
+me003: Yeah, but I'm just -
+mn015: Mm-hmm.
+me010: Yeah, yeah, yeah, yeah, yeah, you bet . But, at that point you may say, "hey, Java Bayes isn't the only package in town. Let's see if there's another package that's, eh, more civilized about this."
+me012: @@ .
+me010: Now, Srini
+me012: Mmm.
+me010: is worth talking to on this, cuz he said that he actually did hack some combining functions into JavaBayes.
+me012: Ah!
+me010: But he doesn't remember - at least when I talked to him, he didn't remember whether it was an e- an easy thing, a natural thing, or whether he had to do some violence to it to make it work. Uh. But he did do it.
+me012: Yeah. I don't see why the, uh, combining f- functions have to be directly hacked into JavaBayes. I mean, they're used to create tables so we can just make our own little functions that create tables in XML.
+me010: Well, I say that's one way to do it, is - is to just convert it int- into a - into a CP T that you zip - It's blown up, and is a - it's, uh - it's huge, but - it doesn't require any
+me012: Mm-hmm.
+me010: data fitting or complication.
+me012: Yeah. I don't think - I mean, the fact that it blown u- blows up is a huge issue in the sense that - I mean, OK. So say it blows up, right? So there's, like, the you know, ten, f- ten, fifteen, uh, things. It's gonna be like, two to the - that, which isn't so bad.
+me010: I- I understand. I'm just saying tha- that w- That was wi- that was my note. The little note I sent said that.
+me012: Mm-hmm.
+me010: It said, "Here's the way you'd take the logical f- G function and turn it into a CPT."
+me012: Mm-hmm.
+me010: I mean that - the Max- the Evidence-Combining function. So we could do that. And maybe that's what we'll do. But, um don't know. So, I will, e- e- before next week, uh, @@ p- push - push some more on - on this stuff that Dekai Wu did, and try to understand it. Uh, you'll make a couple of more copies of the Heckerman paper to give
+me012: p- Sure.
+mn036: Yeah, I - I would like a copy, y- y- yeah .
+me010: to people?
+me012: OK.
+me010: OK.
+mn036: OK.
+me010: And, um I think -
+mn015: OK. And I- I'll - I'll think s- through this, uh, eh - getting EVA vectors dynamically out of ontologies one more time because I s- I - I - I'm not quite sure whether we all think of the same thing or not, here.
+me010: Well, you and I should talk about it.
+mn015: Yeah, uh-huh. OK.
+me010: Alright, great! And, Robert, thank you for coming in under - He - he's been sick, Robert.
+mn015: Und.
+fe004: Mm-hmm.
+me003: I was thinking maybe we should just cough into the microphone and see if they can't - th- see if they can handle it.
+me012: Yep.
+fe004: Sure.
+mn015: Um - is this, uh -

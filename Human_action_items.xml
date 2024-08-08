@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Meetings>
+    <Meeting Name="Bed002.txt">
+        <Iteration Number="0">
+            <Item>Johno and Bhaskara to pick a stable belief-net package that is easy to interact with and modify this week.</Item>
+            <Item>Speak next Monday and tell about the net they picked.</Item>
+            <Item>Bring in the package into the meeting to see what other ideas they might have.</Item>
+            <Item>Start to populate belief-net to start making a first cut at the task even if really crude.</Item>
+            <Item>Get a tentative format for the data file like XML for example.</Item>
+            <Item>mn015 to get the whole thing running on Swede and on the machine.</Item>
+            <Item>Get together later this week and talk features.</Item>
+            <Item>Call Adam after the meeting.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed003.txt">
+        <Iteration Number="0">
+            <Item>Learn probabilities.</Item>
+            <Item>Talk more about segmenting the different regions (probably into 4).</Item>
+            <Item>Make up toy observable nodes/features.</Item>
+            <Item>Ask around about Bayes-net packetges and collect the necessary variables, talk about it with Srini next meeting.</Item>
+            <Item>Look at SmartKom tables.</Item>
+            <Item>Have trial run of data collection with Fey (official position called the wizard), test both the data collection and Fey's abilities.</Item>
+            <Item>Supply Fey/the wizard with a recording device such as a tape recorder.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed004.txt">
+        <Iteration Number="0">
+            <Item>Press black square and turn off mikes after meeting ends</Item>
+            <Item>Hire Fey and include her in pay role, mn015 will learn how to do that.</Item>
+            <Item>Organize a meeting with Fey (wizard) to refine task and discuss people sourcing.</Item>
+            <Item>Talk to people to promote the task so they get people on it.</Item>
+            <Item>Speak on Wednesday about system design and belief-net with computer scientist, additionally speak about the linguistic side of things with linguists.</Item>
+            <Item>Informarly think about what the decision variables are.</Item>
+            <Item>Try to find another way to represent current Bayes-net model, could be helpful to linguists.</Item>
+            <Item>Try to find a possible specification for a belief-net interface.</Item>
+            <Item>mn015 will come up with code module for a "cognitive dispatcher".</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed005.txt">
+        <Iteration Number="0">
+            <Item>Draft a note about project with Fry to requit subjects.</Item>
+            <Item>Meet on Friday afternoon to work out a script with Jane and Liz.</Item>
+            <Item>Check out social infrastructures for possible subjects.</Item>
+            <Item>mn015 to make first draft of the "write up" note and send it out.</Item>
+            <Item>Figure out the important classes to optimizer longterm for project, write descriptions and suggestions for them.</Item>
+            <Item>me010 will come up  general story about construction grammar, constructions and how they will fit together.</Item>
+            <Item>me010 to better understand what Wu Dekai is doing and dig up more information.</Item>
+            <Item>me010 to copy and hand out Heckerman paper.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed006.txt">
+        <Iteration Number="0">
+            <Item>fe046 to send "write up" note to fe004 and Baskara so they spread it.</Item>
+            <Item>Hire a new person to help, they need to email Terry or mn015.</Item>
+            <Item>Come up with high level abstract tasks.</Item>
+            <Item>Deal with the natural language generation module.</Item>
+            <Item>Modify SmartKom.</Item>
+            <Item>me012 to speak about parser at Friday meeting.</Item>
+            <Item>Baskara will do the big show on Friday.</Item>
+            <Item>Get the binding point with a nice example that will be helpful.</Item>
+            <Item>mn015 to transcribe an audio that fe004 wants to check.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed008.txt">
+        <Iteration Number="0">
+            <Item>Think of a principle way to assign weights based on voting.</Item>
+            <Item>Try using a hidden variable "H" to determine the reliability of different experts in different situations.</Item>
+            <Item>Focus on a subset of fifty constructions for a rough analysis.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed009.txt">
+        <Iteration Number="0">
+            <Item>Johnson to help with changing grammar to English and get knowledge to extend system infinitely.</Item>
+            <Item>Get together on Thursday to talk about Smartkom plans.</Item>
+            <Item>Met involved with Marcus Lerkult and his implementation of discussion transition.</Item>
+            <Item>Met a transition diagram for the grammar of conversations.</Item>
+            <Item>Message people in regards to complext slots.</Item>
+            <Item>mn015 to talk with Michael.</Item>
+            <Item>mn048 to check how easy switching the name of the Action planner is going to be.</Item>
+            <Item>mn048 will be responsible for the getting a parser to help with integrating syntactic analysis and add features like segmenting.</Item>
+            <Item>Build templates.</Item>
+            <Item>Build analyzer to take utterances.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed010.txt">
+        <Iteration Number="0">
+            <Item>Give a talk in the big room so people know about the SmartKom (internal demo).</Item>
+            <Item>Get a belief-net for this particular subdomain done in the next few weeks.</Item>
+            <Item>Look into generation of spatial descriptions and spatial reference.</Item>
+            <Item>Make decisions on ontology.</Item>
+            <Item>mn015 to come next week with version 0.9 of the structure of the belief-net.</Item>
+            <Item>Others to come up with partially proposal, partially questions, what they understand, what they don't by next Monday.</Item>
+            <Item>Nancy, Johno and me010 to meet and talk about parsers.</Item>
+            <Item>Catch up with Ellen and see her progress with the image schemas and formalise them.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr001.txt">
+        <Iteration Number="0">
+            <Item>Check if wired headsets work.</Item>
+            <Item>Buy 100 gigabytes of drive space.</Item>
+            <Item>me011 to send email to speach local.</Item>
+            <Item>Have another set of numbers created.</Item>
+            <Item>Ask Jane to generate transcript, also ask externally how much something similarly will cost to produce and compare them.</Item>
+            <Item>Create some type of single sound file and give to transcriber.</Item>
+            <Item>Do some segmentation and recognition.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr002.txt">
+        <Iteration Number="0">
+            <Item>Pass the folder to Dan.</Item>
+            <Item>fe008 to draw a map  of the room layout</Item>
+            <Item>Jane and Adamto explore tools like EAGLES, MATE and the tool used by Mississippi State.</Item>
+            <Item>Start recording and transcribing meetings focusing on word transcripts and speaker change identification.</Item>
+            <Item>Consider adding stress and intonation information during the word-level transcription.</Item>
+            <Item>Use lapel microphones in future recordings for better audio quality.</Item>        
+            <Item>Rotate the lapel microphone among participants for each meeting.</Item>
+            <Item>Liz to do work on prosody and stress.</Item>
+            <Item>Explore tine aligned transcription for richer data.</Item>
+            <Item>Record one or two meetings per week.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr003.txt">
+        <Iteration Number="0">
+            <Item>Jane to send an email about the possibily getting linguistics graduates for transcription work.</Item>
+            <Item>Jane to discuss transcription issues about discourse with Liz.</Item>
+            <Item>Explore the possibility of adding a delay feature into the transcription tool.</Item>
+            <Item>me025 and me28 to think about designing cabinets for organizing the equipment.</Item>
+            <Item>Check if the available laptop is compatible with a LAN card</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr005.txt">
+        <Iteration Number="0">
+            <Item>Don to do block echo cancellation to try to get rid of some of the far-field effects.</Item>
+            <Item>Try using a preprocessor for echo cancellation extract sections of utterances.</Item>
+            <Item>Me013 to send ten hours of data to IBM next week and follow up to check their transcription.</Item>
+            <Item>Try getting additional data from acquaintances in local broadcast media like radio shows.</Item>
+            <Item>Make everyone aware of disk space issues so they know the limit of length for recordings.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr006.txt">
+        <Iteration Number="0">
+            <Item>Next time the error message occurs during a meeting write it down for further investigation.</Item>
+            <Item>Discuss and determine the nature of the data they are collecting and how to ensure data quality.</Item>
+            <Item>Try to get more regular meetings recorded from different domains for research purposes.</Item>
+            <Item>Move any Aurora data and other data not related to Meeting Recorder off the Meeting Recorder disk to consolidate and free up space.</Item>
+            <Item>Follow up with Haas Business School volunteers to potentially help with the project.</Item>
+            <Item>Decide how to anonymize speaker identities or names in the transcripts but still do discourse analysis.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr007.txt">
+        <Iteration Number="0">
+            <Item>Ensure everyone signs the new consent form.</Item>
+            <Item>Adam to finalize the algorithm for detecting speaker changes with close-talking microphone data.</Item>
+            <Item>Try recording two-person meetings for statistical analysis.</Item>
+            <Item>Consider building a model that can detect speaker changes using data from all microphones in the room.</Item>
+            <Item>Try recording a meeting or two with blindfolds for at least part of the meeting.</Item>
+            <Item>Submit corrections or suggestions for improving the list of highlights from the last three months of the project.</Item>
+            <Item>Send an agenda for future meetings.</Item>
+            <Item>Subdivide backchannels further and give an update on the analysis in the next meeting.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr008.txt">
+        <Iteration Number="0">
+            <Item>Change the speaker forms to include sections for Name, Sex, Email, Education Level and optional Age.</Item>
+            <Item>Allow for meeting-specific open-ended notes to capture any additional relevant details.</Item>
+            <Item>me011 to send an email to check that IBM received the CD-ROMs.</Item>
+            <Item>Jose to work on the pitch detector algorithm.</Item>
+            <Item>mn005 to explore different normalization methods for the frame energy and residual LPC energy.</Item>
+            <Item>Explore using voiced regions for normalization and analysis to improve detecting overlaps.</Item>
+            <Item>Investigate the Fseek bug and look into typecasing as a reason for it.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr009.txt">
+        <Iteration Number="0">
+            <Item>Remove the "Northern" region option and replace it with a more specific one.</Item>
+            <Item>Add an option for individuals to characterize their accent alongside region.</Item>
+            <Item>Change region names from "North Midwest" and "South Midwest" to "North Midland" and "South Midland".</Item>
+            <Item>Review the instructions on the form to ensure it makes all clear to the participants.</Item>
+            <Item>Give an example in the form to participants like "Region, open paren, EG Southern comma Western comma close paren colon."</Item>
+            <Item>Consider adding a setion for time spent in an English speaking country.</Item>
+            <Item>Potentially incorporate of the multi-wave feature into the central code with the Transcriber central people.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr010.txt">
+        <Iteration Number="0">
+            <Item>Updating the transcription effort with a focus on microphone issues to ensure clean recordings.</Item>
+            <Item>Try using pitch-related features for overlap detection.</Item>
+            <Item>Have multiple transcribers to assess inter-annotator agreement.</Item>
+            <Item>Show Thilo Javier's speech segmenter program for overlap detection.</Item>
+            <Item>Add Brian to the mailing list for Meeting Recorder.</Item>
+            <Item>Try running the hand-segmented samples on Javier's program.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro003.txt">
+        <Iteration Number="0">
+            <Item>Set up SPERT boards for running combinations of training and testing on different machines.</Item>
+            <Item>Firgure out how to work with the different databases and their label formats.</Item>
+            <Item>Find the best combinations of features for trainig and testing.</Item>
+            <Item>Organize scratch space for working on the project to reduce network congestion and avoid slow speeds.</Item>
+            <Item>me018 to check the available space on the Mustard and Nutmeg servers.</Item>
+            <Item>me018 to sit down with the team to see if they can move their data on a new disk on Abbott.</Item>
+            <Item>me013 to present the tasks visually on a slide for next week's meeting.</Item>
+            <Item>Explore training a net on articulatory features instead of a superclass to be good across a wide range of languages.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro004.txt">
+        <Iteration Number="0">
+            <Item>Try with running the HTK with PLP, delta-delta, and MSG filter together.</Item>
+            <Item>mn007 to start work on multi-band feature extraction.</Item>
+            <Item>Work on using both features and net outputs to try reduce the number of outputs of the neural network.</Item>
+            <Item>Find out how to parallelize the HTK training process for efficient execution.</Item>
+            <Item>Work on large vocabulary training and testing for tandem systems.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro005.txt">
+        <Iteration Number="0">
+            <Item>Experiment also training PLP with LogRASTA and on-line normalization.</Item>
+            <Item>Address the problem with CPU and memory usage to ensure they are sufficient for training and testing purposes.</Item>
+            <Item>Try using articulatory targets instead of phonetic targets when training.</Item>
+            <Item>Consider switching between multiple MLPs for different conditions.</Item>
+            <Item>Ensure the neural nets trained on different conditions are tested across a wide range of test sets.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro007.txt">
+        <Iteration Number="0">
+            <Item>Start writing up the system description as soon as the data is received and begin training on Tuesday.</Item>
+            <Item>Start running and training HTK on the new German and Danish data after the system is fixed.</Item>
+            <Item>Finalize the system for submission by Tuesday.</Item>
+            <Item>Test a fourth architecture with a single KLT instead of multiple KLTs.</Item>
+            <Item>Consider using the server farm with ten multiprocessor IBM machines for running big jobs.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro008.txt">
+        <Iteration Number="0">
+            <Item>Email Hynek with any updates about what's wrong with the features that we get from OGI.</Item>
+            <Item>Everyone to analyze data from different languages and try obtaining hand-labeled data for neural net training.</Item>
+            <Item>Consider using multiple neural nets trained on different data and acoustic conditions to see if it improves performance.</Item>
+            <Item>Debug the Aurora test on the MSG and multi-band experiment.</Item>
+            <Item>fn002 to share updates and findings from the meeting in Amsterdam during the next meeting happening in two weeks.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro010.txt">
+        <Iteration Number="0">
+            <Item>Follow up with Sunil about redesigning the filters in order to reduce latency.</Item>
+            <Item>Send an email to Sunil to explain we are redesigning filters and the plan for recursive filtering to avoid both doing the same task.</Item>
+            <Item>Implement a routine that does recursive filtering to test the new filters.</Item>
+            <Item>Compare the performance of a robust approach like MSG with speech enhancement or de-reverberation approaches.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro011.txt">
+        <Iteration Number="0">
+            <Item>Try fixing the downsampling problem by implementing a stricter low-pass filter.</Item>
+            <Item>Espen to explore echo cancellation between close-mounted and distant microphones.</Item>
+            <Item>Experiment what happens if we try to improve the performance of the back-end recognizer for the Aurora task and if that affects the rest.</Item>
+            <Item>Experiment with creating word-specific prototype HMMs for shorter words to improve performance.</Item>
+            <Item>Try using Octave instead of Matlab because it can run batch commands.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro012.txt">
+        <Iteration Number="0">
+            <Item>Check if they are using Feacalc with a high-pass filter option.</Item>
+            <Item>me013 to pick a different picture to show the effects of reverberation.</Item>
+            <Item>Experiment with reducing the iterations in the training script from seven to three to speed up and get more experiments done.</Item>
+            <Item>Investigate using a tandem system for voicing detection and fine structure analysis.</Item>
+            <Item>mn007 and Barry to use TIMIT and see if giving the voicing bit would help in frame classification.</Item>
+        </Iteration>
+    </Meeting>
+
+
+    
+</Meetings>

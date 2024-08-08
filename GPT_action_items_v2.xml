@@ -1,0 +1,1042 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Meetings>
+    <Meeting Name="Bed002.txt">
+        <Iteration Number="0">
+            <Item>Johno and Bhaskara to select a belief-net package this week and present their choice and progress next Monday.</Item>
+            <Item>Johno and Bhaskara to work on making a first cut at what the belief-net looks like and populate it for the current problem.</Item>
+            <Item>Johno and Bhaskara to explore XML packages for feature extraction and data file creation.</Item>
+            <Item>Johno and Bhaskara to present the state of the belief-net system next Monday.</Item>
+            <Item>Nancy to work on setting up the NT and Linux versions of the system and show the progress next Monday.</Item>
+            <Item>All team members to aim for a harmonious integration of the belief-net system with the language conversion task in the future.</Item>
+            <Item>Nancy to ensure the system navigates users to the correct locations, addressing the issue of taking them to the geometric center of buildings.</Item>
+            <Item>Schedule a meeting later this week to discuss and start thinking about features.</Item>
+            <Item>Call Adam after the meeting.</Item>
+            <Item>Look at some pictures of Heidelberg.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Johno and Bhaskara to pick a belief-net package this week and report back next Monday on the chosen package and its capabilities.</Item>
+            <Item>Johno and Bhaskara to present slides next Monday on the belief-net package chosen and the progress made in setting it up.</Item>
+            <Item>Johno and Bhaskara to work on creating a tentative XML format for the data file containing various scenarios for the belief-net.</Item>
+            <Item>Johno and Bhaskara to start populating the belief-net with features and probabilities, even if it's a crude first cut, and explore the idea of learning from external corpora in the future.</Item>
+            <Item>Nancy to work on setting up the SmartKom system to run in English and provide updates on the progress next Monday.</Item>
+            <Item>Nancy to work on unpacking the Linux version of the system and setting it up on the appropriate machines for testing.</Item>
+            <Item>Johno and Bhaskara to present the progress made on the belief-net next Monday and discuss how it can be integrated into the system for navigational tasks.</Item>
+            <Item>All team members to explore XML packages for data interchange and communication between different modules of the project.</Item>
+            <Item>Nancy to follow up with Ralph and Tilman to obtain more documentation for the SmartKom system.</Item>
+            <Item>All team members to keep an open timeline for the projects, focusing on making progress opportunistically and adjusting priorities as needed.</Item>
+            <Item>Schedule a meeting later this week to discuss and start thinking about features.</Item>
+            <Item>Call Adam after the meeting.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Johno and Bhaskara to pick a belief-net package this week and present it next Monday.</Item>
+            <Item>Johno and Bhaskara to work on a first cut of the belief-net structure and features.</Item>
+            <Item>Johno and Bhaskara to create a tentative XML format for the data file containing various scenarios.</Item>
+            <Item>Johno and Bhaskara to present the state of the system and belief-net progress next Monday.</Item>
+            <Item>Nancy to work on unpacking the Linux version of the NT system and getting it running on the machines.</Item>
+            <Item>Nancy to communicate with Ralph and Tilman for more documentation.</Item>
+            <Item>All team members to aim for a harmonious integration of the belief-net into the system for improved performance.</Item>
+            <Item>Schedule a meeting later this week to discuss and start thinking about features.</Item>
+            <Item>Call Adam after the meeting.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed003.txt">
+        <Iteration Number="0">
+            <Item>Arrange a trial run with Fey on Friday afternoon to assess her ability to be the wizard for data collection.</Item>
+            <Item>Conduct a trial run with Liz as the first subject if needed for technical assistance.</Item>
+            <Item>Arrange a meeting with Liz for the technical side of things.</Item>
+            <Item>Obtain a recording device for the wizard, such as a tape recorder.</Item>
+            <Item>Define the scenario once the wizard is selected.</Item>
+            <Item>Finalize the details of the task next week if the wizard is chosen on Friday.</Item>
+            <Item>Ensure the task allows for the collection of variables needed for the evolving Bayes-net.</Item>
+            <Item>Begin data collection to elicit richer language and explore human-machine pragmatics.</Item>
+            <Item>Include at least one navigational task and one task related to taking a picture for labeling in the corpus.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Arrange a trial run with Fey for data collection, with Liz volunteering to be the first subject. Set this up for Friday afternoon.</Item>
+            <Item>Arrange a meeting with Liz for the technical side of things.</Item>
+            <Item>Ensure the data collection setup is totally ready.</Item>
+            <Item>Obtain a recording device for the wizard, such as a tape recorder.</Item>
+            <Item>Finalize the experimental setup once the wizard is determined.</Item>
+            <Item>Define the scenario with the wizard's input on Friday.</Item>
+            <Item>Collect variables needed for the evolving Bayes-net during the task.</Item>
+            <Item>Prepare an ad-hoc scenario for data collection to elicit richer language.</Item>
+            <Item>Include at least one navigational task and a task related to taking a picture for labeling in the corpus.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Arrange a trial run with Fey for data collection on Friday afternoon.</Item>
+            <Item>Ask Srini about other Bayes-net packages during the meeting on Wednesday.</Item>
+            <Item>Determine if Liz is needed for the technical side of things.</Item>
+            <Item>Obtain a recording device for the wizard, such as a tape recorder.</Item>
+            <Item>Finalize the experimental setup after identifying the wizard.</Item>
+            <Item>Collect variables needed for the evolving Bayes-net during the task.</Item>
+            <Item>Schedule a meeting next week to define all details once the wizard is identified.</Item>
+            <Item>Include at least one navigational task and one task related to taking a picture for labeling purposes in the corpus.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed004.txt">
+        <Iteration Number="0">
+            <Item>Arrange a meeting to refine the tasks and search for potential sources to find people.</Item>
+            <Item>Begin working on a code for a module called the "cognitive dispatcher" to analyze object trees and decide how to fill out missing parts.</Item>
+            <Item>Continue thinking about how to extract properties in a general way for different Bayes-nets.</Item>
+            <Item>Consider the possibility of adding a "what's this?" domain to the tasks.</Item>
+            <Item>Think about how to generalize the belief-net extraction process to achieve powerful generalizations for different tasks.</Item>
+            <Item>Consider the architecture that enables flexibility to replace components with higher-quality representations in the future.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Arrange a meeting with Fey to discuss payment for her time and work.</Item>
+            <Item>Refine the tasks in the wizard test data and create a better introduction for the wizard, as suggested by Liz.</Item>
+            <Item>Implement the suggestion by Liz to switch tasks between subjects to gather diverse data.</Item>
+            <Item>Refine the tasks further to avoid subjects repeating text verbatim.</Item>
+            <Item>Investigate the use of a summary node in the Bayes-net to handle the combinatorial input issue.</Item>
+            <Item>Consider the use of a cognitive dispatcher module to gather and recombine object trees for decision-making.</Item>
+            <Item>Explore the possibility of a "what's this?" domain to add more tasks to the system.</Item>
+            <Item>Continue thinking about generalizing the extraction of properties for different decision processes to enable re-use and efficiency in the system.</Item>
+            <Item>Consider meeting in the same location for future discussions to facilitate visual aids and discussions.</Item>
+            <Item>Analyze the data from Litonya's test to extract insights for improving the system's performance, such as understanding user intentions better.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Arrange a meeting to refine the tasks and look for potential sources to find people.</Item>
+            <Item>Investigate and learn the process of putting Fey on the payroll and ensuring payment for her time.</Item>
+            <Item>Develop a better introduction for the wizard in the system.</Item>
+            <Item>Consider switching tasks between subjects to gather diverse data.</Item>
+            <Item>Refine the tasks to avoid subjects rephrasing instructions.</Item>
+            <Item>Consider the suggestion to switch to a more abstract visual representation for the belief-net.</Item>
+            <Item>Think about how to generalize the extraction of properties for different decision processes.</Item>
+            <Item>Consider adding the "what's this?" domain to the system for additional tasks.</Item>
+            <Item>Develop a "cognitive dispatcher" module to gather and combine information for decision-making.</Item>
+            <Item>Explore the possibility of replacing the current belief-net with a more advanced system in the future.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed005.txt">
+        <Iteration Number="0">
+            <Item>Arrange a meeting with Jane, Liz, and others on Friday afternoon to work on drafting the script. (me010)</Item>
+            <Item>Begin data collection for social infrastructures for possible subjects, such as children's gymnastic classes and preschool parents. (mn015)</Item>
+            <Item>Check with the team about the sufficiency and necessity of the permission forms for the data collection. (mn015)</Item>
+            <Item>Draft a note for the "write-up" note and send it to Fey, Jane, and others. (mn015)</Item>
+            <Item>Begin brainstorming and discussing the implementation of Noisy-OR functions in JavaBayes. (me012)</Item>
+            <Item>Investigate the compatibility of JavaBayes to support deterministic functions and explore the possibility of using hash tables to handle data structures. (me012)</Item>
+            <Item>Explore the integration of instance-based data structures with the ontology for EVA vectors. (me010, mn015)</Item>
+            <Item>Research and understand the classes in JavaBayes to potentially interface with them using custom code. (me003)</Item>
+            <Item>Investigate the feasibility of incorporating different combination functions in JavaBayes for the Bayes-net implementation. (me010)</Item>
+            <Item>Consider building a separate data structure for instances with their types and EVA vectors for easier access and manipulation. (me010, me012)</Item>
+            <Item>Before next week, push for more understanding on the work Dekai Wu did regarding the Evidence-Combining function.</Item>
+            <Item>Make a couple more copies of the Heckerman paper to distribute to individuals.</Item>
+            <Item>Think through the process of getting EVA vectors dynamically out of ontologies again.</Item>
+            <Item>Schedule a discussion between individuals to clarify understanding on EVA vectors from ontologies.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Arrange a meeting with Jane, Liz, and others on Friday afternoon to work on drafting the script.</Item>
+            <Item>Begin data collection on the social infrastructures for possible subjects, such as children's gymnastic classes and pre-school parents.</Item>
+            <Item>Create a mechanism to store the EVA vectors for different object types in the ontology or in a separate data structure.</Item>
+            <Item>Investigate the compatibility of JavaBayes classes with the required combination functions and determine if custom code needs to be developed.</Item>
+            <Item>Explore the feasibility of interfacing with JavaBayes classes to implement the required functionalities.</Item>
+            <Item>Further discuss and brainstorm the use of Noisy-OR or similar functions in the Bayes-nets for efficient probability calculations.</Item>
+            <Item>Review the ontology structure and ensure that the EVA vectors are properly associated with object types.</Item>
+            <Item>Coordinate with the ontology team to integrate instance-based information into the ontology structure.</Item>
+            <Item>Develop a plan to handle instances and their corresponding EVA vectors in a separate data structure if needed.</Item>
+            <Item>Investigate the JavaBayes classes and protocols to understand the compatibility for integrating custom code.</Item>
+            <Item>Explore the possibility of adapting the JavaBayes classes to accommodate the required functionalities for the project.</Item>
+            <Item>Srini to be contacted regarding combining functions in JavaBayes.</Item>
+            <Item>Before next week, push further on understanding the work done by Dekai Wu.</Item>
+            <Item>Make additional copies of the Heckerman paper for distribution.</Item>
+            <Item>Consider discussing dynamic extraction of EVA vectors from ontologies with another team member.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Arrange a meeting with Jane, Liz, and others on Friday afternoon to work on drafting the script.</Item>
+            <Item>Begin recruiting subjects in parallel with starting to run subjects next week.</Item>
+            <Item>Fey and Robert to check social infrastructures for possible subjects outside of the student population.</Item>
+            <Item>Fey to draft a note for the "write-up" note and send it to Robert and Jane.</Item>
+            <Item>Include Jane in the review of the note.</Item>
+            <Item>Consider using Berkeley High School and their teachers as possible subjects.</Item>
+            <Item>Begin data collection for the Munich project.</Item>
+            <Item>Explore the technical sides of the parser project.</Item>
+            <Item>Investigate the support for deterministic functions in JavaBayes.</Item>
+            <Item>Explore the possibility of storing EVA vectors in the ontology for different object types.</Item>
+            <Item>Consider building a separate data structure for instances and their types if needed for the ontology integration.</Item>
+            <Item>Investigate the possibility of interfacing with JavaBayes classes to implement custom functions.</Item>
+            <Item>Before next week, push for more understanding on the work that Dekai Wu did.</Item>
+            <Item>Make a couple more copies of the Heckerman paper to distribute.</Item>
+            <Item>Think through the process of getting EVA vectors dynamically out of ontologies.</Item>
+            <Item>Schedule a discussion between two individuals regarding EVA vectors and ontologies.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed006.txt">
+        <Iteration Number="0">
+            <Item>Fey to provide XML examples for a run-through of the data structure in the next meeting.</Item>
+            <Item>Team to continue discussing and refining the structure to ensure clarity and effectiveness.</Item>
+            <Item>Bhaskara to transcribe the audio recording for the meeting.</Item>
+            <Item>Bhaskara to provide at least two examples of transcript data for further analysis.</Item>
+            <Item>Participants to attend the meeting on Friday at 3:00 PM for the parser show.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Fey to provide XML examples for the next meeting to demonstrate how the structure translates and functions.</Item>
+            <Item>Fey to flesh out the examples to show which modules are communicating using the structure.</Item>
+            <Item>Fey to consider revising the structure to make it more intuitive and user-friendly.</Item>
+            <Item>Fey to explore the possibility of incorporating more intention-oriented specifications alongside the current schema approach.</Item>
+            <Item>Fey to discuss the approach with the team to gather opinions and feedback on the proposed changes.</Item>
+            <Item>Bhaskara to transcribe the audio for the meeting discussion.</Item>
+            <Item>Fe004 to provide two examples of sample data for reference.</Item>
+            <Item>Mn015 to reschedule the meeting for Friday at 3:00 PM.</Item>
+            <Item>Mn015 to ensure Jerry can participate in the discussion on Friday.</Item>
+            <Item>Mn015 to provide a detailed example with a binding point for Johno and Fe004.</Item>
+            <Item>Mn015 and Fe004 to explore the separation between intention and action parts in the system.</Item>
+            <Item>Mn015 and Fe004 to consider refining the system to focus on the essential cognitive process of binding.</Item>
+            <Item>Mn015 to transcribe the previous meeting discussions for Fe004's reference.</Item>
+            <Item>Mn015 to consider the potential redundancy in the system and evaluate the necessity of certain information.</Item>
+            <Item>Mn015 to assess the domain object's content for relevance to the system's objectives.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Flesh out N XML examples for next time.</Item>
+            <Item>Have a run-through to see how the examples translate and come together.</Item>
+            <Item>Consider reevaluating the structure and potentially redoing it after some iterations.</Item>
+            <Item>Provide examples of which modules are using the data structure and what it's for.</Item>
+            <Item>Play around with the structure to see how it can be optimized.</Item>
+            <Item>Ensure that the principal distinction between pure schemas and their instantiations, along with more intention-oriented specifications, is workable.</Item>
+            <Item>Bhaskara to transcribe the audio from the previous meeting.</Item>
+            <Item>Bhaskara to provide two examples of sample data for analysis.</Item>
+            <Item>Bhaskara to make the meeting time rescheduling a priority and confirm the new time for Friday.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed008.txt">
+        <Iteration Number="0">
+            <Item>Create a node for the hidden variable H to determine the reliability of experts in making decisions.</Item>
+            <Item>Implement a mixture of experts approach to weight the inputs from different experts based on the situation.</Item>
+            <Item>Consider using different weights for experts in different situations to reflect varying reliability.</Item>
+            <Item>Explore the possibility of learning the weights and expert selection based on data.</Item>
+            <Item>Ensure the architecture supports flexibility in handling different situations and expert reliability.</Item>
+            <Item>Determine how to have data about endpoint sub-E and endpoint sub-S.</Item>
+            <Item>Bring up the function properties to explore sorting capabilities.</Item>
+            <Item>Write up little things to allow the creation of CPU's in Java base format.</Item>
+            <Item>Confirm if data will be available soon regarding interactions with the system and the questions being asked.</Item>
+            <Item>Identify which fifty constructions to focus on based on what people are using.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Determine the weighting system for each expert in the mixture of experts model.</Item>
+            <Item>Consider the use of a hidden variable to determine the reliability of each expert in the mixture of experts model.</Item>
+            <Item>Explore the possibility of using a discrete number of situations to guide the weighting system in the mixture of experts model.</Item>
+            <Item>Investigate the potential for external inputs to influence the decision-making process in the mixture of experts model.</Item>
+            <Item>Discuss the method of training data collection for determining the situations in the hidden variable model.</Item>
+            <Item>Obtain data about endpoint sub-E and endpoint sub-S.</Item>
+            <Item>Bring up the function properties for further discussion.</Item>
+            <Item>Write up little things to allow the creation of CPUs in Java base format.</Item>
+            <Item>Confirm if there will be data soon from interactions with the system and specify the questions being asked.</Item>
+            <Item>Determine which fifty constructions to focus on based on what people are using.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Further discuss and determine the influence structure for decision nodes.</Item>
+            <Item>Decide on the types of belief nodes needed for the task.</Item>
+            <Item>Begin data collection for user interests and situation models.</Item>
+            <Item>Consider implementing a weighted combination of experts for decision-making.</Item>
+            <Item>Explore the possibility of using a hidden variable to determine the reliability of experts in different situations.</Item>
+            <Item>Investigate the potential use of a mixture of experts to assign different weights to experts based on the situation.</Item>
+            <Item>Explore the idea of training the network to adapt to different situations if sufficient data becomes available.</Item>
+            <Item>Determine the specific criteria for different situations and experts in the belief network.</Item>
+            <Item>Arrange for data collection on interactions with the system and determine the questions being asked.</Item>
+            <Item>Write up instructions for creating CPUs in Java-based format.</Item>
+            <Item>Consider narrowing down the task of analyzing constructions by focusing on specific ones based on usage.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed009.txt">
+        <Iteration Number="0">
+            <Item>Arrange a meeting with Michael Strube from FORWISS to discuss the chunk parser used for stem forms in German.</Item>
+            <Item>Investigate the possibility of integrating the chunk parser from FORWISS into the current system for German language processing.</Item>
+            <Item>Discuss with team members the potential implementation of syntactic analysis and segmentation in the parser for German language processing.</Item>
+            <Item>Consider the use of finite-state transducers for syntactic analysis in German language processing for speed and robustness.</Item>
+            <Item>Look into the Morphix system for stem forms and consider its integration into the current system for German language processing.</Item>
+            <Item>Explore the use of case matching and set processing for English language parsing.</Item>
+            <Item>Collaborate with Michael Strube and embassy on chunk parsing for potential synergy in language processing.</Item>
+            <Item>Plan a discussion on how to map from discourse to conceptual semantics for decision-making in the system.</Item>
+            <Item>Consider the use of deep conceptual schemas based on cognitive linguistics for semantic analysis and decision-making.</Item>
+            <Item>Discuss the integration of deep semantic analysis into the system architecture with a focus on goal-seeking and container concepts.</Item>
+            <Item>Evaluate the potential use of a belief-net to combine information from dialogue, ontology, and situational context for decision-making.</Item>
+            <Item>Follow up on the discussion about deep semantic modeling with Nancy Chang and explore the potential application in modeling children's learning processes.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Arrange a meeting with Michael Strube to discuss the chunk parser done by FORWISS.</Item>
+            <Item>Look into the currently ongoing discussion about the action plans and XMLification of state-transition networks for dialogues.</Item>
+            <Item>Set up a meeting with David to discuss the SmartKom recognizer.</Item>
+            <Item>Continue working on the parser interface with Ralf and David to get the parser interface working.</Item>
+            <Item>Set a date for a meeting to discuss SmartKom plans, potentially inviting Andreas and David.</Item>
+            <Item>Discuss the terminology change from "action planner" to "dialogue manager" with the team.</Item>
+            <Item>Investigate the possibility of using the chunk parser from FORWISS for the project.</Item>
+            <Item>Implement syntactic analysis and segmentation in the parsing process.</Item>
+            <Item>Explore the usage of Morphix for stem forms in the lexicon.</Item>
+            <Item>Discuss the integration of deep conceptual semantics with the team for a better understanding of the discourse.</Item>
+            <Item>Attend the talk by Nancy to learn more about deep semantic grammar and its applications.</Item>
+            <Item>Consider the integration of deep semantics with the belief-net for better decision-making in the project.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Arrange a meeting with Michael Strube from FORWISS to discuss the chunk parser used for stem forms in German.</Item>
+            <Item>Investigate the possibility of integrating syntactic analysis, such as finite-state transducers, into the template matcher for German language processing.</Item>
+            <Item>Discuss with Marcus Lerkult the potential changes in terminology, such as renaming the "action planner" to a more suitable term like "dialogue manager."</Item>
+            <Item>Consider the implementation of deep semantic analysis based on cognitive linguistics for the conceptual grammar in the project.</Item>
+            <Item>Explore the use of deep semantic analysis for wide coverage across various domains and potential applications.</Item>
+            <Item>Further research and discuss the application of deep semantic grammar in modeling children's language learning processes.</Item>
+            <Item>Develop a plan for mapping underspecified deep semantic constructions onto specific contexts using belief-nets to combine dialogue information, ontology, and situational data.</Item>
+            <Item>Follow up on the discussion about the belief-net model and its role in combining evidence from dialogue, ontology, and situational context.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bed010.txt">
+        <Iteration Number="0">
+            <Item>Johno and Robert to give a report on last week's adventures.</Item>
+            <Item>Johno to write a proposal with partially proposal and partially questions for the belief-net structure by next week.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Robert and Johno to give a report on last week's adventures.</Item>
+            <Item>Johno to write the tree adjoining grammar for some sentences.</Item>
+            <Item>Allison to begin data collection.</Item>
+            <Item>Keith to look into the Java applet for visualization.</Item>
+            <Item>Johno to send a pointer to a Java applet for visualization.</Item>
+            <Item>Keith to look into ontology API options.</Item>
+            <Item>Johno to provide input on the internal structure for the belief-net.</Item>
+            <Item>Keith to provide feedback on the technical aspects and issues related to constructions.</Item>
+            <Item>Ami to give a talk at EML or DFKI.</Item>
+            <Item>Johno and Ami to come up with a proposal and questions regarding the belief-net structure for the next meeting.</Item>
+            <Item>Keith to catch up with Ellen regarding the image schemas.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Robert and Johno to give a report on last week's adventures.</Item>
+            <Item>Nancy, Johno, and I to discuss parsers.</Item>
+            <Item>Robert to pick a piece of the space for his thesis.</Item>
+            <Item>Johno to provide a version 0.9 of the structure for the belief-net.</Item>
+            <Item>Ami to give a talk at EML or DFKI.</Item>
+            <Item>Ellen's progress on image schemas to be reviewed.</Item>
+            <Item>Ami and others to work on a reading group over the summer on relevant topics.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr001.txt">
+        <Iteration Number="0">
+            <Item>Clean up the equipment and make it easier to set up for recording.</Item>
+            <Item>Generate a single-channel merged sum data file for easier transcription.</Item>
+            <Item>Segment the recordings and perform initial recognition, especially for connected digits.</Item>
+            <Item>Continue the process of cleaning up the data and making it easier to work with.</Item>
+            <Item>Consider using an external transcription service and compare the speed, cost, and quality with internal transcription efforts.</Item>
+            <Item>Experiment with different methods of transcription, such as using near-field microphones for initial recognition.</Item>
+            <Item>Consider setting up more meetings with different groups for recording sessions, including the Meeting Recorder group, other AI meetings, and Decoder meetings.</Item>
+            <Item>Investigate the possibility of using Cyber Transcriber service for transcriptions.</Item>
+            <Item>Assess the need for additional disk space for storing recordings and transcripts.</Item>
+            <Item>Consider the logistics of setting up a sound card for sound output during meetings.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Continue the process of cleaning up the data and making it easier to manage.</Item>
+            <Item>Take the results of the meeting and put them in a decent form, possibly creating a single channel merged sum data for transcription.</Item>
+            <Item>Perform segmenting and initial recognition, focusing on separating out the numbers from the rest of the data.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Clean up the recordings and make it easier to access them.</Item>
+            <Item>Put the results of the meeting in a single channel merged sum data for transcription purposes.</Item>
+            <Item>Segment the recordings and do initial recognition for separating out the numbers.</Item>
+            <Item>Continue the process of getting the recordings in a decent form for transcription purposes.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr002.txt">
+        <Iteration Number="0">
+            <Item>Arrange a meeting with Amy next Friday.</Item>
+            <Item>Call Ben after the presentation.</Item>
+            <Item>Allison to begin data collection today.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Download the "Transcriber" tool and review it. (Adam and Jane)</Item>
+            <Item>Determine the recording schedule for meetings and aim to record at least one or two meetings per week. (Adam)</Item>
+            <Item>Consider rotating lapel microphones to different participants in future meetings. (Adam)</Item>
+            <Item>Investigate tools used by the Linguistic Data Consortium (LDC) for transcription. (Eric)</Item>
+            <Item>Explore the MATE and EAGLES projects for potential transcription tools. (Eric)</Item>
+            <Item>Collect queries about the meetings for future information retrieval purposes. (Adam)</Item>
+            <Item>Consider adding stress markers to word transcripts for potential information retrieval benefits. (Jane)</Item>
+            <Item>Investigate the MARSEC project for time-aligned spoken data. (Jane)</Item>
+            <Item>Experiment with combining channels for better transcription results. (Adam)</Item>
+            <Item>Explore the use of near-field microphones for better recognition accuracy. (Adam)</Item>
+            <Item>Investigate the use of the ST M format for transcription tools. (Adam)</Item>
+            <Item>Discuss the inclusion of stress and prosodic features in transcripts with Liz. (Adam)</Item>
+            <Item>Consider the benefits of including stressed words in transcripts for information retrieval. (Jane)</Item>
+            <Item>Begin transcribing meetings with a focus on word transcripts and speaker change identification. (Jane)</Item>
+            <Item>Consider training a neural net for recognition based on recorded data. (Adam)</Item>
+            <Item>Investigate the use of tools like Snack for audio support in transcription. (Adam)</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Arrange for regular recording of meetings, aiming for at least one or two meetings per week.</Item>
+            <Item>Download and evaluate the "Transcriber" tool, then consider other tools like the ones from Mississippi State if needed.</Item>
+            <Item>Begin transcribing the Speech group meetings first, then expand to other groups like Jerry's.</Item>
+            <Item>Consider combining channels for easier transcription, especially for capturing spatial information.</Item>
+            <Item>Start collecting queries for the meetings to aid in information retrieval.</Item>
+            <Item>Consider adding stress and intonation information to the word-level transcriptions for potential benefits in information retrieval.</Item>
+            <Item>Plan to record as many meetings as possible to gather data for training acoustic models.</Item>
+            <Item>Experiment with different microphone setups, including wired and wireless options.</Item>
+            <Item>Evaluate the recording schedule and adjust as needed to ensure sufficient data collection.</Item>
+            <Item>Explore additional tools and resources like the MATE project for further support in transcription and analysis.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr003.txt">
+        <Iteration Number="0">
+            <Item>Eric to arrange for the French software "Transcriber" to be used for transcription tasks.</Item>
+            <Item>Jane to continue transcribing the first meeting and experiment with different transcription conventions.</Item>
+            <Item>Eric to explore the possibility of incorporating a delay feature in the transcription tool.</Item>
+            <Item>Eric to investigate the potential use of foot pedals or analog input devices for transcription tasks.</Item>
+            <Item>Eric to consider testing the transcription conventions with a new batch of text.</Item>
+            <Item>Eric to reach out to the French software developers for any potential development involvement.</Item>
+            <Item>Eric to finalize the transcription conventions with minimal orthographic standards and provisions for colloquial forms.</Item>
+            <Item>Eric to handle non-standard pronunciations such as "gonna" or "wanna" within the transcription.</Item>
+            <Item>Eric to address backchannels or overlapping speech in the transcription process.</Item>
+            <Item>Jane to mark overlapping speech and backchannels in the transcription.</Item>
+            <Item>Jane to provide comments on speaker interactions and backchannels during the transcription process.</Item>
+            <Item>Eric to explore options for managing backchannels and overlapping speech in the transcription.</Item>
+            <Item>Eric to consider the use of overlapping speech markers for more complex speech interactions.</Item>
+            <Item>Eric to review the transcription process for instances of overlapping speech and backchannels.</Item>
+            <Item>Eric to address any issues related to speaker interactions and backchannels during transcription.</Item>
+            <Item>Eric to bring M and M's for the next meeting.</Item>
+            <Item>Jim to build a cabinet for organizing equipment.</Item>
+            <Item>Dan to investigate compatibility of his laptop with wireless LAN.</Item>
+            <Item>Dan to consider designing a control panel for monitoring VU meters.</Item>
+            <Item>Eric to remember to pause between lines during the digit reading exercise.</Item>
+            <Item>Eric to randomize the order of numbers during the digit reading exercise.</Item>
+            <Item>Jim to ask ACIRI about borrowing a compatible machine for wireless LAN use.</Item>
+            <Item>Jim to consider building a cabinet that opens up at the top for equipment access.</Item>
+            <Item>Dan to explore the possibility of setting up a user interface with a laptop and wireless modem.</Item>
+            <Item>Dan to investigate the possibility of using a PC card for wireless LAN connectivity.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Jane to contact Liz to discuss any transcription issues related to discourse.</Item>
+            <Item>Eric to arrange for the Corpus of Spoken American English to be received for comparison.</Item>
+            <Item>Jane to continue transcribing the first meeting as a pilot study.</Item>
+            <Item>Eric to investigate the possibility of using speech recognition software to aid in transcription.</Item>
+            <Item>Jane to explore the option of hiring linguistics grad students for transcription work.</Item>
+            <Item>Eric to experiment with re-transcribing a portion of the meeting using perfect boundary detection.</Item>
+            <Item>Eric to further develop the transcription conventions and incorporate any improvements suggested by others.</Item>
+            <Item>Eric to continue transcribing and refining the conventions for the transcription process.</Item>
+            <Item>Eric to investigate the possibility of incorporating analog input options for easier transcription control.</Item>
+            <Item>Jane to review the transcription conventions and provide feedback for further refinement.</Item>
+            <Item>Eric to give some thought to designing cabinets for the equipment.</Item>
+            <Item>Jane to consider building a web site to document the meeting transcriptions and conventions.</Item>
+            <Item>Dan to investigate the compatibility of his laptop with a wireless PC card for monitoring purposes.</Item>
+            <Item>Jane to look into the possibility of using a laptop with a wireless connection for monitoring VU meters.</Item>
+            <Item>Dan to consider building a cabinet that opens up to allow access to the mixer for easy use.</Item>
+            <Item>Jane to bring M&amp;M's for the next meeting as an incentive for repeating digits accurately.</Item>
+            <Item>Eric to explore the option of having participants repeat known numbers instead of generating new ones for transcription practice.</Item>
+            <Item>Dan to investigate the possibility of using a laptop with a wireless connection for monitoring purposes.</Item>
+            <Item>Jane to consider the option of trading a flat panel display for a wireless card for monitoring purposes.</Item>
+            <Item>Eric and Jane to discuss the arrangement of the equipment to ensure a more presentable and organized setup.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Jane to talk to Liz about any transcription issues related to discourse that need to be marked.</Item>
+            <Item>Eric to contact the Corpus of Spoken American English from Santa Barbara to obtain a copy for comparison.</Item>
+            <Item>Eric to arrange for the next segment of text to be transcribed using the proposed transcription conventions for evaluation.</Item>
+            <Item>Eric to explore the feasibility of using graduate students for transcription work and determine the going rate for compensation.</Item>
+            <Item>Eric to continue transcribing the first meeting and incorporate the proposed transcription conventions, including non-standard orthographic forms.</Item>
+            <Item>Eric to experiment with different ways of marking backchannels and overlapping speech in the transcription.</Item>
+            <Item>Eric to investigate the possibility of incorporating analog input features for more efficient transcription.</Item>
+            <Item>Eric to reach out to the French group behind the Transcriber tool to discuss potential developments and improvements, such as multi-channel support and interface enhancements.</Item>
+            <Item>Eric to further evaluate the Transcriber tool's capabilities and explore the potential for future development and customization to enhance the transcription process.</Item>
+            <Item>Eric to consider the use of foot pedals or other analog input devices to streamline the transcription process.</Item>
+            <Item>Eric to collaborate with the French group to explore potential enhancements to the Transcriber tool, such as the ability to pause at segment boundaries and other user-friendly features.</Item>
+            <Item>Eric to continue transcribing the meeting with a focus on accurately marking speaker changes and non-standard speech forms.</Item>
+            <Item>Eric to review and refine the transcription conventions for</Item>
+            <Item>Jim to begin designing and building cabinets for organizing the equipment.</Item>
+            <Item>Jane to explore the compatibility of her laptop with the wireless LAN system for monitoring.</Item>
+            <Item>Eric to investigate the availability of a laptop with a PC card slot for wireless access.</Item>
+            <Item>Dan to consider the incentive for repeating digits at the end of the meeting.</Item>
+            <Item>Eric to verify the transcript for any errors or omissions.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr005.txt">
+        <Iteration Number="0">
+            <Item>Andreas to begin data collection today.</Item>
+            <Item>Adam to work on a program for automatic transcription of digits.</Item>
+            <Item>Andreas to compare his temporal marks with Jane's transcription for accuracy.</Item>
+            <Item>Andreas to consider using speaker overlaps only to speed up marking.</Item>
+            <Item>Don to work on echo cancellation for the digits data.</Item>
+            <Item>Don to finalize a revised consent form for participants to sign once every ten meetings.</Item>
+            <Item>Early next week, send the ten hours of data to IBM for transcription.</Item>
+            <Item>Check with Mari to confirm if they are duplicating the data collection efforts.</Item>
+            <Item>Investigate the possibility of recording additional meetings at ICSI, especially those with more emotional aspects or conflicts.</Item>
+            <Item>Explore the option of contacting acquaintances in local broadcast media to record multi-channel data for research purposes.</Item>
+            <Item>Look into the potential of inviting radio shows to record some of their shows at the research facility.</Item>
+            <Item>Consider the idea of holding additional meetings or discussions to gather more data, possibly offering incentives like catering lunch.</Item>
+            <Item>Investigate the feasibility of recording political discussions or debates with human subjects for data collection.</Item>
+            <Item>Follow up on the possibility of recording new radio shows with an additional distant microphone channel for research purposes.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Begin experimenting with different measures such as energy increase and LPC residuals to detect speaker overlaps.</Item>
+            <Item>Start by marking only speaker overlaps in the transcription to speed up the process.</Item>
+            <Item>Implement a program for digit transcription and extraction of sections of each utterance.</Item>
+            <Item>Consider using block echo cancellation to reduce the effects of far-field acoustics.</Item>
+            <Item>Explore the possibility of performing echo cancellation on digit recordings to improve signal clarity.</Item>
+            <Item>Investigate the feasibility of using echo cancellation for noise reduction and reverberation in meeting recordings.</Item>
+            <Item>Develop a plan for updating the consent forms for participants to sign once every ten meetings.</Item>
+            <Item>Adam to send the ten hours of data to IBM early next week.</Item>
+            <Item>Adam to follow up with IBM to check on the progress of the data processing.</Item>
+            <Item>Explore the possibility of inviting friends in broadcast media to record multi-channel data.</Item>
+            <Item>Investigate the potential of inviting radio shows to record some of their shows at the research facility.</Item>
+            <Item>Consider holding additional meetings at ICSI for data collection purposes.</Item>
+            <Item>Check with Mari about duplicating the data collection efforts to double the amount of data.</Item>
+            <Item>Investigate the potential of recording meetings with subjects from the campus or building for data collection.</Item>
+            <Item>Look into the possibility of recording new radio shows with an extra channel for distant mike recording.</Item>
+            <Item>Monitor disk space usage and plan for data storage management to avoid running out of space.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Jose to focus on marking speaker overlaps only to speed up the transcription process.</Item>
+            <Item>Adam to continue working on the program for automatic transcription of digits and adapt it for Meeting Recorder use.</Item>
+            <Item>Consider having someone work on echo cancellation for the far-field microphone data to improve audio quality.</Item>
+            <Item>Look into using Brian Kingsbury's work as an example of a flexible approach for dealing with reverberation and noise in the audio data.</Item>
+            <Item>Update the consent forms to reflect a once-every-ten-meetings requirement for signing.</Item>
+            <Item>Arrange to send the ten hours of data to IBM early next week.</Item>
+            <Item>Check with IBM about the timing for transcribing the data.</Item>
+            <Item>Investigate the possibility of collaborating with local broadcast media to record multi-channel data.</Item>
+            <Item>Explore the option of inviting radio shows to record some of their shows at the facility.</Item>
+            <Item>Discuss the possibility of recording additional meetings at ICSI, potentially offering incentives like catered lunches.</Item>
+            <Item>Look into the potential of recording political discussions or other relevant topics with subjects from campus or within the building.</Item>
+            <Item>Consider reaching out to contacts in radio to explore the idea of recording additional channels, such as a distant microphone, during their shows.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr006.txt">
+        <Iteration Number="0">
+            <Item>Mark all overlapping zones in the meeting recording with exact time marks.</Item>
+            <Item>Move Aurora data and other data off the Meeting Recorder disk onto the Broadcast News disk.</Item>
+            <Item>Conduct a sensitivity analysis to understand the importance of different features in the neural network classifier.</Item>
+            <Item>Start by visualizing data in two dimensions to see how the classes separate out before building more complex classifiers.</Item>
+            <Item>Consider using a decision tree or simpler classifier to gain insight into the data before using more complex algorithms like neural networks.</Item>
+            <Item>Focus on detecting acoustic changes and overlaps as the first step in the project.</Item>
+            <Item>Use BIC criterion to detect changes accurately and build robust models for classifying different zones.</Item>
+            <Item>Consider using a neural network with selected parameters obtained from the study to classify different zones.</Item>
+            <Item>Arrange a meeting with Amy next Friday</Item>
+            <Item>Call Ben after the presentation</Item>
+            <Item>Allison to begin data collection today</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Jose to conduct a study to detect overlapping zones in the meeting recordings and mark them accurately.</Item>
+            <Item>Jose to analyze a subset of features, such as pitch and energy in the residual, to understand separation of zones before building classifiers.</Item>
+            <Item>Jose to visualize and analyze the data in two dimensions, looking at scatter plots to observe separation of classes.</Item>
+            <Item>Jose to consider temporal properties and potentially use a Markov model to capture the structure of zones over time.</Item>
+            <Item>Jose to simplify the features used for initial classification to gain insight into the data.</Item>
+            <Item>Jose to consider the transition from silence to overlap as an informative area and potentially use it for classification.</Item>
+            <Item>Jose to build models for accurately detecting acoustic changes and classifying different zones before attempting transcription with a speech recognizer.</Item>
+            <Item>Jose to use a neural network with selected parameters obtained from the study to classify different zones in the recordings.</Item>
+            <Item>Jose to focus on building a model to accurately detect overlapping zones as the first step in the project.</Item>
+            <Item>Jane to organize agenda items before meetings based on input from team members.</Item>
+            <Item>Jane to present results on overlaps in the next meeting.</Item>
+            <Item>Further discussion needed on how to anonymize data for future publications and public release.</Item>
+            <Item>Consider the implications of anonymizing data on discourse analysis and audio tracking.</Item>
+            <Item>Jane to introduce the Reservoir Dogs solution for anonymizing speaker identities.</Item>
+            <Item>Further discussion needed on the implications of anonymizing data for discourse analysis and audio tracking.</Item>
+            <Item>Consider different options for anonymizing speaker identities in transcripts.</Item>
+            <Item>Further discussion needed on how to handle speaker identities in transcripts for discourse analysis.</Item>
+            <Item>Consider different release versions for data, one for public use and one for licensed use.</Item>
+            <Item>Consider implications of anonymizing data on discourse analysis and audio tracking.</Item>
+            <Item>Further discussion needed on how to handle speaker identities in transcripts for discourse analysis.</Item>
+            <Item>Consider different options for anonymizing speaker identities in transcripts.</Item>
+            <Item>Consider the impact of anonymizing data on discourse analysis and audio tracking.</Item>
+            <Item>Further discussion needed on how to handle speaker identities in transcripts for discourse analysis.</Item>
+            <Item>Consider different options for anonymizing speaker identities in transcripts.</Item>
+            <Item>Further discussion needed on how to handle speaker identities in transcripts for discourse analysis.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Develop a method to detect overlapping zones in the meeting recordings.</Item>
+            <Item>Consider using the Ike criterion or BIC criterion to detect acoustic changes in the zones.</Item>
+            <Item>Experiment with different feature structures and models to classify the zones accurately.</Item>
+            <Item>Start with a simpler set of features for visualization and analysis before implementing complex classifiers.</Item>
+            <Item>Explore the temporal properties of the data by looking at transitions from silence to overlap or speech.</Item>
+            <Item>Use sensitivity analyses to understand the importance of different inputs in the classifier.</Item>
+            <Item>Consider the use of neural networks or other classifiers to process and classify the overlapping zones.</Item>
+            <Item>Build models to accurately detect acoustic changes and classify the zones before transcription.</Item>
+            <Item>Test and validate the models using selected parameters and features obtained from the study.</Item>
+            <Item>Focus on detecting and classifying overlapping speech zones as a primary objective in the acoustic analysis of the meeting recordings.</Item>
+            <Item>Jane to organize agenda items for future meetings based on input from team members.</Item>
+            <Item>Jane to present the results on overlaps in the next meeting.</Item>
+            <Item>Discussion on anonymization of data to be postponed for further consideration in the next meeting.</Item>
+            <Item>Jane to include consistent licensing policy for data distribution in future discussions.</Item>
+            <Item>Consider implementing a solution for discourse analysis that maintains speaker identity for tracking purposes.</Item>
+            <Item>Further exploration of options for anonymization and preservation of discourse analysis integrity to be discussed in future meetings.</Item>
+            <Item>Consider the implications of anonymization on discourse analysis and determine a suitable approach for maintaining speaker identification.</Item>
+            <Item>Explore the possibility of having different versions of data release for public and licensed use to address anonymity concerns.</Item>
+            <Item>Continue discussion on discourse analysis methods and potential solutions for maintaining speaker identity in the data.</Item>
+            <Item>Consider innovative approaches to data analysis, such as reverse speech recognition, for future research discussions.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr007.txt">
+        <Iteration Number="0">
+            <Item>Arrange for a picture to be taken at the beginning of each meeting.</Item>
+            <Item>Consider recording two-person meetings to gather more data on overlaps.</Item>
+            <Item>Implement a model for speaker change detection that takes into account both far-field and close-talking microphones.</Item>
+            <Item>Explore the possibility of using energy measures from different microphones to detect speaker overlaps.</Item>
+            <Item>Experiment with using thresholds and energy levels to detect overlapping zones in speech files.</Item>
+            <Item>Send Thilo a sentence that is well thought through about the work done for supporting digits.</Item>
+            <Item>Work on subdividing the backchannels and aim to have that for the next meeting.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Adam to finalize the algorithm for speaker change detection using the close-talking microphone.</Item>
+            <Item>Adam to experiment with using the thresholding method for generating candidates for acoustic change detection.</Item>
+            <Item>Adam to consider using energy levels and other simple measures to detect speaker changes in the meeting recordings.</Item>
+            <Item>Andreas to explore a model for speaker change detection that takes into account all microphones in the room.</Item>
+            <Item>Consider recording two-person meetings to gather more data on overlaps and speaker changes.</Item>
+            <Item>Jane to implement a method to mark seat numbers on chairs for better spatial tracking in the meetings.</Item>
+            <Item>Jane to consider using a video recording for additional cues on speaker behavior and posture.</Item>
+            <Item>Jane to explore the use of energy levels and other simple measures for detecting speaker changes in the recordings.</Item>
+            <Item>Adam to continue refining the algorithm for speaker change detection using the close-talking microphone.</Item>
+            <Item>Consider implementing a method for detecting overlaps based on energy levels and other parameters in the meeting recordings.</Item>
+            <Item>Adam to set up the mikes before trying blindfolds.</Item>
+            <Item>Jane and Thilo to provide corrections or suggestions for improving the list of highlights from the last three months.</Item>
+            <Item>Thilo to send a detailed sentence about the work done to support digits.</Item>
+            <Item>Thilo to explain the concept of audio pixelization to the team.</Item>
+            <Item>Team to provide thoughts for the agenda for the next meeting.</Item>
+            <Item>Thilo to subdivide the backchannels further and provide an update for the next meeting.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Jane to discuss her research issues.</Item>
+            <Item>Allison to begin data collection using the close-talking microphone.</Item>
+            <Item>Adam to adjust the thresholds and filter parameters for the close-talking microphone to improve accuracy.</Item>
+            <Item>Adam to explore using the close-talking microphone to generate candidates for acoustic change detection.</Item>
+            <Item>Adam to consider using energy measures comparing different microphones to detect overlapping zones.</Item>
+            <Item>Andreas to explore building a model of speaker change detection considering all speakers in the meeting.</Item>
+            <Item>Andreas to consider a more general approach for acoustic change detection using a BIC criterion.</Item>
+            <Item>Jane to consider using simple energy measures comparing different microphones to detect overlapping zones.</Item>
+            <Item>All members to consider wearing bells on their heads for nodding during meetings.</Item>
+            <Item>Consider setting up blinds or barriers to remove visual contact during phone conference calls for studying overlap without visual cues.</Item>
+            <Item>Consider trying a meeting or two with blindfolds, at least for part of the meeting, to have recordings of it.</Item>
+            <Item>Wait until after Adam has set up the microphones before proceeding with the blindfolds.</Item>
+            <Item>Work on the human subjects form.</Item>
+            <Item>Provide broader input on the list of highlights from the last three months of work.</Item>
+            <Item>Send a sentence that is well thought out regarding the work done to support digits.</Item>
+            <Item>Provide corrections or suggestions for improving the preliminary analysis of overlaps and long-distance inferences.</Item>
+            <Item>Send thoughts for an agenda for the next meeting.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr008.txt">
+        <Iteration Number="0">
+            <Item>Modify the speaker form to have a single speaker form that includes a section for Name, Sex, Email or Other Contact Information, Education Level (Undergrad, Grad, Post-PHD, Professor, Other), and Optional Age.</Item>
+            <Item>Consider changing "Post-doc" to "Post-PHD Researcher" on the speaker form for clarity.</Item>
+            <Item>Include a question on the speaker form for native English speakers to specify their variety of English and region based on TIMIT categories.</Item>
+            <Item>For non-native English speakers on the speaker form, include questions for native language, region, and variety of English.</Item>
+            <Item>Add a question on the speaker form for non-native English speakers asking how long they have been in an English-speaking country.</Item>
+            <Item>Consider adding a question on the modified digits form for Time, Date, Seat, Session, Mike number, Channel, and Mike type.</Item>
+            <Item>Consider adding a section on the modified digits form for meeting-specific details such as relationships between participants or specific dynamics observed during the meeting.</Item>
+            <Item>Evaluate the need for an additional form or section to record meeting-specific dynamics or relationships observed during meetings.</Item>
+            <Item>Ensure that any additional information recorded about relationships or dynamics during meetings is relevant and structured to facilitate analysis.</Item>
+            <Item>Jose to send an email to inquire if McCoond received the CD-ROMs.</Item>
+            <Item>Jose to work on pitch tracking and normalization for frame energy and residual LPC energy.</Item>
+            <Item>Liz to experiment with normalization based on voiced sections for energy analysis.</Item>
+            <Item>Liz to consider harmonics and voiced regions for more informative analysis of overlaps.</Item>
+            <Item>Liz to explore the length of time window for normalization in different contexts of overlapping zones.</Item>
+            <Item>Liz to investigate the bug related to Fseek function in C for handling large files.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Modify the speaker form to include a single speaker form that can be filled out once, with information such as Name, Sex, Email or Other Contact Information, and Education Level categories.</Item>
+            <Item>Consider adding a category for "Position" on the speaker form to allow individuals to specify their position or role.</Item>
+            <Item>Update the Education Level categories on the speaker form to include options like Undergrad, Grad, Post-PHD Researcher, Professor, and Other as suggested.</Item>
+            <Item>Consider adding a question on the speaker form about the likelihood of being challenged during a talk for additional insights.</Item>
+            <Item>Review the categories on the speaker form for native English speakers to include more specific options like "Post-PHD Researcher" instead of "Post-doc."</Item>
+            <Item>Include an option for "Other Language Influences" on the speaker form for individuals to list any additional language influences or bilingual dialects.</Item>
+            <Item>Consider adding a question on the speaker form about the region where individuals grew up to gather more information about their background.</Item>
+            <Item>Evaluate the necessity of including the optional field for Age on the speaker form and decide whether to keep it or remove it.</Item>
+            <Item>Discuss the possibility of adding a question about proficiency in English on the speaker form and decide on the best way to assess this information.</Item>
+            <Item>Consider including a question on the speaker form about the duration individuals have lived in an English-speaking country to gauge their exposure to English.</Item>
+            <Item>Review the modified digits form to ensure it includes necessary fields like</Item>
+            <Item>Jose to send an email to inquire if the CD-ROMs were received by IBM.</Item>
+            <Item>Jose to work on the pitch detector algorithm.</Item>
+            <Item>Jose to experiment with different normalizations for frame energy and residual LPC energy.</Item>
+            <Item>Jose to consider normalizing based on voiced sections for equalizing energy.</Item>
+            <Item>Jose to explore the length of time to look over for normalization in different contexts.</Item>
+            <Item>Jose to investigate the bug related to the Fseek function in C and address any typecasting issues.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Add a single speaker form that can be filled out once and linked to the digits form for easier reference.</Item>
+            <Item>Consider changing the "Post-doc" category to "PHD" or "Post-PHD Researcher" to accommodate different education levels.</Item>
+            <Item>Include an optional field for age on the speaker form for potential research purposes.</Item>
+            <Item>Discuss the use of TIMIT regions for categorizing American English accents on the speaker form.</Item>
+            <Item>Consider adding a question about how long non-native English speakers have been in an English-speaking country for language proficiency assessment.</Item>
+            <Item>Implement a meeting-specific form to record relationships and dynamics observed during meetings for future reference.</Item>
+            <Item>Evaluate the necessity of collecting email addresses on the modified digits form.</Item>
+            <Item>Consider incorporating a question about comfort level in English-speaking meetings on the non-native English speaker form.</Item>
+            <Item>Review the information to be recorded on the meeting-specific form to ensure relevance and usefulness.</Item>
+            <Item>Keep the meeting-specific form open-ended but consider some structured fields for common types of relationships observed.</Item>
+            <Item>Jose to send an email to verify if the CD-ROMs were received by IBM and follow up on the progress.</Item>
+            <Item>Jose to work on pitch tracking and testing different normalizations for frame energy and residual LPC energy.</Item>
+            <Item>Jose to experiment with normalization techniques based on voiced regions for better accuracy in detecting overlaps.</Item>
+            <Item>Liz suggested Jose to look into harmonics for differentiating speakers in voiced regions during overlaps.</Item>
+            <Item>Jose to consider different contexts and situations when determining the window length for normalization.</Item>
+            <Item>Jose to address the bug related to Fseek function in C by reviewing typecasting and file positioning for long files.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr009.txt">
+        <Iteration Number="0">
+            <Item>Consider simplifying the options for English variety in the forms.</Item>
+            <Item>Update the Region field in the forms to be more user-friendly and accurate.</Item>
+            <Item>Add a question asking participants to characterize their accent in addition to the region they are from.</Item>
+            <Item>Consider adding a map for participants to mark their region.</Item>
+            <Item>Review and revise the options for English variety in the forms based on the discussions about the different regions.</Item>
+            <Item>Include an option for participants to characterize their accent if they are unsure of their region.</Item>
+            <Item>Clarify the instructions in the forms to ensure participants understand the questions being asked.</Item>
+            <Item>Implement the suggestion to have an open field for "Region, open paren, EG Southern comma Western comma close paren colon."</Item>
+            <Item>Consider adding another open field for "which one parenthesis S paren- closed parenthesis" for time spent in English-speaking countries.</Item>
+            <Item>Evaluate the functionality of Dan's multiwave feature and discuss the need for any further modifications.</Item>
+            <Item>Discuss the possibility of developing a display feature for uni-dimensional features instead of the whole wave form.</Item>
+            <Item>Explore the option of writing widgets in C for faster display performance if needed.</Item>
+            <Item>Consider coding a feature for fast display that could potentially be incorporated into the central code.</Item>
+            <Item>Proceed with the digits task.</Item>
+            <Item>Continue the discussion on the new topic after completing the digits task.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Consider revising the form to ask subjects to characterize their accent rather than specify a region.</Item>
+            <Item>Remove the "Northern" region option and replace it with "Other" for subjects who are unsure.</Item>
+            <Item>Consider including a map for subjects to mark their region of origin.</Item>
+            <Item>Modify the form to ask subjects to characterize their accent if they are unsure of their region.</Item>
+            <Item>Review and potentially simplify the region options to make them more understandable and applicable to a wider range of subjects.</Item>
+            <Item>Consider adding an "Other" option for subjects who do not fit into the specified region categories.</Item>
+            <Item>Clarify the instructions on the form to ensure subjects understand the purpose of specifying their accent or region.</Item>
+            <Item>Update the form to improve clarity and ease of completion for both subjects and analysts.</Item>
+            <Item>Arrange a meeting to discuss the multitrans email.</Item>
+            <Item>Evaluate the functionality of displaying multiple waveforms.</Item>
+            <Item>Discuss the possibility of incorporating the multiwave feature into the central code.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Remove "Northern" and consider adding "Don't know" as an option for English variety region.</Item>
+            <Item>Consider asking participants to characterize their accent in addition to selecting a region.</Item>
+            <Item>Add a map for participants to mark their region if unsure.</Item>
+            <Item>Change "North Midland" to "North Midwest" and "South Midland" to "South Midwest" for clarity.</Item>
+            <Item>Consider combining "Western" and "Northwest" into one category.</Item>
+            <Item>Update the "English variety region" field to be more user-friendly and understandable.</Item>
+            <Item>Keep the "Other" option for participants to specify their region if not listed.</Item>
+            <Item>Simplify the list of regions to make it more manageable for participants to select.</Item>
+            <Item>Consider asking participants to characterize their accent instead of selecting a region.</Item>
+            <Item>Ensure clarity in the choices provided for the English variety region.</Item>
+            <Item>fe008 to add an open field for "which one (S)" in the section for time spent in English-speaking countries. </Item>
+            <Item>fe016 to discuss the possibility of displaying uni-dimensional features instead of the whole waveform with me011. </Item>
+            <Item>fe016 to read the digits before leaving the meeting. </Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bmr010.txt">
+        <Iteration Number="0">
+            <Item>Thilo to provide an update on the transcription effort and raise the issue of microphone procedures.</Item>
+            <Item>Thilo to begin a fast experiment to prove the effectiveness of general features in solving the overlap problem.</Item>
+            <Item>Thilo to show Andreas the speech segmenter program.</Item>
+            <Item>Andreas to look into Javier's speech segmenter program to see if it can represent overlap cases.</Item>
+            <Item>Consider having multiple transcribers work on a few meetings to assess inter-annotator agreement.</Item>
+            <Item>Thilo to continue working on the pitch tracker and provide results next week.</Item>
+            <Item>Thilo to explore the possibility of a new class in speech segmentation to differentiate between single-person speech and overlapping speech.</Item>
+            <Item>Thilo to consider adding a third category for multiple-person speech in the segmentation model.</Item>
+            <Item>Thilo to investigate the potential of using Markov models for each speech category.</Item>
+            <Item>Arrange a meeting to discuss the transition between different classes in the system.</Item>
+            <Item>Explore the space and understand the features for the new project.</Item>
+            <Item>Investigate the energy issue and experiment with different factors.</Item>
+            <Item>Consider pitch-related and harmonic-related aspects for the project.</Item>
+            <Item>Explore the possibility of using Javier's software for training and clustering processes.</Item>
+            <Item>Conduct a fast experiment with hand segmentation to distinguish between overlapping and speaker zones.</Item>
+            <Item>Verify the effectiveness of the hand-segmentation by feeding it into Javier's software.</Item>
+            <Item>Discuss and experiment with emphasizing parameters and Gaussian distributions for the project.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Thilo to provide an update on the transcription effort and raise the issue of microphone procedures.</Item>
+            <Item>Thilo to discuss the results of the study on different energy parameters and pitch tracking in the next meeting.</Item>
+            <Item>Thilo to consider the suggestion of using general features for modeling overlaps and to experiment with different approaches to solve the problem.</Item>
+            <Item>Thilo to explore Javier's speech segmenter program to determine if it can be used to detect overlaps.</Item>
+            <Item>Thilo to investigate the possibility of adding a third category for multiple-person speech in the Markov models.</Item>
+            <Item>Thilo to present the findings on the energy distribution and pitch tracking in the upcoming meeting.</Item>
+            <Item>Arrange a demonstration of segmentation by hand to determine the effectiveness of distinguishing between overlapping and speaker zones.</Item>
+            <Item>Investigate the possibility of using Javier's software for training Gaussian models to differentiate between overlapping and speech zones.</Item>
+            <Item>Consider exploring Markov models and expanding on Javier's work to incorporate statistical components.</Item>
+            <Item>Begin experimenting with pitch-related and harmonic-related features to enhance the system's performance.</Item>
+            <Item>Determine the effectiveness of the classifier from Javier in separating overlapping and speaker zones.</Item>
+            <Item>Collaborate on exploring the clustering process in the second step of the classification.</Item>
+            <Item>Verify the compatibility and efficiency of the segmentation by hand method for obtaining information about overlapping zones.</Item>
+            <Item>Seek assistance if needed in using Javier's software for further experimentation.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Thilo to work on a fast experiment to prove that general features can solve the problem of separating speech from overlapping speech.</Item>
+            <Item>Thilo to show Andreas the speech segmenter program.</Item>
+            <Item>Andreas to continue working on the pitch tracker and present the results next week.</Item>
+            <Item>Thilo to consider incorporating a third category in the speech segmenter for multiple-person speech.</Item>
+            <Item>Thilo to explore the possibility of using a different method for the first pass in the speech segmenter to improve accuracy in detecting overlaps.</Item>
+            <Item>Investigate the possibility of using the Javier software for training the Gaussian to distinguish between overlapping zones and speech zones.</Item>
+            <Item>Conduct an experiment to test the classifier from Javier and the clustering process.</Item>
+            <Item>Consider feeding hand-segmented data to Javier's software to check its effectiveness.</Item>
+            <Item>Perform a fast experiment with segmentation by hand to gather information about overlapping zones.</Item>
+            <Item>Verify if the hand-segmentation data works with Javier's software to identify any potential issues.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro003.txt">
+        <Iteration Number="0">
+            <Item>Discuss plans for the field trip next week.</Item>
+            <Item>Discuss what might be accomplished during the meeting.</Item>
+            <Item>Follow up on assigning tasks to Dave.</Item>
+            <Item>Begin moving a bunch of furniture.</Item>
+            <Item>Address disk and resource issues that are being worked out.</Item>
+            <Item>Arrange a meeting to talk about noise conditions for testing.</Item>
+            <Item>Clarify the time it takes to train the neural network models.</Item>
+            <Item>Set up scripts and structured ways to handle the combinations of experiments.</Item>
+            <Item>Sort out the best combinations of experiments to focus on.</Item>
+            <Item>Coordinate scratch space for data storage to optimize computational efficiency.</Item>
+            <Item>me018 to check the available space on slash-scratch directory on Mustard and Nutmeg.</Item>
+            <Item>me018 to sit down with mn007 to discuss moving other data onto the new X disk on Abbott.</Item>
+            <Item>me013 and mn007 to discuss goals for the next week's meeting and visually present them, possibly as a slide.</Item>
+            <Item>me013 and mn007 to settle on which experiments to focus on for the upcoming work.</Item>
+            <Item>Consider how Dave's help can be utilized effectively in the project, possibly involving training a multilingual network or working on noise detection.</Item>
+            <Item>Investigate the feasibility of training a net on a multilingual superset and mapping phonemes to the superset.</Item>
+            <Item>Explore the possibility of translating phone labels into articulatory features for training the net.</Item>
+            <Item>Conduct an interesting cheating experiment by feeding in articulatory feature vectors to the net to see if it improves results.</Item>
+            <Item>Investigate the possibility of using linear outputs during training and then removing the final nonlinearity for KL Transform.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Discuss logistics for the field trip to OGI next week.</Item>
+            <Item>Assign tasks to Dave based on areas needing assistance.</Item>
+            <Item>Organize transportation for the early morning flight departure.</Item>
+            <Item>Verify the battery status and ensure it is fully charged.</Item>
+            <Item>Begin data collection for the Italian database.</Item>
+            <Item>Convert labels from different formats for training the neural network.</Item>
+            <Item>Arrange scratch space for working on the computational servers.</Item>
+            <Item>Set up scripts and structured processes for running multiple combinations efficiently.</Item>
+            <Item>Coordinate with Chuck and Adam to optimize computational resources for running experiments.</Item>
+            <Item>Evaluate the time required for training HTK models and neural networks on different machines.</Item>
+            <Item>Consider combinations of features and training on multiple languages for neural networks.</Item>
+            <Item>Address any issues with mismatched labels for training the neural network.</Item>
+            <Item>Monitor data movement and storage to optimize computation efficiency.</Item>
+            <Item>Plan for future upgrades to network infrastructure to improve computational performance.</Item>
+            <Item>mn007 and me018 to check the availability of space on Mustard and Nutmeg for potential data storage.</Item>
+            <Item>me018 and mn007 to sit down and discuss moving additional data onto the new X disk on Abbott to free up space on other disks.</Item>
+            <Item>me013 to explore the possibility of leveraging OGI's phoneme clustering approach for cross-language experiments.</Item>
+            <Item>mn007 and fn002 to work on creating a superset from multiple languages and modifying labels to match the superset for phoneme classification.</Item>
+            <Item>me013 to investigate the feasibility of translating phoneme labels into articulatory features for training purposes.</Item>
+            <Item>me018 to conduct an interesting cheating experiment by replacing phone labels with articulatory features and feeding the data into the net to observe potential improvements.</Item>
+            <Item>me006 to explore the use of linear outputs during training and then removing the final nonlinearity for the KL Transform.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Discuss the plans for the field trip to OGI next week.</Item>
+            <Item>Talk about potential accomplishments during the meeting.</Item>
+            <Item>Address the task that Dave volunteered for and find something for him to do.</Item>
+            <Item>Discuss disks and resource issues that need to be resolved.</Item>
+            <Item>Arrange for machines to be set up for multiple computations and data storage.</Item>
+            <Item>Clarify the process for converting labels to the HTK format for Italian and Spanish databases.</Item>
+            <Item>Coordinate with Chuck to ensure sufficient scratch space for working on data and computations.</Item>
+            <Item>Evaluate the training times for HTK and neural networks on different machines to optimize efficiency.</Item>
+            <Item>Determine the best combinations of features and training data for neural networks to achieve optimal results.</Item>
+            <Item>Organize the workflow for systematic testing and evaluation of various combinations of features and training data.</Item>
+            <Item>mn007 and me018 to check the available space on Mustard and Nutmeg in the slash-scratch directory.</Item>
+            <Item>me018 to sit down with mn007 to discuss moving other databases onto the new X disk on Abbott to free up space.</Item>
+            <Item>me013 and mn007 to finalize the goals for the next week's meeting, including flushing out the board plan visually and settling on the experiments to be conducted.</Item>
+            <Item>me013 to discuss with the team how Dave's help can be best utilized in the project, considering time constraints.</Item>
+            <Item>mn007 and fn002 to work on creating a superset from multiple languages and modifying labels to match the superset.</Item>
+            <Item>me013 to explore the possibility of training the net on articulatory features instead of a superset of phonemes.</Item>
+            <Item>me018 to conduct an interesting cheating experiment by replacing phone labels with articulatory features and feeding the vector into the net to assess the impact on results.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro004.txt">
+        <Iteration Number="0">
+            <Item>Arrange a meeting with Amy next Friday.</Item>
+            <Item>Call Ben after the presentation.</Item>
+            <Item>Allison to begin data collection today.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Arrange a meeting with Amy next Friday.</Item>
+            <Item>Call Ben after the presentation.</Item>
+            <Item>Allison to begin data collection today.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Arrange a meeting with Amy next Friday.</Item>
+            <Item>Call Ben after the presentation.</Item>
+            <Item>Allison to begin data collection today.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro005.txt">
+        <Iteration Number="0">
+            <Item>Arrange to get the Linux machine "Swede" set up for running neural net tools.</Item>
+            <Item>Focus more on training targets and training data to improve results.</Item>
+            <Item>Address CPU and memory issues to optimize performance.</Item>
+            <Item>Consider combining multiple features and MLP for improved results.</Item>
+            <Item>Evaluate the benefits of LogRASTA-PLP with and without on-line normalization.</Item>
+            <Item>Investigate the use of multiple MLPs for different conditions to improve performance.</Item>
+            <Item>Ensure alignment with OGI's work and integrate their features for testing and improvement.</Item>
+            <Item>Address any disk storage issues and ensure correctable problems are resolved.</Item>
+            <Item>Consider training neural networks with different temporal properties to model asynchrony.</Item>
+            <Item>Monitor battery levels and replace batteries as needed.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Arrange a meeting with Amy to discuss noise robustness testing.</Item>
+            <Item>Verify the results obtained from the OGI system by retraining the HTK.</Item>
+            <Item>Focus on improving results from a single MLP instead of combining multiple features and MLPs.</Item>
+            <Item>Address CPU and memory issues to optimize system performance.</Item>
+            <Item>Coordinate with Dan Ellis to utilize the Linux machine "Swede" for running jobs.</Item>
+            <Item>Consider experimenting with LogRASTA-PLP and on-line normalization for potential improvements.</Item>
+            <Item>Evaluate the potential benefits of training targets and training data for enhancing system performance.</Item>
+            <Item>Collaborate with OGI to integrate their system improvements and enhancements into the current project.</Item>
+            <Item>Monitor and address any disk storage issues that may arise during the project.</Item>
+            <Item>Test and verify the functionality of the system components before proceeding with further experiments.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Arrange to start working on improving results from a single MLP</Item>
+            <Item>Evaluate the training set and training targets to focus on the most promising conditions</Item>
+            <Item>Double-check and ensure that the results obtained match with the other site's tests before adding in additional modifications</Item>
+            <Item>Address CPU and memory issues to optimize performance and efficiency</Item>
+            <Item>Consider experimenting with LogRASTA-PLP features and on-line normalization</Item>
+            <Item>Collaborate with the OGI team to understand their latest version and integrate it with current efforts</Item>
+            <Item>Monitor the progress and performance of experiments on the Linux machine "Swede" and troubleshoot any issues as needed.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro007.txt">
+        <Iteration Number="0">
+            <Item>Send out the numbers of words in each test set to the team.</Item>
+            <Item>Begin writing up the results as soon as the data is received.</Item>
+            <Item>Fix the system on Tuesday based on the data received.</Item>
+            <Item>Run the new data (German and Danish) through the process after Tuesday.</Item>
+            <Item>Consider trying a fourth architecture with just a single KLT at the end.</Item>
+            <Item>Explore the option of utilizing Jeff's server farm for processing power if needed for big jobs.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Dave to provide the data collection results by tomorrow.</Item>
+            <Item>Dave to send out the number of words in each test set.</Item>
+            <Item>Dave to begin training on the new data (German and Danish) after the current project deadline.</Item>
+            <Item>Stephane to start writing up the project results soon.</Item>
+            <Item>Stephane to work on the system description write-up.</Item>
+            <Item>Stephane to discuss where to go next in terms of research in the next meeting.</Item>
+            <Item>Stephane to consider testing a fourth architecture with a single KLT.</Item>
+            <Item>Jeff to coordinate the use of the server farm for any big processing jobs if needed.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Dave to send the new data (German and Danish) by Tuesday.</Item>
+            <Item>Start training and writing up the results as soon as the data is received.</Item>
+            <Item>Stephane to try a fourth architecture with a single KLT at the end.</Item>
+            <Item>Consider running big jobs on Jeff's server farm of ten multiprocessor IBM machines if needed.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro008.txt">
+        <Iteration Number="0">
+            <Item>Investigate the differences in features obtained from the ICSI OGI system and address any anomalies. (mn007)</Item>
+            <Item>Ensure to email Hynek with any updates or findings regarding the features issue. (me013)</Item>
+            <Item>Complete the analysis on the speech data to identify areas causing degradation in the results. (mn007)</Item>
+            <Item>Consider improving recognition of phoneme classes rather than individual phonemes, especially in noisy speech conditions. (mn007)</Item>
+            <Item>Revisit experiments with articulatory features and explore potential improvements in the general diagram. (fn002)</Item>
+            <Item>Debug the issues encountered with the MSG and multi-band experiments during Aurora testing. (mn007)</Item>
+            <Item>Review experiments involving training the neural net with data from multiple languages and explore the possibility of obtaining hand-labeled data from other languages. (me018, mn007)</Item>
+            <Item>Investigate the potential benefits of training multiple neural nets on different data sets, including variations in acoustic conditions. (me013)</Item>
+            <Item>Provide updates on the progress and outcomes of the experiments at the upcoming meeting in Amsterdam. (mn007, fn002)</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Sunil to continue working on checking the features obtained from OGI to resolve discrepancies.</Item>
+            <Item>Team to email Hynek once the discrepancies in features are identified and resolved.</Item>
+            <Item>Barry to continue working on multi-band features.</Item>
+            <Item>Team to further investigate the use of articulatory features in experiments.</Item>
+            <Item>Team to analyze data from multiple languages to train the neural net and consider obtaining hand-labeled data from other languages if feasible.</Item>
+            <Item>Team to explore the possibility of training multiple nets on different acoustic conditions to assess potential benefits.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Sunil to continue investigating the differences in features obtained from the ICSI OGI system and report findings. </Item>
+            <Item>Team to email Hynek once any issues with features are resolved.</Item>
+            <Item>Barry to continue working on multi-band features.</Item>
+            <Item>Team to further analyze the speech data to understand noise sources and degradation patterns.</Item>
+            <Item>Team to explore improving recognition of phoneme classes, especially in noisy speech conditions.</Item>
+            <Item>Team to revisit experiments with articulatory features and consider re-implementing them.</Item>
+            <Item>Team to review experiments with data from multiple languages and explore obtaining hand-labeled data from other languages.</Item>
+            <Item>Team to consider the benefits of training neural nets on different acoustic conditions.</Item>
+            <Item>Team to reconvene in two weeks to discuss findings from the upcoming meeting in Amsterdam.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro010.txt">
+        <Iteration Number="0">
+            <Item>John to discuss the progress on trying to see the bugs and problems with the latencies with Sunil and coordinate the work (mn007).</Item>
+            <Item>John to send an email to Sunil detailing the work being done on designing new filters with recursive filtering (mn007).</Item>
+            <Item>John to discuss potential additional low-level detectors for phonetic features with the team (mn007).</Item>
+            <Item>John to investigate references for single microphone methods for de-reverberation (mn007).</Item>
+            <Item>John to include references to relevant work in the first paper on echo cancellation and reverberation (mn007).</Item>
+            <Item>John to explore clever solutions for leveraging two distant microphones, especially in the presence of obstructions (mn007).</Item>
+            <Item>John to provide names and necessary information for the "key" files despite the blank digit forms (me018).</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Sunil to discuss the progress on designing new filters with mn007.</Item>
+            <Item>mn007 to send an email to Sunil detailing the work on designing new filters.</Item>
+            <Item>mn007 to initiate a discussion with Sunil to ensure coordination on their work to avoid duplication.</Item>
+            <Item>mn007 to begin implementing a routine for recursive filtering with the newly designed filters.</Item>
+            <Item>mn007 to explore the possibility of using linear but discriminant filters and compare with the current approach.</Item>
+            <Item>mn007 to investigate and potentially apply spectral subtraction from Ericsson and change the contextual KLT for LDA.</Item>
+            <Item>me006 to present a summary of the research proposal on extending the work done by Larry Saul, John Allen, and Mazin Rahim during the next meeting.</Item>
+            <Item>me018 to follow up with John Ohala regarding the transcription of meeting data for feature marking.</Item>
+            <Item>me026 to conduct a comparison study between robust approaches like MSG and speech enhancement or de-reverberation approaches using the Meeting Recorder digits data.</Item>
+            <Item>me013 to research and provide references on single microphone methods for de-reverberation.</Item>
+            <Item>mn007 to gather references and information on de-reverberation algorithms and echo cancellation methods for the research.</Item>
+            <Item>me013 to explore clever techniques for utilizing two distant microphones, especially when there is an obstruction between them.</Item>
+            <Item>me018 to regenerate the digit forms for future meetings.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Arrange a meeting with John Ohala to discuss acoustic features for transcription.</Item>
+            <Item>Send an email to Sunil to discuss the work on improving latencies and coordination.</Item>
+            <Item>Begin data collection for the quals proposal on extending the work done by Larry Saul and John Allen.</Item>
+            <Item>Compare the performance of robust approaches like MSG with speech enhancement or de-reverberation approaches using the Meeting Recorder digits data.</Item>
+            <Item>Investigate de-reverberation algorithms and echo cancellation methods for far mike speech recognition.</Item>
+            <Item>Research and potentially implement de-convolution filters for reverberation in the stream of features.</Item>
+            <Item>Explore clever methods for utilizing only two distant microphones, particularly in the presence of obstructions.</Item>
+            <Item>Provide names and necessary information for the "key" files despite the blank digit forms.</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro011.txt">
+        <Iteration Number="0">
+            <Item>Mn007 to investigate the downsampling issue and experiment with stricter low-pass filtering.</Item>
+            <Item>Mn007 to research the frequency characteristics of LDA filters and modulation spectrum for online normalization.</Item>
+            <Item>Mn007 to experiment with taking into account the delay of the recursion for mean estimation in online normalization.</Item>
+            <Item>Fn002 to begin data collection for the Italian database and experiment with different types of spectral subtraction.</Item>
+            <Item>Mn007 to arrange a meeting with Adam to discuss scripts for running recognition on Meeting Recorder digits.</Item>
+            <Item>Mn007 to continue investigations on echos and consider echo cancelling between close-mounted and distant microphones.</Item>
+            <Item>Mn007 to delegate the echo cancelling experiment to Espen for close-mike cross-talk.</Item>
+            <Item>Mn007 to coordinate better communication between the two sides for improved coordination and efficiency.</Item>
+            <Item>Mn007 to explore the possibility of using the MOCHA database for articulatory positions in research.</Item>
+            <Item>Mn007 to consider simpler models for the back-end recognizer to improve performance for the Aurora task.</Item>
+            <Item>Mn007 to analyze the model lengths and expected durations for different words in the Italian dataset to optimize the HMM system.</Item>
+            <Item>Mn007 to experiment with creating word-specific prototype HMMs for training to improve model performance.</Item>
+            <Item>Mn007 to investigate running Matlab in batch mode and consider using Octave as an alternative for batch processing.</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Investigate the downsampling problem and consider implementing low-pass filtering before downsampling.</Item>
+            <Item>Begin working on finding filters with shorter delays for online normalization.</Item>
+            <Item>Experiment with echo cancellation techniques for cleaner close-miked recordings.</Item>
+            <Item>Start training neural networks to recognize acoustic features for noise removal.</Item>
+            <Item>Research and implement a method to improve the performance of the back-end recognizer for the Aurora task.</Item>
+            <Item>Evaluate the number of states in HMM models for Italian digits and adjust them based on word lengths.</Item>
+            <Item>Create word-specific prototype HMMs for training to improve model performance.</Item>
+            <Item>Calculate expected durations of HMM models to analyze training results.</Item>
+            <Item>Consider simplifying models by reducing the number of states for shorter words.</Item>
+            <Item>Explore using Octave, a free software similar to Matlab, for batch processing tasks.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Investigate the downsampling problem and try a stricter low-pass filter. - mn007</Item>
+            <Item>Begin working on finding filters with shorter delays for online normalization. - mn007</Item>
+            <Item>Experiment with echo cancellation techniques for cleaner close-miked recordings. - me026</Item>
+            <Item>Start data collection for noise removal using Ericsson's approach. - fn002</Item>
+            <Item>Arrange a meeting with Adam to review scripts for running recognition on Meeting Recorder digits. - me026</Item>
+            <Item>Request Hynek for the code related to Avendano's thesis for further understanding. - me026</Item>
+            <Item>Analyze and adjust the number of states in the HMM models for Italian digits. - me018</Item>
+            <Item>Explore the expected durations of HMM models and compare them for different word lengths. - me018</Item>
+            <Item>Consider creating more word-specific prototype HMMs for training. - me018</Item>
+            <Item>Investigate running MATLAB in batch mode or consider using Octave for batch processing. - me018, me006</Item>
+        </Iteration>
+    </Meeting>
+    <Meeting Name="Bro012.txt">
+        <Iteration Number="0">
+            <Item>Look into the feasibility of implementing a digital filter suggested by Dan Ellis to run over the data before processing it.</Item>
+            <Item>Check if Feacalc is being used with the high-pass filter option for data processing.</Item>
+            <Item>Verify if there is a high-pass filter or pre-emphasis in the STRUT implementation for the microphones being used.</Item>
+            <Item>Change the picture on the web to show the effects of reverberation accurately.</Item>
+            <Item>Arrange a meeting with Amy to discuss the effects of reverberation and potential improvements for the web illustrations.</Item>
+            <Item>Experiment with reducing the number of iterations from seven to three for faster experimentation and results analysis.</Item>
+            <Item>Investigate the effectiveness of using a tandem system with probabilities for voicing information in the recognition process.</Item>
+            <Item>Consider working on voiced-unvoiced detection and incorporating fine structure information for noise reduction.</Item>
+            <Item>Explore the idea of using a second stream related to the fine structure of the spectrum for improved noise estimation.</Item>
+            <Item>Evaluate the performance of the French voice activity detector on the baseline features for potential enhancements.</Item>
+            <Item>Examine the impact of variance normalization on spectral subtraction results and noise estimation accuracy.</Item>
+            <Item>Conduct experiments with TIMIT data to assess the benefits of voicing information in frame classification.</Item>
+            <Item>Investigate the absence of two or three-long digit strings in the Aurora training data and its impact on recognition accuracy.</Item>
+            <Item>Analyze the testing data to determine the occurrence of two or three-long digit strings for comparison with training data</Item>
+        </Iteration>
+        <Iteration Number="1">
+            <Item>Look into the language model used in the HTK recognizer to explore sequences of digit strings in the training data.</Item>
+            <Item>Investigate the use of a tandem system with independent information sources for voicing detection to potentially improve performance.</Item>
+        </Iteration>
+        <Iteration Number="2">
+            <Item>Investigate whether Feacalc is being used with the high-pass filter option.</Item>
+            <Item>Check if the STRUT implementation includes a high-pass filter or pre-emphasis for using the PD A mike.</Item>
+            <Item>Change the picture on the web to show the effects of reverberation more accurately.</Item>
+            <Item>Arrange a meeting with Barry to discuss the possibility of working on voiced-unvoiced detection.</Item>
+            <Item>Research the benefits of incorporating voicing information into the feature vector for speech recognition.</Item>
+            <Item>Experiment with reducing the number of iterations from seven to three in the training script to speed up experiments.</Item>
+            <Item>Look into using CVS for distributing changes and share information with the team.</Item>
+            <Item>Experiment with adding more mixtures per state in the training script to improve results.</Item>
+            <Item>Consider testing the voicing bit to see if it helps in frame classification.</Item>
+            <Item>Investigate the performance of different voice activity detectors on the TIMIT data for potential improvements.</Item>
+            <Item>Explore the use of pitch-related features or fine harmonic structure for better noise reduction in the system.</Item>
+            <Item>Examine the language model used in the HTK recognizer for potential improvements based on actual digit string occurrences in the data.</Item>
+        </Iteration>
+    </Meeting>
+</Meetings>

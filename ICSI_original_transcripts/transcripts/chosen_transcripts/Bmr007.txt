@@ -1,0 +1,993 @@
+fe016: We're,
+mn005: @@
+me013: Yeah.
+fe016: I mean we -
+me013: Yeah.
+mn005: OK.
+fe016: We didn't have a house before.
+me013: We're on again? OK.
+me018: Mm-hmm. That is really great.
+me011: Yeah, so if uh -
+me013: OK-
+fe016: Oh, yeah!
+me011: So if anyone hasn't signed the consent form,
+me018: That's terrific.
+me011: please do so. The new consent form. The new and improved consent form.
+fe008: Uh.
+me018: Now you won't be able to walk or ride your bike, huh?
+me013: OK. OK.
+fe016: Right.
+me011: And uh, shall I go ahead and do some digits?
+me013: Uh, we were gonna do that at the end, remember?
+me011: OK, whatever you want.
+me013: Yeah. Just - just to be consistent, from here on in at least, that -
+fe016: The new consent form.
+me013: that we'll do it at the end.
+me011: It's uh - Yeah, it doesn't matter. OK.
+me013: OK
+fe008: Testing, one, two, three.
+me013: Um Well, it ju- I mean it might be that someone here has to go, and - Right? That was - that was sort of the point. So, uh I had asked actually anybody who had any ideas for an agenda to send it to me and no one did. So,
+me011: So we all forgot.
+me013: Uh,
+fe008: From last time I wanted to - Uh The - An iss- uh one topic from last time.
+me013: Right, s- OK, so one item for an agenda is uh Jane has some uh uh some research to talk about, research issues. Um and
+me011: And I have some short research issues.
+me013: Uh, Adam has some short research issues. Um, I have a list of things that I think were done over the last three months I was supposed to send off, uh and, um I - I sent a note about it to uh - to Adam and Jane but I think I'll just run through it also and see if someone thinks it's inaccurate or uh insufficient.
+me018: A list that you have to send off to who?
+me013: Uh, to uh uh, IBM.
+me018: Oh.
+mn005: @@
+me013: OK. They're, you know - So. Um, So, uh so, I'll go through that. Um, And, Anything else? anyone wants to talk about? No. OK.
+me018: What about the, um - your trip, yesterday?
+me013: Um. Sort of off-topic I guess. Cuz that's Cuz that was all - all about the, uh -
+me018: Oh, OK.
+me013: I - I - I can chat with you about that off-line. That's another thing. Um, And, Anything else? Nothing else? Uh, there's a - I mean, there is a - a, um uh telephone call tomorrow, which will be a conference call that some of us are involved in for uh a possible proposal. Um, we'll talk - we'll talk about it next week if - if something -
+me011: Do you want me to be there for that? I noticed you C C'ed me, but I wasn't actually a recipient. I didn't quite know what to make of that.
+me013: Uh Well, we'll talk - talk about that after our meeting.
+me011: OK.
+me013: OK. Uh, OK. So it sounds like the - the three main things that we have to talk about are, uh this list, uh Jane and - Jane and Adam have some research items, and, other than that, anything, as usual, anything goes beyond that. OK, uh, Jane, since - since you were sort of cut off last time why don't we start with yours, make sure we get to it.
+fe008: OK, it's - it's very eh - it's very brief, I mean - just let me - just hand these out. Oops.
+me011: Is this the same as the email or different?
+fe008: It's slightly different. I -
+mn014: Thanks.
+me011: OK.
+fe008: basically the same.
+me018: Same idea?
+fe008: But, same idea. So, if you've looked at this you've seen it before, so Basically, um as you know, uh part of the encoding includes a mark that indicates an overlap. It's not indicated with, um uh, tight precision, it's just indicated that - OK, so, It's indicated to - to - so the people know what parts of sp- which - which stretches of speech were in the clear, versus being overlapped by others. So, I used this mark and, um and, uh uh, divided the - I wrote a script which divides things into individual minutes, of which we ended up with forty five, and a little bit. And, uh you know, minute zero, of course, is the first minute up to sixty seconds.
+mn014: OK .
+fe008: And, um What you can see is the number of overlaps and then to the right, whether they involve two speakers, three speakers, or more than three speakers. And, um and, what I was looking for sp- sp- specifically was the question of whether they're distributed evenly throughout or whether they're bursts of them. Um. And it looked to me as though - uh, you know - y- this is just - eh - eh, this would - this is not statistically verified, but it did look to me as though there are bursts throughout, rather than being localized to a particular region. The part down there, where there's the maximum number of - of, um overlaps is an area where we were discussing whether or not it would be useful to indi- to s- to code stress, uh, sentence stress as possible indication of, uh information retrieval. So it's like, you know, rather, lively discussion there.
+me013: What was - what's the - the parenthesized stuff that says, like -
+fe008: Oh, th-
+me013: e- the first one that says six overlaps and then two point eight?
+fe008: That's the per cent.
+me013: Mmm.
+fe008: So, six is, uh two point eight percent of the total number of overlaps in the session.
+mn005: Mm-hmm.
+me013: Ah.
+mn014: Mm-hmm.
+fe008: At the very end, this is when people were, you know, packing up to go basically, there's this final stuff, I think we - I don't remember where the digits fell. I'd have to look at that. But the final three there are no overlaps at all. And couple times there are not. So, i- it seems like it goes through bursts
+mn005: Mm-hmm.
+fe008: but, um that's kind of it. Now,
+mn005: Mm-hmm.
+fe008: Another question is is there - are there individual differences in whether you're likely to be overlapped with or to overlap with others. And, again I want to emphasize this is just one particular um - one particular meeting, and also there's been no statistical testing of it all, but I, um I took the coding of the - I, you know, my - I had this script figure out, um who was the first speaker, who was the second speaker involved in a two-person overlap, I didn't look at the ones involving three or more. And, um this is how it breaks down in the individual cells of who tended to be overlapping most often with who - who else, and if you look at the marginal totals, which is the ones on the right side and across the bottom, you get the totals for an individual. So, um If you look at the bottom, those are the, um numbers of overlaps in which um Adam was involved as the person doing the overlapping and if you look - I'm sorry, but you're o- alphabetical, that's why I'm choosing you And then if you look across the right, then that's where he was the person who was the sp- first speaker in the pair and got overlap-
+me018: Hmm!
+fe008: overlapped with by somebody.
+mn005: Mm-hmm.
+fe008: And, then if you look down in the summary table, then you see that, um th- they're differences in whether a person got overlapped with or overlapped
+me011: Is this uh just raw counts or is it -
+fe008: by. Raw counts.
+me011: So it would be interesting to see how much each person spoke.
+fe016: Mm-hmm.
+fe008: Yes,
+mn005: Yeah
+mn014: Yeah.
+fe008: very true - very true it would be good to normalize with respect to that. Now on the table I did
+me011: Normalized to how much -
+mn005: Yeah
+fe008: take one step toward, uh away from the raw frequencies by putting, uh percentages. So that the percentage of time of the - of the times that a person spoke, what percentage eh, w- so. Of the times a person spoke and furthermore was involved in a two- two-person overlap, what percentage of the time were they the overlapper and what percent of the time were they th- the overlappee? And there, it looks like you see some differences, um, that some people tend to be overlapped with more often than they're overlapped, but, of course, uh i- e- this is just one meeting, uh there's no statistical testing involved, and that would be required for a - for a finding of any kind of
+me013: S- so, i- it would be statistically incorrect to conclude from this that Adam talked too much or something.
+fe008: scientific reliability.
+me011: No - no actually, that would be actually statistically correct, but
+fe008: No, no, no.
+me013: Yeah, yeah.
+mn005: Yeah, yeah. Yeah, yeah.
+fe008: Yeah, that's right. That's right. And I'm you know, I'm - I don't see a point of singling people out,
+me013: Yeah. Excuse me.
+fe008: now, this is a case where obviously -
+me013: B- I - I - I rather enjoyed it, but - but this
+me018: But the numbers speak for themselves.
+mn005: He's - Yeah, yeah, yeah.
+fe008: Well, you know, it's like - I'm not - I'm not
+me011: Yes, that's right, so you don't nee- OK.
+fe008: saying on the tape who did better or worse because I don't think that it's - I
+me013: Sure.
+fe008: you know, and - and th- here's a case where of course, human subjects people would say be sure that you anonymize the results, and - and, so, might as well do this.
+me011: Yeah, when - this is what -
+me013: Yeah.
+me011: This is actually - when Jane sent this email first, is what caused me to start thinking about anonymizing the data.
+fe008: Well, fair enough. Fair enough. And actually, you know, the point is not about an individual, it's the point about tendencies toward
+me013: Yeah.
+fe008: you know, different styles, different speaker styles.
+me013: Oh sure.
+fe008: And it would be, you know of course, there's also the question of what type of overlap was this, and w- what were they, and i- and I - and I know that I can distinguish at least three types and, probably more, I mean, the general cultural idea which w- uh, the conversation analysts originally started with in the seventies was that we have this strict model where politeness involves that you let the person finish th- before you start talking, and and you know, I mean, w- we know that - an- and they've loosened up on that too s- in the intervening time, that that that's - that's viewed as being a culturally- relative thing, I mean, that you have the high-involvement style from the East Coast where people will overlap often as an indication of interest in what the other person is saying.
+me011: Uh-huh.
+fe008: And Yeah, exactly! Well, there you go. Fine, that's alright, that's OK.
+fe016: Exactly!
+mn005: Yeah
+fe008: And - and, you know, in contrast, so Deborah - d- and also Deborah Tannen's thesis she talked about differences of these types, that they're just different styles, and it's um you - you can't impose a model of - there - of the ideal being no overlaps, and you know, conversational analysts also agree with that, so it's now, universally a- ag- agreed with. And - and, als- I mean, I can't say universally, but anyway, the people who used to say it was strict, um now, uh don't. I mean they - they also you know, uh uh, ack- acknowledge the influence of sub- of subcultural norms and cross-cultural norms and things. So, um Then it beco- though - so - just - just superficially to give um a couple ideas of the types of overlaps involved, I have at the bottom several that I noticed. So, uh, there are backchannels, like what Adam just did now and, um um, anticipating the end of a question and simply answering it earlier, and there are several of those in this - in these data where -
+fe016: Mm-hmm.
+fe008: because we're people who've talked to each other, um we know basically what the topic is, what the possibilities are and w- and we've spoken with each other so we know basically what the other person's style is likely to be and so and t- there are a number of places where someone just answered early. No problem. And places also which I thought were interesting, where two or more people gave exactly th- the same answer in unison - different words of course but you know, the - basically, you know everyone's saying "yes" or - you know, or ev- even more sp- specific than that. So, uh, the point is that, um overlap's not necessarily a bad thing and that it would be im- i- useful to subdivide these further and see if there are individual differences in styles with respect to the types involved. And that's all I wanted to say on that, unless people have questions.
+me013: Well, of course th- the biggest, um result here, which is one we've -
+me011: Yep.
+me013: we've talked about many times and isn't new to us, but which I think would be interesting to show someone who isn't familiar with this is just the sheer number of overlaps.
+mn005: Yes, yes!
+fe008: Oh, OK - interesting.
+me013: That - that -
+mn005: Yeah.
+me013: Right? that - that, um here's a relatively short meeting, it's a forty - forty plus minute
+me011: Hundred ninety-seven.
+me013: meeting, and not only were there two hundred and fifteen overlaps but, uh I think there's one - one minute there where there - where - where there wasn't any overlap? I mean, it's -
+me011: S- n- are -
+me013: uh throughout this thing?
+fe008: Well, at the bottom, you have the bottom three.
+me013: It's -
+me018: It'd be interesting -
+mn005: Yeah.
+fe008: So four - four minutes all together with none - none.
+me013: You have - @@ Oh, so the bottom three did have s- stuff going on?
+me018: But it w-
+fe008: Yes, uh-huh. Yeah. But just no overlaps.
+me013: There was speech? OK, so if - the - this -
+me018: It'd be interesting to see what the total amount of time is in the overlaps, versus -
+fe008: Yes, exactly and that's - that's where Jose's pro- project comes in.
+mn017: I was about to ask -
+mn005: Yeah, yeah,
+mn014: Yeah.
+me018: Yeah.
+mn005: I h- I have this- that infor- I have th- that information
+fe016: Hmm.
+mn005: now.
+me013: Oh, about how much is it?
+mn005: The - the duration of eh - of each of the overlaps.
+me013: O- oh, what's - what's the - what's the average length?
+mn005: M- I - I haven't averaged it now but, uh I - I will, uh
+me013: You don't know?
+mn005: I will do the - the study of the - with the - with the program with the - uh, the different, uh the, nnn, distribution of the duration of the overlaps.
+me013: OK, you - you don- you don't have a feeling for roughly how much it is? Yeah.
+mn005: mmm, Because the - the uh, @@ is @@ . The duration is, uh the variation - the variation of the duration is uh, very big
+me013: Yeah.
+me018: Mm-hmm.
+mn005: on the dat-
+fe008: I suspect that it will also differ,
+mn005: but eh -
+fe008: depending on the type of overlap involved. So backchannels will be very brief and -
+mn005: Yeah.
+me013: Oh, I'm sure.
+mn005: Because, on your surface eh a bit of zone of overlapping with the duration eh, overlapped and another very very short.
+me013: Yeah. Yeah.
+mn005: Uh, i- probably it's very difficult to - to - because the - the overlap is, uh on- is only the - in the final "S" of the - of the - the fin- the - the end - the end word of the, um previous speaker
+me018: Mm-hmm.
+mn005: with the - the next word of the - the new speaker. Um, I considered that's an overlap but it's very short, it's an "X" with a - and - the idea is probably, eh when eh - when eh, we studied th- th- that zone, eh eh, we h- we have eh eh confusion with eh eh noise.
+me018: Mm-hmm.
+mn005: With eh that fricative sounds, but uh I have new information but I have to - to study .
+me013: Yeah. Yeah, but I - I'd -
+mn017: Can I -
+me013: u- go ahead .
+fe008: Yeah.
+mn017: You split this by minute, um so if an overlap
+fe008: Yes.
+mn017: straddles the boundary between two minutes, that counts towards both of those minutes.
+fe008: Mm-hmm. Actually, um um actually not. Uh, so le- let's think about the case where A starts speaking and then B overlaps with A, and then the minute boundary happens. And let's say that after that minute boundary, um B is still speaking, and A overlaps with B, that would be a new overlap. But otherwise um, let's say B comes to the conclusion of - of that turn without anyone overlapping with him or her, in which case there would be no overlap counted in that second minute.
+mn017: No, but suppose they both talk simultaneously both a - a portion of it is in minute one and another portion of minute two.
+fe008: OK. In that case, um my c- the coding that I was using - since we haven't, uh incorporated Adam's, uh coding of overlap yets, the coding of Yeah, "yets" is not a word. Uh since we haven't incorporated Adam's method of handling overl- overlaps yet um then that would have fallen through the cra- cracks. It would be an underestimate of the number of overlaps because, um I wou- I wouldn't be able to pick it up from the way it was encoded so far. We just haven't done th- the precise second to sec- you know,
+me013: I- I-
+fe008: second to second coding of when they occur.
+me013: I- I- I'm - I'm - I'm confused now. So l- l- let me restate what I thought Andreas was saying and - and see.
+fe008: Uh-huh.
+me013: Let's say that in - in second fifty-seven
+fe008: Yep.
+me013: of one minute, you start talking and I start talking
+fe008: OK.
+me013: and we ignore each other and keep on talking for six seconds.
+fe008: Mm-hmm.
+me013: So we go over - So we were - we were talking over one another, and it's just - in each case, it's just sort of one interval. Right?
+fe008: Mm-hmm?
+me013: So, um we talked over the minute boundary. Is this considered as one overlap in each of the minutes, the way you have done this.
+fe008: No, it wouldn't. It would be considered as an overlap in the first one.
+me013: OK, so that's good, i- I think, in the sense that I think Andreas meant the question, right?
+fe016: That's - that's good, yeah, cuz the overall rate is -
+mn017: Yeah.
+mn014: @@
+me011: Statistical.
+fe016: Yeah.
+fe008: Mm-hmm. Yeah. They're not double counted.
+me011: Yep.
+mn017: Other- otherwise you'd get double counts, here and there.
+mn005: Yeah.
+fe016: Ah but, yeah. @@
+mn017: And then it would be harder -
+mn005: Yeah.
+me013: Yeah.
+fe008: I should also say I did a simplifying, uh count in that if A was speaking B overlapped with A and then A came back again and overlapped with B again, I - I didn't count that as a three-person overlap, I counted that as a two-person overlap,
+me011: Mm-hmm.
+fe008: and it was A being overlapped with by D . Because the idea was the first speaker had the floor and the second person started speaking and then the f- the first person reasserted the floor kind of thing. These are simplifying assumptions, didn't happen very often, there may be like three overlaps affected that way in the whole thing.
+fe016: Yeah.
+me011: I want to go back and listen to minute forty-one.
+fe008: Yeah, yeah.
+me011: Cuz i- i- I find it interesting that there were a large number of overlaps and they were all two-speaker.
+me013: Yeah.
+me011: I mean what I thought - what I would have thought in
+fe008: That's interesting.
+me011: is that when there were a large number of overlaps, it was because everyone was talking at once,
+fe008: That's interesting.
+mn005: Yeah. Yeah.
+me011: but uh apparently not. That's really neat.
+mn005: Mmm.
+fe008: Yeah, there's a lot of backchannel, a lot o- a lot of -
+me013: Yeah.
+me011: This is really interesting data.
+fe008: Yeah, it is. I think so too, I think -
+fe016: I think what's really interesting though, it is before d- saying " yes, meetings have a lot of overlaps " is to actually find out how many more we have than two-party. Cuz in two-party conversations, like Switchboard, there's an awful lot too if you just look at backchannels, if you consider those overlaps? it's also ver- it's huge. It's just that people haven't been looking at that because they've been doing single-channel processing for
+me011: Mm-hmm.
+me013: Mm-hmm?
+fe016: speech recognition. So, the question is, you know, how many more overlaps do you have of, say the two-person type, by adding more people. to a meeting, and it may be a lot more but i- it may - it may not be.
+me013: Well, but see, I find it interesting even if it wasn't any more,
+fe016: So.
+me013: because since we were dealing with this full duplex sort of thing in Switchboard where it was just all separated out we just - everything was just nice, so that - so the issue is in - in a situation
+fe016: Mm-hmm? Well, it's not really " nice ".
+me013: where th- that's -
+fe016: It depends what you're doing. So if you were actually having, uh - depends what you're doing, if - Right now we're do- we have individual mikes on the people in this meeting.
+me013: Mm-hmm?
+fe016: So the question is, you know - "are there really more overlaps happening than there would be in a two-person party ".
+me013: Let - let m-
+fe016: And - and there well may be, but -
+me013: let me rephrase what I'm saying cuz I don't think I'm getting it across. What - what I - what - I shouldn't use words like " nice " because maybe that's too - i- too imprecise. But what I mean is that, um in Switchboard, despite the many - many other problems that we have, one problem that we're not considering is overlap. And what we're doing now is, aside from the many other differences in the task, we are considering overlap and one of the reasons that we're considering it, you know, one of them not all of them, one of them is that w- uh at least, you know I'm very interested in the scenario in which, uh both people talking are pretty much equally audible, and from a single microphone. And so, in that case, it does get mixed in, and it's pretty hard to jus- to just ignore it, to just do processing on one and not on the other.
+fe016: I - I agree that it's an issue here but it's also an issue for Switchboard and if you think of meetings being recorded over the telephone, which I think,
+me013: Mm-hmm.
+fe016: you know, this whole point of studying meetings isn't just to have people in a room but to also have meetings over different phone lines. Maybe far field mike people wouldn't be interested in that but all the dialogue issues still apply,
+me013: Mm-hmm.
+fe016: so if each of us was calling and having a meeting that way you kn- you know like a conference call. And, just the question is, y- you know, in Switchboard you would think that's the simplest case of a meeting
+me013: Mm-hmm.
+fe016: of more than one person, and I'm wondering how much more overlap of the types that - that Jane described happen with more people present. So it may be that having three people is very different from having two people or it may not be.
+me013: That's an important question to ask. I think what I'm -
+fe016: So.
+me013: All I'm s- really saying is that I don't think we were considering that in Switchboard.
+fe016: Not you, me. But uh -
+me013: Were you?
+me011: Though it wasn't in the design.
+fe016: but - but
+me013: Were you - were you - were you - were you measuring it? I mean, w- w- were -
+fe016: There - there's actually to tell you the truth, the reason why it's hard to measure is because of so, from the point of view of studying dialogue, I mean, which Dan Jurafsky and Andreas and I had some projects on,
+me013: Yeah.
+fe016: you want to know the sequence of turns. So what happens is if you're talking and I have a backchannel in the middle of your turn,
+me013: Yeah.
+fe016: and then you keep going what it looks like in a dialogue model is your turn and then my backchannel, even though my backchannel occurred completely inside your turn.
+me013: Yeah?
+fe016: So, for things like language modeling or dialogue modeling it's - We know that that's wrong
+me013: Yeah?
+fe016: in real time. But, because of the acoustic segmentations that were done and the fact that some of the acoustic data in Switchboard were missing, people couldn't study it, but that doesn't mean in the real world that people don't talk that way.
+me013: Yeah, I wasn't saying that.
+fe016: So,
+me013: Right? I was just saying that w- now we're looking at it.
+fe016: it's - um
+me013: And - and - and, you - you maybe wanted to look at it before but, for these various technical reasons in terms of how the data was you weren't.
+fe016: Well, we've als- Right. We're looking at it here.
+me013: So that's why it's coming to us as new even though it may well be you know, if your - if your hypothes- The hypothesis you were offering
+fe016: Um.
+me013: eh - Right? - if it's the null poth- hypothesis, and if actually you have as much overlap in a two-person, we don't know the answer to that. The reason we don't know the answer to is cuz it wasn't studied and it wasn't studied because it wasn't set up. Right?
+fe016: Yeah, all I meant is that if you're asking the question from the point of view of what's different about a meeting,
+me013: Mm-hmm?
+fe016: studying meetings of, say, more than two people versus what kinds of questions you could ask with a two-person meeting. It's important to distinguish that, you know, this project is getting a lot of overlap but other projects were too, but we just couldn't study them.
+me013: May have been.
+fe016: And and so uh
+me013: May have been. Right? We do kn- we don't know the numbers.
+fe016: Well, there is a high rate, So. It's - but I don't know how high, in fact
+me018: Well, here- I have a question.
+fe016: that would be
+me013: See, I mean, i- i- le- let me t-
+fe016: interesting to know.
+me013: I mean, my point was just if you wanted to say to somebody, " what have we learned about overlaps here?" just never mind comparison with something else,
+fe016: Mm-hmm.
+me013: what we've learned about is overlaps in this situation, is that - the first - the first-order thing I would say is that there's a lot of them.
+mn005: Yeah.
+me013: Right? In - in the sense that i- if you said
+fe016: Yeah,
+me013: if - i- i- i-
+fe016: I - I don't di-
+me013: In a way, I guess what I'm comparing to is more the
+fe016: I agree with that.
+me013: common sense notion of how - how much people overlap. Uh you know the fact that when - when - when, uh, Adam was looking for a stretch of - of speech before, that didn't have any overlaps, and he w- he was having such a hard time and now I look at this and I go, "well, I can see why he was having such a hard time". It's happening a lot.
+fe016: Right. That's also true of Switchboard. It may not be -
+me013: I wasn't saying it wasn't.
+fe016: Right. So it's just,
+me013: Right?
+fe016: um
+me013: I was commenting about this.
+fe016: OK.
+me013: I'm saying if I -
+fe016: All I'm saying is that from the
+me013: I'm saying if I have this complicated thing in front of me, and we sh- which, you know we're gonna get much more sophisticated about when we get lots more data, But - Then, if I was gonna describe to somebody what did you learn right here, about, you know, the - the modest amount of data that was analyzed I'd say, "Well, the first-order thing was there was a lot of overlaps ". In fact - and it's not just an overlap - bunch of overlaps - second-order thing is it's not just a bunch of overlaps in one particular point,
+me011: Right.
+me013: but that there's overlaps, uh throughout the thing. And that's interesting. That's all.
+fe016: Right. No, I - I agree with that. I'm just saying that it may - the reason you get overlaps may or may not be due to sort of the number of people in the meeting.
+me013: Oh yeah. Yeah.
+fe016: And
+me013: Yeah, I wasn't making any statement about that.
+fe016: that's all. And - and it would actually be interesting to find out because
+me013: Yeah.
+fe016: some of the data say Switchboard, which isn't exactly the same kind of context, I mean these are two people who don't know each other and so forth, But we should still be able to somehow say what - what is the added contra- contribution to sort of overlap time of each additional person, or something like that.
+me011: Yep. I could certainly see it going either way.
+fe008: OK, now.
+me013: Yeah, that would be good to know, but w- we -
+me018: What -
+fe008: Wh- yeah, I - I agree - I agree with Adam. And the reason is because I think there's a limit -
+fe016: But yeah.
+mn005: Yeah.
+fe008: there's an upper bound on how many you can have, simply from the standpoint of audibility. When we speak we - we do make a judgment of
+me013: Mm-hmm.
+fe016: Right.
+fe008: "can -" you know, as adults. I mean, children don't adjust so well, I mean, if a truck goes rolling past, adults will
+me013: Mm-hmm.
+fe008: well, depending, but mostly, adults will - will - will hold off to what - to finish the end of the sentence till the - till the noise is past. And I think we generally do monitor things like that, about - whether we - whether our utterance will be in the clear or not.
+fe016: Right.
+fe008: And partly it's related to rhythmic structure in conversation, so, you know, you - you t- Yeah, this is d- also um, people tend to time their - their -
+me018: Well -
+fe008: their, um when they come into the conversation based on the overall rhythmic, uh
+fe016: Right.
+fe008: uh, ambient thing. So you don't want to be c- cross-cutting. And - and, just to finish this, that um That I think that there may be an upper bound on how many overlaps you can have, simply from the standpoint of audibility and how loud the other people are who are already in the fray. But I - you know, of certain types. Now if it's just backchannels, people may be doing that with less intention of being heard, just sort of spontaneously doing backchannels, in which case that - those might - there may be no upper bound on those.
+mn017: I - I have a feeling that backchannels, which are the vast majority of overlaps in Switchboard, uh, don't play as big a role here, because it's very unnatural I think, to backchannel if - in a multi-audience - you know, in a multi-person
+fe016: If you can see them, actually.
+mn017: audience.
+fe016: It's interesting, so if you watch people are going like -
+mn017: Right.
+fe016: Right - right, like this here, but
+mn005: Yeah.
+me013: u-
+fe016: That may not be the case if you couldn't see them.
+mn017: But - but, it's sort of odd if one person's speaking and everybody's listening, and it's unusual to have everybody going "uh-huh, uh-huh"
+me013: Actually, I think I've done it a fair number of times today. @@ But.
+fe016: Yeah. There's a lot of head-nodding,
+me011: Um.
+fe016: in this
+mn017: Yeah.
+me011: Yep, we need to put trackers on it.
+fe016: @@
+me018: In - in the two-person -
+mn005: Yeah, yeah, yeah.
+mn017: Plus - plus - plus the -
+fe008: He could, he could.
+mn017: Yeah. So - so actually, um That's in part because the nodding, if you have visual contact, the nodding has the same function, but on the phone, in Switchboard you - you - that wouldn't work. So
+me011: Yeah, you don't have it.
+mn017: so you need to use the backchannel.
+me011: Your mike is -
+me018: So, in the two-person conversations, when there's backchannel, is there a great deal of
+me011: That is an earphone, so if you just put it so it's on your ear.
+me018: overlap in the speech? or - Cuz my impression is sometimes
+me011: There you go.
+fe016: Yes. Yeah.
+me011: Thank you.
+fe008: E- for example.
+me018: it happens when there's a pause, you know, like you - you
+fe016: Yes.
+me018: get a lot of backchannel, when somebody's pausing
+fe016: Right.
+fe008: She's doing that.
+fe016: Sorry, what were you saying?
+me018: It's hard to do both, huh? Um no, when - when - when there's backchannel, I mean, just -
+fe016: Oh.
+me018: I was just listening, and - and when there's two people talking and there's backchannel it seems like, um the backchannel happens when, you know, the pitch drops and the first person - and a lot of times, the first person actually stops talking and then there's a backchannel and then they start up again, and so I'm wondering about - h- I just wonder how much overlap there is. Is there a lot?
+fe016: I think there's a lot of the kind that Jose was talking about, where - I mean, this is called "precision timing" in conversation analysis, where they come in overlapping, but at a point where the information is mostly complete. So all you're missing is some last syllables or something or the last word or some highly predictable words.
+me018: Mmm. Mm-hmm.
+fe016: So technically, it's an overlap. But
+me018: But maybe a - just a small overlap?
+fe016: you know, from information flow point of view it's not an overlap in the predictable information.
+mn005: More, yeah.
+me011: It'd be interesting if we could do prediction.
+me018: I was just thinking more in terms of alignment, alignment overlap.
+fe016: Yeah.
+me011: Language model prediction of overlap, that would be really interesting.
+mn017: So - so -
+me013: Yeah.
+fe016: Well, that's exactly, exactly why we wanted to study the precise timing of overlaps ins- in
+mn017: Right.
+me011: Right.
+fe016: uh Switchboard, say, because there's a lot of that.
+mn017: So - so here's a - here's a first interesting labeling task.
+me011: Mm-hmm.
+mn017: Uh, to distinguish between, say, backchannels precision timing - Sort of you know, benevolent overlaps, and - and - and w- and -
+me011: Let's pick a different word.
+mn017: and sort of, um I don't know, hostile overlaps, where someone is trying to grab the floor from someone else.
+mn005: Yeah.
+mn017: Uh, that - that might be an interesting, um problem to look at.
+me018: Hostile takeovers.
+mn005: Yeah. Yeah.
+me013: Yeah.
+fe008: Well, I mean you could do that. I ju- I - I think that
+mn005: Yeah.
+fe008: in this meeting I really had the feeling that wasn't happening, that the hostile - hostile type. These were - these were
+mn017: OK.
+fe008: benevolent types, as people
+fe016: Mm-hmm.
+fe008: finishing each other's sentences, and
+mn017: Um, I could imagine that as - there's a fair number of
+fe008: stuff.
+mn017: um cases where, and this is sort of, not really hostile, but sort of competitive, where one person is finishing something and you have, like, two or three people jumping - trying to -
+me011: Trying to get the floor.
+mn017: trying to - trying to, uh grab the next turn.
+me013: Yeah.
+mn017: And so it's not against the person who talks first because actually we're all waiting for that person to finish. But they all want to be next.
+me013: I have a feeling most of these things are - that - that are not a benevolent kind are - are are, uh um are - are competitive as opposed to real- really - really hostile. But.
+mn017: Right.
+fe008: Yeah, I agree. I agree.
+me018: I wonder what determines who gets the floor?
+fe008: Well, there are various things, you - you have the -
+me018: I mean -
+me013: Uh a vote - vote in Florida. Yeah.
+me011: It's been studied a lot.
+mn005: Voting for -
+me013: Um, o- one thing - I - I wanted to - or you can tell a good joke and then everybody's laughing and you get a chance to g- break in. But. But.
+mn017: Seniority.
+me013: Um. You know, the other thing I was thinking was that, um these - all these interesting questions are, of course, pretty hard to answer with, uh u- you know, a small amount of data. @@
+me011: Ach.
+me013: So, um I wonder if what you're saying suggests that we should make a conscious attempt to have, um a - a fair number of meetings with, uh a smaller number of people. Right? I mean we - most of our meetings are uh, meetings currently with say five, six, seven, eight people Should we really try to have some two-person meetings, or some three-person meetings and re- record them just to - to - to beef up the - the statistics on that?
+fe008: That's a control. Well, it seems like there are two possibilities there, I mean i- it seems like if you have just two people it's not really, y- like a meeting, w- is not as similar as the rest of the - of the sample. It depends on what you're after, of course, but It seems like that would be more a case of the control condition, compared to, uh an experimental
+me011: Mm-hmm.
+fe008: condition, with more than two.
+me013: Well, Liz was raising the question of - of whether i- it's the number - there's a relationship between the number of people and the number of overlaps or type of overlaps there,
+fe008: Mm-hmm.
+me013: and, um If you had two people meeting in this kind of circumstance then you'd still have the visuals. You wouldn't have that difference also that you have in the say, in Switchboard data.
+fe008: Mm-hmm.
+me013: Uh
+fe008: Yeah, I'm just thinking that'd be more like a c- control condition.
+me013: Yeah.
+fe008: Mm-hmm.
+me011: Well, but from the acoustic point of view,
+mn005: Yeah.
+me011: it's all good.
+mn005: Is the same.
+me013: Yeah, acoustic is fine, but -
+mn017: If - if the goal were to just look at overlap you would - you could serve yourself - save yourself a lot of time but not even transcri- transcribe the words.
+me011: Yep.
+fe016: Well, I was thinking you should be able to do this from the acoustics, on the close-talking mikes, right?
+me011: Well, that's - the - that was my - my status report, so
+me013: Yeah.
+fe016: Right, I mean Adam was -
+fe008: You've been working on that. Yeah.
+mn005: Yeah.
+fe016: right. I mean, not as well as what - I mean, you wouldn't be able to have any kind of typology, obviously, but
+me011: Once we're done with this stuff discussing,
+me013: Yeah.
+me011: Mm-hmm.
+fe016: you'd get some rough statistics. So.
+me013: But - what - what do you think about that? Do you think that would be useful? I'm just thinking that as an action item of whether we should try to record some two-person meetings or something.
+fe016: I guess my - my first comment was, um only that um we should n- not attribute overlaps only to meetings, but maybe that's obvious, maybe
+me013: Yeah.
+fe016: everybody knew that, but that in normal conversation with two people there's an awful lot of the same kinds of overlap, and that it would be interesting
+me013: Mm-hmm.
+fe016: to look at whether there are these kinds of constraints that Jane mentioned, that what maybe the additional people add to this competition that happens right after a turn, you know, because now you can have five people trying to grab the turn, but pretty quickly there're - they back off and you go back to this sort of only one person at a time with one person
+me013: Mm-hmm.
+fe016: interrupting at a time. So, I don't know. To answer your question I it - I don't think it's crucial to have controls but I think it's worth recording all the meetings we
+me011: Can.
+fe016: can.
+me013: Well, OK.
+mn005: Yeah.
+fe016: So, um
+mn017: I - I have an idea.
+fe016: you know. D- I wouldn't not record a two-person meeting just because it only has two people.
+me011: Right.
+mn017: Could we - Could we, um - we have - have in the past and I think continue - will continue to have a fair number of uh phone conference calls.
+me013: Uh-huh.
+me011: Yeah, we talked about this repeatedly.
+mn017: And, uh, and as a - to, um as another c- c- comparison condition, we could um see what - what what happens in terms of overlap, when you don't have visual contact. So, um -
+fe016: Can we actually record?
+me011: It just seems like that's a very different thing than what we're doing.
+me013: Uh
+fe016: I mean physically can we record the o- the other -
+me013: Well, we'll have to set up for it. Yeah. Well, we're not really set up for it to do that. But.
+mn017: Or,
+me013: Yeah.
+mn017: this is getting a little extravagant, we could put up some kind of blinds or something to -
+me011: Barriers!
+mn014: Yeah.
+mn017: to remove, uh
+fe016: That's what they did on Map Task,
+mn017: visual contact.
+fe016: you know, this Map Task corpus? They ran exactly the same pairs of people with and without visual cues and it's quite interesting.
+me013: Well, we - we record this meeting so regularly it wouldn't be that - I mean a little strange.
+me011: OK, we can record, but no one can look at each other.
+fe016: Well, we could just put b- blindfolds on.
+mn014: Yeah.
+mn017: Well y- no you - f- Yeah, Yeah.
+me011: Close your eyes.
+fe008: Blindf-
+me011: Turn off the lights.
+fe016: and we'd take a picture of everybody sitting here with blindfolds. That would -
+me013: Oh, th- that was the other thing, weren't we gonna take a picture at the beginning of each of these meetings?
+me011: Um, what - I had thought we were gonna do is just take pictures of the whiteboards. rather than take pictures of the meeting.
+fe008: Well, linguistic -
+me011: And, uh -
+fe008: Yeah.
+me013: Yes.
+fe008: Linguistic anthropologists would - would suggest it would be useful to
+me013: There's a head nodding here vigorously, yeah.
+fe008: also take a picture of the meeting. The -
+me018: Why - why do we want to have a picture of the meeting?
+fe016: Ee- you mean, transc-
+mn005: @@
+fe008: because you get then the spatial relationship of the speakers.
+fe016: no -
+mn017: Well, you could do that by just noting on the enrollment sheet the -
+fe008: And that
+mn005: Yeah
+fe008: could be
+mn005: Yeah. Yeah.
+me011: Seat number, that's a good idea.
+mn017: the seat number.
+me011: I'll do that. I'll do that on the next set of forms.
+mn005: Yeah. Yeah. Is possible to get information from the rhythmic - f- from the ge- , eh uh, files.
+mn017: So you'd number them somehow.
+me011: I finally remembered to put, uh
+me018: We can - can't you figure it out from the mike number?
+me011: put native language on the newer forms. No.
+me018: OK.
+me011: The wireless ones. And even the jacks, I mean, I'm sitting here and the jack is over in front of you.
+me018: Oh.
+fe016: But probably from these you could've infer it.
+mn017: Yeah, but
+me011: It would be another task.
+mn017: It's - it would be trivial -
+fe016: It would be a research task.
+me011: Having - having ground tu- truth would be nice, so seat number would be good.
+fe016: Yeah, yeah.
+me018: You know where you could get it?
+mn005: Yeah.
+me018: Beam-forming during the digit uh stuff.
+me011: So I'm gonna put little labels on all the chairs with the seat number. That's a good idea.
+mn014: Mm-hmm.
+mn017: Not the chairs. The chairs are -
+fe016: But you have to keep the chairs in the same pla- like here.
+me011: But, uh -
+mn017: Chairs are movable. Put them -
+mn005: The chair-
+mn017: Like, put them on the table where they -
+me011: Yep.
+mn014: Yeah.
+me011: Yep.
+mn005: Yeah.
+fe008: But you know, they - the - s- the linguistic anthropologists would say it would be good to have a digital picture anyway, because you get
+me018: Just remembered a joke.
+fe008: a sense also of posture. Posture, and we could like,
+mn017: What people were wearing.
+me011: Yeah.
+fe008: you know, block out the person's face or whatever but -
+fe016: The fashion statement.
+fe008: but, you know, these are important cues, I mean the -
+mn017: Oh, Andreas was -
+me018: How big their heads are.
+fe008: the - how a person is sitting is -
+mn017: Yeah.
+me013: But if you just f-
+mn017: Andreas was wearing that same old sweater again.
+me013: But from one picture, I don't know that you really get that. Right? You'd want a video for that, I think.
+fe008: It'd be better than nothing, is - is -
+mn005: A video, yeah.
+fe008: i- Just from a single picture I think you can tell some aspects.
+me013: Think so?
+fe008: I mean I - I could tell you I mean, if I- if I'm in certain meetings I notice that there are certain people who
+mn017: And - And -
+fe008: really do - eh - The body language is very uh -
+me013: Hmm.
+fe008: is very interesting in terms of the dominance aspect.
+mn017: Yeah. And - and Morgan had that funny hair again.
+fe008: Yeah. Well, I mean you black out the - that part. But it's just, you know, the - the body
+me011: Hmm.
+me018: He agreed.
+fe008: you know?
+me011: Of course, the - where we sit at the table, I find is very interesting, that we do tend to cong- to gravitate to the same place each time.
+fe008: Yeah.
+me011: and it's somewhat coincidental. I'm sitting here so that I can run into the room if the hardware starts, you know, catching fire or something.
+mn017: Oh, no, you - you just like to be in charge, that's why you're sitting -
+me011: I just want to be at the head of the table.
+mn017: Yeah.
+me011: Take control.
+me013: Speaking of taking control, you said you had some research to talk about .
+fe008: Yeah.
+me011: Yeah, I've been playing with, um
+fe008: Yeah.
+me011: uh, using the close-talking mike to do - to try to figure out who's speaking. So my first attempt was just using thresholding and filtering, that we talked about - about two weeks ago, and so I played with that a little bit, and it works O K, except that it's very sensitive to your choice of your filter width and your threshold. So if you fiddle around with it a little bit and you get good numbers you can actually do a pretty good job of segmenting when someone's talking and when they're not. But if you try to use the same parameters on another speaker, it doesn't work anymore, even if you normalize it based on the absolute loudness.
+fe016: But does it work for that one speaker throughout the whole meeting?
+me011: It does work for the one speaker throughout the whole meeting. Um Pretty well. Pretty well.
+me018: How did you do it Adam?
+me011: How did I do it? What do you mean?
+me018: Yeah. I mean, wh- what was the -
+me011: The algorithm was, uh
+me018: Yeah.
+me011: take o- every frame that's over the threshold, and then median-filter it,
+me018: Mm-hmm.
+me011: and then look for runs. So there was a minimum run length, so that -
+me018: Every frame that's over what threshold?
+me011: A threshold that you pick.
+me018: In terms of energy?
+me011: Yeah.
+me018: Ah! OK.
+fe008: Say that again? Frame over fres- threshold.
+me011: So you take a - each frame, and you compute the energy and if it's over the threshold you set it to one, and if it's under the threshold you set it to zero,
+fe008: Hmm.
+me011: so now you have a bit stream of zeros and ones.
+fe008: OK.
+me011: And then I median - filtered that using, um a fairly long filter length. Uh well, actually I guess depends on what you mean by long, you know, tenth of a second sorts of numbers. Um and that's to average out you know, pitch, you know, the pitch contours, and things like that. And then, uh looked for long runs.
+fe008: OK
+me011: And that works O K, if you fil- if you tune the filter parameters, if you tune how long your median filter is and how high you're looking for your thresholds.
+me018: Did you ever try running the filter before you pick a threshold?
+me011: No. I certainly could though. But this was just I had the program mostly written already so it was easy to do. OK and then the other thing I did, was I took Javier's speaker-change detector - acoustic- change detector, and I implemented that with the close-talking mikes, and unfortunately that's not working real well, and it looks like it's - the problem is - he does it in two passes, the first pass is to find candidate places to do a break. And he does that using a neural net doing broad phone classification and he has the the, uh one of the phone classes is silence. And so the possible breaks are where silence starts and ends. And then he has a second pass which is a modeling - a Gaussian mixture model. Um looking for uh whether it improves or - or degrades to split at one of those particular places. And what looks like it's happening is that the - even on the close-talking mike the broad phone class classifier's doing a really bad job.
+me018: Who was it trained on?
+me011: Uh, I have no idea. I don't remember.
+me018: Hmm.
+me011: Does an- do you remember, Morgan, was it Broadcast News?
+me013: I think so, yeah.
+me011: Um So, at any rate, my next attempt, which I'm in the midst of and haven't quite finished yet was actually using the uh, thresholding as the way of generating the candidates. Because one of the things that definitely happens is if you put the threshold low you get lots of breaks. All of which are definitely acoustic events. They're definitely someone talking. But, like, it could be someone who isn't the person here, but the person over there or it can be the person breathing. And then feeding that into the acoustic change detector. And so I think that might work. But, I haven't gotten very far on that. But all of this is close-talking mike, so it's, uh just - just trying to get some ground truth.
+mn005: Only with eh uh, but eh I - I - I think, eh when - when, y- I - I saw the - the - the - the speech from PDA and, eh close talker. I - I think the there is a - a great difference in the - in the signal.
+me011: Oh, absolutely. So s- my intention for this is - is as an aide for ground truth.
+mn005: Um but eh I -
+me011: not -
+mn005: but eh I - I - I mean that eh eh in the - in the mixed file you can find, uh zone with, eh great different, eh level of energy. Um I - I think for, eh algorithm based on energy, eh, that um h- mmm, - more or less, eh, like eh eh, mmm, first sound energy detector.
+me011: Say it again?
+mn005: eh nnn. When y- you the detect the - the - the first at - at the end of - of the detector of, ehm princ- um. What is the - the name in English ? the - the, mmm, the de- detector of, ehm of a word in the - in the s- in - an isolated word in - in the background
+me011: I'm - I'm not sure what you're saying, can you try -
+mn005: That, uh I mean that when - when you use, eh eh any
+me018: I think he's saying the onset detector.
+mn005: Yeah.
+me011: Onset detector, OK.
+mn005: I - I think it's probably to work well eh, because, eh you have eh, in the mixed files a great level of energy. eh and great difference between the sp- speaker. And probably is not so easy when you use the - the PDA, eh that -
+me011: Right.
+mn005: Because the signal is, eh the - in the e- energy level. in - in that, eh eh speech file is, eh more similar.
+me011: Right.
+mn005: between the different eh, speaker, um
+me011: But different speakers.
+mn005: I - I think is - eh, it will i- is my opinion. It will be, eh more difficult to - to detect bass-tone energy. the - the change. I think that, um In the PDA. Yeah. Yeah. And the - the another question, that when
+me011: Ah, in the clo- in the PD A, you mean? Absolutely. Yeah, no question. It'll be much harder. Much harder.
+me013: Yeah.
+mn005: I review the - the - the work of Javier. I think the, nnn, the, nnn, that the idea of using a neural network to - to get a broad class of phonetic, eh from, eh uh a candidate from the - the - the speech signal. If you have, eh uh, I'm considering, only because Javier, eh only consider, eh like candidate, the, nnn, eh the silence, because it is the - the only model, eh - eh, he used that, eh eh nnn,
+me011: Right.
+mn005: to detect the - the possibility of a - a change between the - between the speaker, Um another - another research thing, different groups, eh working, eh on Broadcast News prefer to, eh to consider hypothesis eh between each phoneme.
+me011: Mm-hmm. Yeah, when a phone changes.
+mn005: Because, I - I - I think it's more realistic that, uh only consider the - the the - the silence between the speaker. Eh there - there exists eh silence between - between, eh a speaker. is - is, eh eh acoustic, eh event, important to - to consider.
+me013: Mm-hmm. Mm-hmm.
+mn005: I - I found that the, eh silence in - in many occasions in the - in the speech file, but, eh when you have, eh eh, two speakers together without enough silence between - between them , eh I think eh is better to use the acoustic change detector basically and I - I - I IX or, mmm, BIC criterion for consider all the frames
+me013: Mm-hmm.
+mn005: in my opinion.
+me013: Yeah, the - you know, the reason that he, uh just used silence was not because he thought it was better,
+mn005: Yeah.
+me013: it was - it was - it was the place he was starting.
+me011: Yep.
+me013: So, he was trying to get something going, and, uh e- e- you know, as - as -
+mn005: Yeah. Yeah, yeah, yeah, yeah.
+me013: as is in your case, if you're here for only a modest number of months you try to
+mn005: Yeah.
+me011: Do something.
+me013: pick a realistic goal,
+mn005: Yeah,
+me013: But his - his goal was always to proceed from there to then allow broad category change also.
+mn005: yeah, yeah, yeah. Uh-huh. But, eh do - do you think that if you consider all the frames to apply the - the, eh the BIC criterion to detect the - the - the different acoustic change, eh between speaker, without, uh with, uh silence or with overlapping, uh, I think like - like, eh eh a general, eh eh way of process the - the acoustic change. In a first step, I mean.
+me013: Mm-hmm. Mm-hmm.
+mn005: An- and then, eh eh without considering the you - you - you, um you can consider the energy like a- another parameter in the - in the feature vector, eh.
+me011: Right. Absolutely.
+me013: Mm-hmm.
+mn005: This - this is the idea. And if, if you do that, eh eh, with a BIC uh criterion for example, or with another kind of, eh of distance in a first step, and then you, eh you get the, eh the hypothesis to the - this change acoustic, eh to po- process
+me011: Right.
+mn005: Because, eh eh, probably you - you can find the - the eh a small gap of silence between speaker with eh eh a ga- mmm, small duration
+me013: Mm-hmm.
+mn005: Less than, eh two hundred milliseconds for example and apply another - another algorithm, another approach like, eh eh detector of ene- , eh detector of bass-tone energy to - to consider that, eh that, eh zone. of s- a small silence between speaker, or another algorithm to - to process, eh the - the segment between marks
+me013: Mm-hmm.
+mn005: eh founded by the - the the BIC criterion and applied for - for each frame. I think is, eh
+me013: Mm-hmm.
+mn005: nnn, it will be a- an - an - a more general approach the if we compare - with use, eh a neural net or another, eh speech recognizer with a broad class or - or narrow class, because, in my opinion eh it's in my opinion, eh
+me013: Mm-hmm.
+mn005: if you - if you change the condition of the speech, I mean, if you adjust to your algorithm with a mixed speech file and to, eh
+me013: Mm-hmm.
+mn005: to, eh adapt the neural net, eh used by Javier with a mixed file.
+me011: With the what file?
+mn005: uh With a m- mixed file,
+me018: "Mixed".
+mn005: with a - the mix,
+fe008: "Mixed."
+me011: "Mixed?"
+mn005: mix. Sorry. And
+me013: Mm-hmm.
+mn005: and then you - you, eh you try to - to apply that, eh, eh, eh, speech recognizer to that signal, to the PDA, eh speech file, I - I think you will have problems, because the - the - the - the condition you - you will need t- t- I - I suppose that you will need to -
+me013: Well, I -
+me011: Oh, absolutely. This is - this is not what I was suggesting to do.
+me013: I - u-
+mn005: to - to retrain it.
+me013: Look, I - I think this is a -
+mn005: Really?
+me013: One - once - It's a - I used to work, like , on voiced - on voice silence detection, you know, and this is this kind of thing.
+mn005: Yeah.
+me013: Um If you have somebody who has some experience with this sort of thing, and they work on it for a couple months, they can come up with something that gets most of the cases fairly easily. Then you say, "OK, I don't just wanna get most of the cases I want it to be really accurate." Then it gets really hard no matter what you do. So, the p- the problem is is that if you say, "Well I - I have these other data over here, that I learn things from, either explicit training of neural nets or of Gaussian mixture models or whatever."
+mn005: Yeah.
+me013: Uh Suppose you don't use any of those things. You say you have looked for acoustic change. Well, what does that mean?
+mn005: Yeah.
+me013: That - that means you set some thresholds somewhere or something, right?
+mn005: Yeah.
+me013: and - and so where do you get your thresholds from? From something that you looked at. So you always have this problem, you're going to new data um H- how are you going to adapt whatever you can very quickly learn about the new data? Uh, if it's gonna be different from old data that you have? And I think that's a problem
+me011: Well, also what I'm doing right now is not intended to be an acoustic change detector for far-field mikes. What I'm doing
+me013: with this.
+me011: is trying to use the close-talking mike
+mn005: Yeah!
+me011: and just use -
+mn017: Actually -
+me018: You have candidates.
+me011: Can- and just generate candidate and just try to get a first pass at something that sort of works.
+mn017: actually - actually -
+mn005: the candidate.
+mn017: I -
+me018: to make marking easier.
+mn017: Or -
+me018: Yeah.
+me011: and I haven't spent a lot of time on it and I'm not intending to spend a lot of time on it.
+mn017: OK. I -
+me011: So.
+mn017: um, I, unfortunately, have to run, but, um I can imagine uh building a um model of speaker change detection that takes into account both the far-field and the
+me011: Yep.
+mn017: uh actually, not just the close-talking mike for that speaker, but actually for all of th-
+me011: Everyone else.
+mn017: for all of the speakers.
+me013: Yeah.
+mn017: um If you model the - the effect that me speaking has on your microphone and everybody else's microphone, as well as on that, and you build, um - basically I think you'd - you would build a - an HMM that has as a state space all of the possible speaker combinations
+me011: All the - Yep.
+mn005: Yeah.
+mn017: and, um you can control -
+me011: It's a little big.
+mn017: It's not that big actually, um
+me011: Two to the N . Two to the number of people in the meeting.
+me013: But -
+me011: Anyway.
+me013: Actually, Andreas may- maybe - maybe just something simpler but - but
+mn005: Yeah.
+me013: along the lines of what you're saying, I was just realizing, I used to know this guy who used to build, uh
+mn017: Mmm.
+me013: um, mike mixers - automatic mike mixers where, you know, t- in order to able to turn up the gain,
+mn005: Yeah
+mn017: Mmm.
+mn005: Yeah.
+me013: you know, uh
+mn017: Mm-hmm.
+me013: as much as you can, you - you - you lower the gain on - on the mikes of people who aren't talking, right?
+mn017: Mm-hmm.
+me013: And then he had some sort of reasonable way of doing that, but uh, what if you were just looking at very simple measures like energy measures but you don't just compare it to some threshold overall but you compare it to the energy in the other microphones.
+me011: I was thinking about doing that originally to find out who's the loudest, and that person is certainly talking.
+me013: Yeah.
+me011: But I also wanted to find threshold - uh, excuse me, mol- overlap.
+me013: Yeah.
+me011: So, not just - just the loudest.
+fe008: Mm-hmm.
+mn005: But, eh I - I Sorry. I - I have found that when - when I
+mn017: Sorry, I have to go.
+me011: OK.
+mn005: I analyzed the - the speech files from the, eh mike, eh from the eh close eh microphone, eh I found zones
+me011: Could you fill that out anyway? Just, put your name in. Are y- you want me to do it? I'll do it.
+me018: But he's not gonna even read that.
+me011: I know.
+me018: Oh.
+mn005: with a - a different level of energy. including overlap zone. including. because, eh eh depend on the position of the - of the microph- of the each speaker to, eh, to get more o- or less energy i- in the mixed sign- in the signal. and then, if you consider energy to - to detect overlapping in - in, uh, and you process the - the - in - the - the - the speech file from the - the - the mixed signals. The mixed signals, eh. I - I think it's - it's difficult, um only to en- with energy to - to consider that in that zone We have eh, eh, overlapping zone Eh, if you process only the the energy of the, of each frame.
+me013: Well, it's probably harder, but I - I think what I was s- nnn noting just when he - when Andreas raised that, was that there's other information to be gained from looking at all of the microphones and you may not need to look at very sophisticated things,
+mn005: Yeah. Yeah.
+me013: because if there's - if most of the overlaps - you know, this doesn't cover, say, three, but if most of the overlaps, say, are two,
+mn005: Yeah.
+me013: if the distribution looks like there's a couple high ones and - and the rest of them are low, you know, what I mean, there's some information there about their distribution even with very simple measures.
+mn005: Yeah.
+me011: And everyone else is low, yeah.
+mn005: Yeah. Yeah. Yeah. Yeah.
+me013: Uh, by the way, I had an idea with - while I was watching Chuck nodding at a lot of these things, is that we can all wear little bells on our heads, so that
+mn005: Yeah.
+me011: Ding, ding, ding, ding.
+fe008: "Ding". That's cute!
+me013: then you'd know that -
+mn005: Yeah.
+fe016: I think that'd be really interesting too, with blindfolds.
+me011: Nodding with blindfolds, "what are you nodding about?"
+fe016: Then - Yeah. The question is, like whether - Well, trying with and -
+me011: "Sorry, I'm just - I'm just going to sleep."
+fe016: with and without, yeah. But then there's just one @@ , like.
+me013: Yeah.
+me018: Actually, I saw a uh - a woman at the bus stop the other day who, um, was talking on her cell phone speaking Japanese, and was bowing.
+mn005: Yeah
+fe016: Oh, yeah, that's really common.
+me018: you know, profusely.
+mn014: Yeah.
+mn005: Yeah.
+fe008: Ah.
+me018: Just, kept -
+mn005: Yeah.
+me013: Wow.
+fe016: It's very difficult if you try - while you're trying, say, to convince somebody on the phone it's difficult not to move your hands. Not -
+me013: Mm-hmm?
+fe016: You know, if you watch people they'll actually do these things. So. I still think we should try a - a meeting or two with the blindfolds, at least of this meeting that we have lots of recordings of
+me011: Mm-hmm.
+fe016: Um, maybe for part of the meeting, we don't have to do it the whole meeting.
+me013: Yeah, I think th- I think it's a great idea.
+fe016: That could be fun. It'll be too hard to make barriers, I was thinking because they have to go all the way
+me013: W- Yeah.
+fe016: you know, I can see Chuck even if you put a barrier here.
+me011: Well, we could just turn out the lights.
+fe008: Actually well also - I - I can say I made barr- barriers for - so that - the stuff I was doing with Collin wha-
+fe016: Y- Yeah?
+fe008: which just used, um this kind of foam board. R- really inexpensive. You can - you can masking tape it together, these are
+me013: Yeah.
+fe008: you know, pretty l- large partitions.
+fe016: But then we also have these mikes, is the other thing I was thinking, so we need a barrier that doesn't disturb the sound,
+me011: The acoustics.
+fe008: It's true, it would disturb the, um the -
+fe016: um
+fe008: the long-range - it would -
+me013: Blindfolds would be good.
+me011: I think, blindfolds.
+me013: Probably we should wait until after Adam's set up the mikes,
+fe016: I mean, it sounds weird but - but - you know it's -
+me013: But.
+fe016: it's cheap and, uh
+fe008: OK.
+fe016: Be interesting to have the camera going.
+fe008: I think we're going to have to work on the, uh -
+me018: I'll be peeking.
+fe008: on the human subjects form.
+me011: Yeah, that's right, we didn't tell them we would be blindfolding.
+me013: That's -
+fe008: "Do you mind being blindfolded while you're interviewed?"
+me013: that's - that's - that's the one that we videotape. So. Um, I - I wanna move this along. Uh I did have this other agenda item which is, uh @@ - it's uh a list which I sent to uh - a couple folks, but um I wanted to get broader input on it, So this is the things that I think we did in the last three months obviously not everything we did but - but sort of highlights that I can - can tell s- some outside person, you know, what - what were you actually working on. Um in no particular order uh, one, uh, ten more hours of meeting r- meetings recorded, something like that, you know from - from, uh three months ago. Uh XML formats and other transcription aspects sorted out and uh sent to IBM. Um, pilot data put together and sent to IBM for transcription, uh next batch of recorded data put together on the CD-ROMs for shipment to IBM,
+me011: Hasn't been sent yet, but -
+me013: But yeah, that's why I phrased it that way,
+me011: It's getting ready.
+me013: yeah OK. Um human subjects approval on campus, uh and release forms worked out so the meeting participants have a chance to request audio pixelization of selected parts of the spee- their speech. Um audio pixelization software written and tested. Um preliminary analysis of overlaps in the pilot data we have transcribed, and exploratory analysis of long-distance inferences for topic coherence, that was - I was - wasn't sure if those were the right way - that was the right way to describe that because of that little exercise that - that you and - and Lokendra did.
+fe008: What was that called? The, uh say again?
+me013: I - well, I- I'm probably saying this wrong, but what I said was exploratory analysis of long-distance inferences for topic coherence. Something like that. Um so, uh I - a lot of that was from, you know, what - what - what you two were doing so I - I sent it to you, and you know, please mail me, you know, the corrections or suggestions for changing I - I don't want to make this twice it's length but -
+me011: Mm-hmm.
+me013: but you know, just im- improve it. Um Is there anything anybody -
+me011: I - I did a bunch of stuff for supporting of digits.
+me013: "Bunch of stuff for s-" OK, maybe - maybe send me a sentence that's a little thought through about that.
+me011: So, OK, I'll send you a sentence that doesn't just say "a bunch of"?
+me013: "Bunch of stuff", yeah,
+me011: Yep.
+me013: " stuff " is probably bad too,
+me011: "Stuff" is not very technical.
+me013: Yeah, well.
+me011: I'll try to phrase it in passive voice.
+me013: Yeah. Yeah, yeah,
+me018: Technical stuff.
+me013: " range of things ", yeah. Um and - and you know, I sort of threw in what you did with what Jane did on - in - under the, uh uh preliminary analysis of overlaps. Uh
+mn005: Yeah.
+me013: uh Thilo, can you tell us about all the work you've done on this project in the last, uh last three months? That's -
+mn014: So - what is - what - Um. Not really. Um, I didn't get it. Wh- what is "audio pixelization"?
+me018: It's too complicated.
+me013: Uh, audio pix- wh- he did it, so why don't you explain it quickly?
+me011: It's just, uh beeping out parts that you don't want included in the meeting so, you know you can say things like, "Well, this should probably not be on the record, but beep"
+mn014: OK, OK. I got that.
+me013: Yeah. We - we - we spent a - a - a fair amount of time early on just talk- dealing with this issue about op w- e- e-
+mn014: @@
+me013: we realized, "well, people are speaking in an impromptu way and they might say something that would embarrass them or others later", and,
+mn014: OK.
+me013: how do you get around that so in the consent form it says, well you - we will look at the transcripts later and if there's something that you're
+mn014: OK, and you can say -
+me013: unhappy with, yeah.
+mn014: OK.
+me013: But you don't want to just totally excise it because um uh, well you have to be careful about excising it, how - how you excise it keeping the timing right and so forth so that at the moment tho- th- the idea we're running with is - is h- putting the beep over it.
+me011: Yeah, you can either beep or it can be silence. I - I couldn't decide.
+mn014: OK.
+mn005: Ah, yeah.
+me011: which was the right way to do it. Beep is good auditorily, if someone is listening to it, there's no mistake that it's been beeped out,
+mn014: Yeah. Yeah.
+me011: but for software it's probably better for it to be silence.
+me018: No, no. You can - you know, you could make a m-
+fe008: Hmm.
+me018: as long as you keep using the same beep, people could make a model of that beep, and -
+me011: Yep.
+fe008: I like that idea.
+me011: And I use - it's - it's, uh
+fe016: I think the beep is a really good idea.
+me011: it's an A below middle C beep, so
+fe008: It's very clear. Then you don't think it's a long pause.
+me018: Yeah.
+fe016: Also -
+me018: Yeah, it's more obvious that there was something there than if there's just silence.
+me013: Yeah, that - I mean, he's - he's removing the old thing and - and - and -
+fe008: Yeah.
+mn014: Yeah.
+mn005: Yeah
+me011: Yep.
+me018: Yea- right. Right.
+me011: Yeah, it's not -
+me018: But I mean if you just replaced it with silence,
+mn014: Yeah.
+me018: it's not clear whether that's really silence or -
+mn005: Yeah.
+fe008: Yeah, I agree.
+me011: Yep.
+mn014: @@
+mn005: Yeah.
+fe008: One - one question. Do you do it on all channels?
+me013: Yeah.
+me011: Of course.
+fe008: Interesting. I like that. Yeah, I like that. Very clear.
+me013: Yeah.
+me011: Yeah you have to do it on all channels because it's, uh audible. Uh, it's - it's potentially audible, you could potentially recover it.
+fe008: Very clear.
+me013: Ke- keep a back door.
+fe008: Well, the other thing that - you know, I mean the - the alternative might be to s-
+me011: Yeah. Well, I - I haven't thrown away any of the meetings that I beeped. Actually yours is the only one that I beeped and then, uh the ar- DARPA meeting.
+fe016: Notice how quiet I am.
+me011: Sorry, and then the DARPA meeting I just excised completely, so it's in a private directory.
+fe008: Yeah.
+fe016: You have some people who only have beeps as their speech in these meetings.
+fe008: That's great. Yeah.
+me013: OK.
+me018: They're easy to find, then.
+me013: Alright, so, uh I think we should, uh uh, go on to the digits?
+me011: OK.
+fe008: I have one concept a- t- I - I want to say, which is that I think it's nice that you're preserving the time relations, s- so you're - you're not just cutting - you're not doing scissor snips. You're - you're keeping the, uh
+me011: Right.
+fe008: the time duration of a - de - deleted - deleted part.
+fe016: Yeah, definitely.
+me013: Yeah.
+fe008: OK, good, digits.
+me011: Yeah, since we wanna possibly synchronize these things as well. Oh, I should have done that. Shoot. Oh well.
+fe008: It's great.
+me013: Yeah. Oh-
+fe016: So I guess if there's an overlap, like, if I'm saying something that's bleepable and somebody else overlaps during it they also get bleeped, too?
+me011: You'll lose it. There's no way around that.
+me013: Yeah. Um I d- I did - before we do the digits, I did also wanna remind people, uh please do send me, you know, uh thoughts for an agenda, yeah that - that would be
+me011: Agenda?
+me018: Mm-hmm.
+fe008: Good.
+me013: that'd be good. Eh So that, uh, people's ideas don't get yeah, well
+me011: Thursday crept up on me this week.
+me013: it does creep up, doesn't it? OK.
+fe016: And, I wanted to say, I think this is really interesting
+me011: It's cool stuff, definitely.
+fe008: Thank you. Thank you.
+fe016: analysis. I meant to say that before I started off on the Switchboard stuff. It's neat.
+me011: I was gonna say "can you do that for the other meetings, can you do it for them?" And, no actually, you can't.
+fe016: Yeah. Does it take -
+fe008: Thank you.
+me018: Actually - actually I - I thought that's what you were giving us was another meeting and I was like, "Oh, OK!"
+me011: "Ooo, cool!"
+fe008: Yeah. Aw, thanks.
+fe016: How long does it take, just briefly, like
+fe008: No. I have the script now, so, I mean, it can work off the, uh
+fe016: t- to - OK.
+me011: It's -
+fe016: to label the, OK.
+fe008: other thing ,
+me011: As soon as we get labels, yep.
+me018: But it has to be hand-labeled first?
+fe008: but - Uh, well, yeah. Because, uh well, I mean once his - his algorithm is up and running
+me011: If it works well enough.
+fe008: then we can do it that way.
+me011: Right now it's not.
+fe008: But I - I just worked off of my
+fe016: OK.
+me013: OK, go ahead
+fe016: It's really neat.
+fe008: Thanks. Appreciate that.
+me011: Not quite to the point where it works.
+fe008: I think - what I - what this has, uh, caused me - so this discussion caused me to wanna subdivide these further. I'm gonna take a look at the, uh backchannels, how much we have anal- I hope to have that for next time.
+me011: Yeah, my - my algorithm worked great actually on these,
+me018: That'd be interesting.
+me011: but when you wear it like that or with the uh, lapel or if you have it very far from your face, that's when it starts failing.
+me018: Mm-hmm.
+fe016: Well, I can wear it,
+me018: Oh.
+fe016: I mean if you -
+me011: It doesn't matter.
+fe016: OK.
+me011: I mean, we want it to work, right? I - I don't want to change the way we do the meeting.
+me018: It's too late now.
+fe016: I feel like this troublemaker.
+me011: It's uh - so, it was just a comment on the software, not a comment on prescriptions on how you wear microphones.
+fe016: OK.
+me011: Get the bolts, "whh whh"
+me013: OK, that's - let's - let's - let's do digits.
+fe008: Let's do it. OK.
+me011: OK.
+fe016: I'm sorry.
+me011: OK, thank you.
+fe008: Do you want us to put a mark on the bottom of these when they've actually been read, or do you just i- the only one that wasn't read is - is known, so we don't do it. OK.

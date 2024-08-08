@@ -1,0 +1,485 @@
+me011: Testing.
+me907: Is this a virtual meeting, or - ?
+me011: Uh, they're partici- O K. Are we on? Yep. OK, thanks again.
+mn082: OK, we can start?
+me011: Yep.
+mn082: OK. Thank you, Adam. I will call you then when we are ready . I believe, maybe one hour, in that sense.
+me011: Just give me a call. OK. Thanks.
+mn082: OK, welcome to our next meeting. Um I have couple of points we should discussed. One is related to the proposal, Michael, please can you
+mn035: Yep.
+mn082: close the door? Thank you. And, um furthermore, as most of you know I will leave in tenth of December, I think we should discuss how we proceed in the meantime, because I get, I would like to say, different signals from Siemens, I believe, in the meantime it's a higher probability that I will return, but based on the pro- uh, procedure to get a Jone visa and the IP six six it will be - I would like to say, earliest stage will be end of January, so that means we have to get over six weeks and - Then furthermore I would like to know the status of everybody. I know for sure, OK, um Miguel, you will have your plans for this, uh, ongoing process, uh, concerning your work. OK, from you it's definitely clear, in principle. OK, for Michael, what are your current plans and Dietmar, maybe you then, also. What we have discussed, in principle, concerning the ongoing process with U - USAIA and also this, uh, your current work, and from my point, it seems to be clear that I will go back definitely at tenth of December, and, as I mentioned before, probably will be - more than fifty percent, I would like to say, that I will be come back to get the freedom to launch here the project in the sense in whatever kind of form and get, in principle, paid by another project within Siemens. So the point is how long I will stay. I believe, a couple of months definitely and based on the success, I think that's always an ongoing process to go back to - uh, to Germany for a couple of weeks and then come here and - and go on with - with this work and - so that is my current opinion, concerning how Siemens deal with - with my, uh, ongoing effort. And, furthermore, I would like to - First of all, thanks to uh Dietmar because he started to use a testbed.
+mn030: Oh.
+mn082: Eh in principle, in his spare time. Yeah!
+mn030: Yeah.
+mn082: Uh I will - So - so the first, uh uh, box, this morning. I will set up, definitely, in my spare time, in the evenings and the weekends the second box, and I'm looking for two other volunteers who are setting the third and the fourth box.
+mn021: But wh- wh- wh- what are the box?
+mn082: A box is a s- P C.
+mn030: PCs. PCs.
+mn021: But what w-
+mn082: Equipped with - with - we should equipped it with - with Linux or maybe too with Free BSD, I doubt - I don't know
+mn030: Well the first stop, - the first thing the most, eh, complicated is to fit them with the
+mn082: and we'll -
+mn030: removal - removable - um, hard disk.
+mn082: And now we have an expert.
+mn030: But it's - Yeah. So the first computer I had to - um the Oh, what's the right word? I had to put everything out to - to put the removable hard disk in and - and it's -
+mn082: Yeah, to remov- So that you can pull eh the - plug in the removable hard disk to the ID bus and - and OK, maybe it's a little bit -
+mn021: OK.
+mn030: Yeah, it's - but i- but it's not - not, um very, uh difficult or something like that.
+mn082: Uh-huh,
+mn030: So you just have to -
+mn082: And - Why you are laughing? I ju- I don't know, I cou- I s- I didn't see him, so I don't know what he did. I know in the meantime it's running, and I will definitely set up the next one.
+mn030: Uh! So Wilbert will set up the second computer.
+mn082: Yeah, though my idea - maybe you eh can equip it with a- I don't know what your time constrain- whether the time constraint allows you to set up one with - with Free BSD, for instance. Yeah.
+mn021: You know, I - I can - I can build, eh, any computer uh you n- - installing whatever.
+mn082: OK, uh-huh.
+mn021: It's needed, I mean, I will enjoy doing it. So.
+mn082: Do you find the time?
+mn021: That's OK for me.
+mn081: Mmm.
+mn082: Maybe also to uh support your -
+mn081: No promises.
+mn082: No promises?
+mn081: No.
+mn082: and even maybe to - to, uh put your IGM P stuff on it. Eh
+mn081: No promises.
+mn082: No promises.
+mn081: No.
+mn082: Ah, he's very hard to sell .
+mn030: So it's about one hour to put this, uh hard disk in and a further hour to, uh - Well, two or three hours to install the operating systems.
+mn082: Nee , because then the network is still running then. Could we wait until the network is running? Because currently it's not possible,
+mn030: Yeah. At the moment.
+mn082: uh, based on certain fire wall constraints. I believe David is, uh, currently working on that. to set up the fire wall, and he's not an expert for that and when I get the signal I will ask one more time. Nah, but nevertheless thanks to Dietmar that he @@ .
+mn081: Did the networks have internet connectivity?
+mn082: Yes, we have, eh, for - for secure socket, and, uh for web access, the fire wall is open. That's all. And - But currently it's not working, right?
+mn030: Right, um On Friday when I installed, um uh Linux the first time I got access to the local network here, um, but not to any machines outside of, uh, ICSI. And, till Monday there's no access at all to any machines, also not to inside machines.
+mn082: But then, uh
+mn030: So, I think it's related to the work, um they've done on Sunday here and I sent -
+mn081: But normally you should have access to th- all the internet, r- to outside.
+mn082: Yes. Yeah, You have
+mn081: Full.
+mn082: internet outside access, but no telnet and not Rlogin or whatever kind of things, you know.
+mn081: A restricted in. Not. Huh. Not a - no FTP.
+mn082: Yeah, FTP yes.
+mn081: H-
+mn082: But no telnet.
+mn081: Hmm.
+mn082: Uh because you can - The - the - the point is that we will use it, as it is uh described several times, that we will use it as a local network, in principle, but it doesn't make sense to use certain kinds of uh, media transportation f- to put some stuff you need from your PC or your LS to this, uh - uh, uh, to this testbed, you know.
+mn021: Mm-hmm.
+mn082: So you download it, if that s- must be possible from the network, but normally it should be used as um - uh for demonstrations or to figure out if you have a scenario where you have to use more than, uh, one box which you have on your desktop, cuz that is the primary, uh uh reason for this testbed. So, definitely you have to have web access to download the necessary files.
+mn021: Hmm-hmm-hmm.
+mn082: So and then furthermore, one more thanks to Claudia. He did a lot of work and I could only
+fn083: Right. Ah, the messages. Oh.
+mn082: pass her some advices and some discussions with her concerning the web pages. And now we are, in principle, in the state we have to do it with a project area. But they're also some contributions from you guys requested. Um and the alumni page, in principle, we have to, you know , but it's primarily my job, I believe, uh, to set up so that it is, uh adjusted really to the people who are worth to be alumnis - alumnis, yeah. Is it " alumni" - "alumni"? I'm -
+fn083: "Alumni".
+mn082: "Alumni". I'm not sure how to pronounce this word.
+mn035: Aber das wird jetzt geaendert.
+mn082: Huh?
+mn035: Das wird geaendert.
+mn082: And, um - But, um I think everybody should take a look to the web pages, and inform Claudia if something, uh, has to be improved or if there's some comments or
+mn021: Mm-hmm.
+mn082: uh He's laughing all the time. Why? Uh because it is - you know, that's very important maybe now- not for us but maybe for our successors and maybe somebody will come back once a day or send some students or some colleagues or whatever. So, my point of view - I will doc- I will documented everything when I will leave here in the sense that potential successor as a group leader can hook in with these things and that these web pages will be updated every time when it is necessary. We tried to do it, so that it must be at least updated only when really major changes happen. So that means somebody's leaving the group, uh, somebody is joining the group, a new project is started, but, uh, the effort should be minimized as possible. And, so please take a look to the web pages and I have announced in the project area the major headlines. And especially, Wilbert, maybe you can write something about yours? I call it, I believe, "Multicast" and then "Development deployment", eh, for - for source specific multicas- maybe a few lines, maybe a picture. And something like that should be added to USAIA? OK, that's my stuff. And um then the next point is then this active routing stuff? Um I would like to discuss it before, but you were busy.
+mn021: Yeah, OK.
+mn082: And so - um, I believe, it must be adjusted to the current activities a little bit more.
+mn021: Mm-hmm.
+mn082: And, um I - I think it doesn't - It is not worth to discuss it now because nobody raised it before.
+mn021: Yeah, I think so.
+mn082: And, uh, so l- let us have a bilateral discussion afterwards. I would - what I would like to have is that um, your contributions is related to certain kind of things happened here. And that means really to the project proposal itself and also maybe to the USAIA architecture, in that sense, that at certain stages, cuz it's a general architecture, certain stages maybe to future mobile core networks, that it is related to these kind of things. Um, having - uh, I - what I have in mind is that things should not be started from the end system. That's my principle concern, because that will never be happen, from my point of view. It should be started as the edge device, so that it cu- certain kind of mechanism, whatever, is enabled between the ingress edge device and the outgress a- edge device, because it will be at the certain stage IP based in the future generation telecommunication networks
+mn021: Mm-hmm. That's OK.
+mn082: before its goal . Fuel it to the - over the internet, and b- between these both boxes, I can assume uh because the mobility happens there as a normal natural thing and the forwarding process and the routing process should be no more separated, from my point of view. And to have there a certain kind of intelligent mechanism, that the packets can be used to set up the routes because they have all the information. They know where they have to go because IP addresses are still there
+mn021: Hmm-hmm-hmm.
+mn082: and - within the packet. I mean, how can this use, uh, within this area, and how this area is then aligned to the more traditional routing within the internet backbone itself. That's my question. And I think that is good a research area, then I think there's a lot of - I'm not a e xpert at all for this. But I - I - I believe, there's a lot of potential for that. And we should discuss it maybe bilateral afterwards.
+mn021: OK. OK.
+mn082: Yeah? So, one more time, everybody should take a look to the web pages and from Claudia, at the general remarks and should write based on the, uh, headlines in the project proposal the um things what still happened, the things what they have still in mind uh so that we can update these last @@ you know @@ present the last major part of the web pages.
+mn030: The pages are already on the web?
+mn021: OK.
+mn082: Yes,
+fn083: Yeah, yeah.
+mn030: Yeah.
+fn083: It is.
+mn082: you can now access it normally with maybe WWW ICSI Berkeley EDU,
+fn083: So there are some gaps.
+mn030: OK. Hmm.
+mn082: and so.
+mn030: OK.
+fn083: Yeah, so there are some gaps left and, I don't know, you - Maybe you can also read through the - all the text which is on the web pages cuz I'd like to change the text a bit cuz sometimes it's too long, sometimes it's too short, maybe the English is not that good, so um, but anyways - So I tried to do this today and if you could do it afterwards it would be really nice cuz I'm quite sure that I can't find every, like, orthographic
+mn021: Uh, there - there - there are couple of comments I - I have about the web pages.
+fn083: mistake in it or something. Good.
+mn021: One is - is the, uh, I think it's Joe's, uh, graphic, I think it should be better.
+fn083: Yeah, yeah, yeah, the graphics are too bad.
+mn082: Yeah.
+mn021: Maybe you are working at it.
+fn083: I know.
+mn082: You are definitely right. It was in a good shape, but
+mn021: OK, And then maybe the -
+mn082: it, uh, then we disturbed.
+mn021: the ICSI logo could be - could be -
+fn083: I can't change something with a logo.
+mn021: could be, uh - No, it is just, uh - Maybe we can - we can, uh, translate the white color into transparent color so it will get more natural.
+fn083: Yeah, OK. Good,
+mn021: It's just a suggestion.
+fn083: yeah I ju- an- another thing is I'd want to get a link on the logo so that you can come from the logo to the
+mn021: To the home page.
+fn083: ICSI web p- home page
+mn021: OK.
+fn083: back.
+mn021: That's - that's OK.
+fn083: So. That's - these are th- some things I have to do. Yeah, and if you have something which I should put on the web page for you, so yeah, some pictures will be nice, a few sentences will be nice, and yeah, it depends on how much time you have. And then the page for inf- about - So, some information for people who are new comers or, I don't know a good word for it, should we use uh "new comers" or - So, with somebody who is new, arriving here, or wants to - to, uh, send an application?
+mn081: Newbies.
+fn083: S- Huh?
+mn081: Newbies.
+fn083: Newbies? Yeah, OK. So, there I have to add some information, I don't know, I t- I tried to set up everything by today for this page cuz I've started with this, um, if you have any kind of ideas what was important for you then just let m- cuz I have some points like um I don't know f- yeah, like Pacific Bell, like uh, long-distance carriers, then like uh, cars and car insurances, health insurances - So, health insurance is k- something I can only say for German people.
+mn021: Hmm-hmm-hmm.
+fn083: So maybe I don't know if this is different in Spain. That would be fine too, to have some information, or in D-
+mn021: OK.
+fn083: nnn
+mn021: I-
+fn083: Holland. I don't know.
+mn021: I will take a look and I will tell you something.
+fn083: Yeah, so how - maybe how you did it or
+mn082: Mm-hmm.
+fn083: whatsoever.
+mn082: OK, I will send you some because I have something in mind.
+fn083: So yeah, then what else did I have? Then another point's like, uh, what about the bank, uh, so, transferring your money from Europe t- over here, what is the cheapest way or what could you recommend or something. um another point yeah, and then there's - there's another point like going out in Berkeley or what to do in Berkeley or in the neighborhood.
+mn081: This - a lot of this stuff is not networking group - NSA, uh, restricted.
+fn083: No, I know.
+mn082: Yeah, but nobody do that, you know.
+fn083: I know. But there's nothing like this on the - on the ICSI page as far as I know.
+mn082: So, that's the point. We discussed it still a couple of weeks or months ago. Uh, the point is normally it is an ICSI task anyway.
+mn021: Mm-hmm.
+mn081: M-
+mn082: But
+mn081: Yeah, but a- at least then it should be -
+mn082: Right. @@
+mn081: mmm, I think be, uh, ICSI part, and not network restricted.
+mn021: Well, th- they have uh, a - a white booklet, you know, probably -
+mn082: Yeah, that is from nineteen ninety-one or nineteen ninety-two, you know.
+fn083: Yeah, but it's not in the - This is not on the web.
+mn082: A- And this is not on the web, and the - the - the -
+mn021: No, no, no. I - I just - I
+mn082: people normally - that's was my - my, uh -
+mn021: In fact the Pacific Bell phone was not working, for example when I tried the - the phone on this booklet it was not working.
+mn082: Hmm.
+mn021: But the thing is that maybe this could be on a starting point or - or if - digest
+fn083: Yeah. I don't know, maybe I talk with Jane about this. If we can use this information, I don't know, somewhere on the ICSI home page too.
+mn081: M- move it on the normal ICSI,
+fn083: Yeah.
+mn081: ICSI .
+fn083: Maybe.
+mn081: Maybe every group has somewhere hidden, uh
+mn082: We can do that.
+mn081: a gro- uh deep
+mn082: Yeah, but the point is that nobody feel responsible for that.
+mn081: outgoing -
+mn082: And if it's -
+mn081: Yeah, but eh - but my point is that it should not be under the networking group
+mn021: It's a common -
+mn082: Yes,
+mn081: thing. eh - But -
+mn082: Uh, yes, I see there your point. That's right. But if it is under the networking points, the group leader is responsible to
+mn081: OK.
+mn082: get up to date information. I believe, we are the group, where the people are, uh, changing much more faster to join the group and to leave the group as other groups.
+mn021: Mm-hmm.
+mn082: And, so, the most problem as - as of , uh, it's likely that uh, the people here in this group needs this information um, much more f- uh, often as - as other groups.
+mn081: But - b- But that could still be applicable if you put it under the ICSI site if you take the responsibility for that.
+mn082: Yes, I see th-
+fn083: Yeah, I talk to Jane about this.
+mn081: Uh,
+mn082: Yeah, but we - we can do that.
+mn081: So I think th- I think both arguments are not an ar- are arguments against having this under the normal ICSI page. Or only the networking, uh, page.
+mn035: But the problem is, are you allowed to change anything on the
+mn081: Yeah.
+mn035: general ICSI server?
+fn083: No, this is why I have to talk to Jane.
+mn035: Yeah.
+mn082: Yeah, that's - yeah, that's a -
+mn035: So you may need just a link from the main ICSI page to the NSA page.
+mn082: We have the - we have the directory structure, of the real UNIX tree. in compliance and in accordance with what you - with the structure of the web pages. And, um, that means, uh, the group leader normally do not have access to the general web pages. He has access to the NS A pages. And, um, but I think that's an administration problem and that everybody agrees that the information page must be on the general, on the highest level. OK, I have no problem with that.
+mn030: But, uh
+mn082: But - but I think we discuss if still -
+mn030: your argument is, uh, I think it
+mn035: Yeah.
+mn030: we have to have the right to change it. So if there's anything changing in insurances or something - something like that, that we have access to this page further on -
+mn081: Yeah.
+mn030: to chan- to make any changes.
+fn083: Yeah, but this is not a problem at all, I - I mean, if y- you are coming from Germany and you know that there is something changed with the health insurance, then you send Jane an email like "Could you please change this, blah-blah-blah."
+mn030: Yeah, but it's much more complicated.
+mn035: Yeah, but that's - that's effort. That's the whole problem, that nobody wants to do it.
+mn030: Yeah.
+mn082: Yeah.
+fn083: Yeah, OK.
+mn082: You know how it - you know the process here within the NSA group. You know
+fn083: Yes.
+mn082: And - and that was a reason I - we finally decided here that we put it - information on the NS A page, we have discuss- dis- this discussed still a couple of months ago - ago.
+mn030: I think the best solution is really to put a link on the
+mn081: Yeah.
+mn030: ICSI page
+mn035: Yep.
+mn030: to this stuff. And the stuff itself is, uh, located at our server.
+mn082: In our directory.
+mn030: Yeah, in our directory,
+mn082: Yeah.
+mn030: yeah.
+mn082: Yeah, we can do that. We then create a link and then we have to ask with Jane, OK?
+fn083: Yes, also fine. Yeah. Another point is I want - I want to - would like to add a- another button, something which is called like "events" or, I don't know, yeah, I guess I call it "events" like
+mn021: Hmm?
+fn083: where we could s- uh, announce talks which are, you know, future - talks for the future, or - and where we could also have a link on - for instance the two workshops which have going on, uh, last summer, so, Hannes' workshop and then the workshop from Oliver, that there might be a link behind these workshops and - or former talks we have, so like from people who have been here before and he wants to, uh, publish their slides, or an article, or whatsoever, behind there. So, that we have like a button for events which are - where workshops can be announced or old workshops could - could be, um, shown or whatever.
+mn021: Mm-hmm.
+mn082: Of course that is a living thing. I think it's a good idea, not only that the workshop was a talk announce because they are still announce it is a broader sense. Eh, but I think the idea from Claudia is very good, that the slides from the talks here, if it's worth to have it on the web, anyway um, should be published in that way that the people can access it. For instance I have my USAIA slides.
+mn021: Mm-hmm.
+mn082: maybe if
+mn021: Yeah, that's OK, too.
+mn082: some things and - is going on maybe you have some Multicast slides concerning your work at IGMP and uh and if we have some talks from EXTERM , and we had some in the past, we can also put the slides on - on these things - because then they're still cau- still a growing context for us, opportunity for the people you know there, "Oh, this guy did something there, maybe I can contact him and ask him
+mn021: Hmm-hmm-hmm.
+mn082: would you like to do something, contribute, whatever." Uh, so that's - and I think it's a great idea from Claudia to - to have this event page because it's not a big deal, you know.
+fn083: No , it's easy to - to add it,
+mn082: It's - it's -
+fn083: I mean.
+mn082: Yeah, and then it's - Nah, OK. If there are no events, then there are no events. But we still have a few which happened in the last year
+fn083: Yeah, yeah.
+mn082: and OK, then it is a growing thing but it's done automatically that the group leader or the group, uh, put some things eh, also on the web. Something in the center pipe . Yeah? Everybody agree?
+mn030: Um, I don't know. Maybe it could be a good thing
+mn021: OK.
+mn030: if we have such an event button that, um, somewhere beneath this button or wherever, that there's a date, when the last update was. So that you know it's worth to click this button to see there's a new, um, announcement or not. S- So otherwise, you are
+fn083: Yeah, OK.
+mn030: often clicking this button and you get your old information or even an - uh empty page.
+mn082: Maybe there's -
+fn083: Yeah but this will be then down on the button of the page anyways.
+mn082: Yeah, maybe we can have "updated on",
+mn030: So
+mn082: you know the button itself?
+mn030: Yeah, something like that.
+mn082: And then, "updated"
+mn030: "Last updated",
+mn082: and the current date, when - when something happened.
+mn030: yeah.
+mn082: I don't know how we deal with that.
+fn083: Yep.
+mn082: Is it another thing we have to ?
+fn083: Yep.
+mn030: So it's just a su- suggestion I don't know how easy it is to - to implement something like that.
+mn082: Yeah.
+fn083: Huh! OK.
+mn082: OK you Well. Let's consider "update event button". OK. So, and then the next point and, I believe, yeah, So, not the last one, @@ is one that I would like to know the status as far it is possible from everybody concerning his future intention here at ICSI or whether e- when he will leave whether he can contri- or will he consider currently, uh, contribute here to the proposal because you know, I've - I'm facing the problem, if I go back to Siemens and I say "OK, there's a potential." "There are potential contacts." currently, maybe no money, but if we go in one direction it - - it is worth to know if people can still go on in that area of that kind of work then they are back in their university or their company or whatever. and even if it's nur unschl- part-time jobs and - and if it's come to a real proposal, that maybe the people can hook in, uh, one more time because I need this information definitely t- uh, to inform the uh, the Siemens management that it's worth to send me back here. So maybe Wilbert you can start. You will leave end of January definitely. And currently you see no chance, as far as I know, uh, to stay longer here and either you will go back to KPN or you will stay here and find then a job opportunity another company, is that right?
+mn081: Yes, yeah.
+mn082: Can you give us more details of - concerning the status?
+mn081: No,
+mn082: No?
+mn081: no. Pending.
+mn082: Pending.
+mn081: Yeah.
+fn083: See for me it's the same I can also say, uh, for me everything has completely changed, so now I go back and I don't anything what to do, so it's like I have to sort everything out when I'm
+mn082: Yes, but you have no -
+fn083: back in Germany but I won't go back to the university so
+mn082: yeah?
+fn083: I don't think so.
+mn082: So you are looking for a job. That's probably then - OK. in principle, I would like to say you are lost for the NSA group, because
+fn083: Then it's like yeah.
+mn082: ffft that's uh,
+fn083: Yeah,
+mn082: it would be a -
+fn083: No, no, no.
+mn082: a wonder if, uh, it hook in at the same area, you know.
+fn083: Yeah.
+mn081: Uh, but that's also for me, I'm kind of lost for the NSA group.
+mn082: Yeah. Yeah. Yeah. I think so, yeah.
+fn083: "Lost" is maybe a bit like -
+mn081: And oh, also -
+mn082: Ja
+mn081: also
+mn082: from the work contributions, you know.
+mn081: Well, b- but I think even - also KP N. i-
+mn082: Yeah.
+mn081: is lost for the, uh, for the ICS I.
+mn082: Yeah. Uh, do you know whether they have -
+mn081: There's a lot of, uh, z- budget cuts going on and nothing is possible anymore, so.
+mn082: Um, so from your side the statement is, um, that, uh, independently of your person uh, the KPN is not - they're not willing to send us another guy here to ICSI anyway.
+mn081: Yes. Absolutely.
+mn082: And, if they are interested in uh, a certain kind of project then it must be related to a certain kind of really service or a certain kind of end system or real product or whatever kind of thing with respect to UMTS, right?
+mn081: I- it - It will be different thing. It will be a - it will be a start-up. And I know they're - they're working on a w- a few of them in this area, but it's ou- outside of ICSI.
+mn082: Mmm. So, KPN and - and ICSI in principle.
+mn081: Yeah.
+mn082: After you will leave here that is . Yeah, and then what do you intend to do in the last two months beside of course, looking for,
+mn081: u-
+mn030: Holidays
+mn081: Th-
+mn082: yeah.
+mn081: Um, I am working now on - on something, uh an open source router.
+mn082: This is that from from Mark, right?
+mn081: No, in -
+mn082: Not?
+mn081: well, it's a little bit u- out of Mark. I'm - Right now I'm interested and I'm looking into it and I'm working - started yesterday, actually working on it, to do the, uh - u- to do an implementation of the protocol that was designed by Mark, um, on an open-source router that's different from the one that - of Mark's project.
+mn082: Mm-hmm. Yeah, do you finish that and
+mn081: S- s-
+mn082: do you believe that you can finish that until
+mn081: I hope so. I-
+mn082: end of January?
+mn081: That would be cool.
+mn082: It sounded - sounded to me a little bit -
+mn081: Yeah. It's
+mn082: little bit, hard t- hard - hard time constraint, right?
+mn081: hard work. Yeah. That's right. But I'm working on it.
+mn082: Mm-hmm. OK, Mi- Miguel, maybe you can say also.
+mn021: Oh, I'll be - I'll be here until the end of July. And, uh, well, eh even later if, uh, there is some interesting work, uh, going on, well I - I will be able to to do some work from Spain too.
+mn082: Mm-hmm.
+mn021: So, that's my future uh forecast.
+mn082: Mm-hmm, and, uh, do you have some students which could be join
+mn021: Yeah.
+mn082: if there is - I assume there is a certain activity. Maybe i- if you will leave in July
+mn021: Yeah, well, you know, uh the problem the - I think that we have a - a problem - or a difference in Spain, at least, compared with the Americans. And i- is that our students are, uh - are not getting involved in research until they have, uh, finished their studies. So, uh, it's something a little bit, uh, strange but it is this - this is the w-
+mn082: What? They are not - sorry? They are not involved in - in research?
+mn021: Yeah. You know -
+mn082: What they are doing then? I'm sorry .
+mn081: Lectures.
+mn082: Huh?
+mn021: You know, they -
+mn082: Ach so, ach so, OK.
+mn021: You - you have to - to pass the different tests and you have to study the different subjects. And, until you have
+mn082: Mm-hmm.
+mn021: finished with this, uh well - OK, you can do it by - by your own, but - but the thing is that you're not supposed to do it. And usually students are pretty busy for not doing other things.
+mn082: Mm-hmm.
+mn021: Uh.
+mn030: And there's no final master's thesis or something like that
+mn021: Ah yeah em nnn, not really.
+mn030: what they have to perform?
+mn021: You know, there is.
+mn030: Mm-hmm.
+mn021: There is. But, uh, it is not a research work. Usually it's an application work. So you build a web site, your own Ecommerce site, uh,
+mn030: Mm-hmm.
+mn021: whatever, or a program or -
+mn082: Why I didn't study in Spain?
+mn021: but - But it is not, uh, something your teacher provides you some research papers and you,
+mn082: Mmm. Mm-hmm.
+mn021: let's say, build a simulator or try to.
+mn030: Mm-hmm.
+mn082: Are certain tasks and so?
+mn030: OK.
+mn021: So we have, uh, other students are which are, uh, mmm people that has a grant and they are - they are starting as, uh, researchers, aaa, but this is only connected to your own funding so if you - if you have projects
+mn082: Mm-hmm.
+mn021: you can have, uh, people working with you. If you don't have, a research project well, you cannot pay them so u- u- usually you don't have anybody. So it's kind of, uh, dependent on the funding we have in some projects. So w- it's
+mn082: Hmm?
+mn021: not sure,
+mn082: No,
+mn021: not really sure.
+mn082: there. We're not talking about to send the students here to ICS I. I'm talking if there is an activity, at least with the NSA group, that certain kind of activities also in the university could apply for the master works, of diplomas thesis, uh, whatever kind of thing
+mn021: Yeah, we - we - I think we could -
+mn082: that -
+mn021: We could find, uh, some, eh work force. OK?
+mn082: Mm-hmm.
+mn021: Because - well, you - you can, eh, fo- redirect you know, the - the work as - uh let's say as a subject work of something that you can - you can try to, eh, s- In some subjects, in fact, eh, the - the - the, uh, topics are more open so you can introduce some research topics too. So but the main thing is that there is a, uh, this big difference because, eh, students are not supposed to do research, eh, work until they have finished their gra- their grade.
+mn082: Mm-hmm.
+mn081: You can change that.
+mn021: Yeah, sure.
+mn081: M- uh, maybe you sh-
+mn021: Sure.
+mn081: I think it's pretty healthy for a student to - to have a project, eh, where you have to write actually some part of research or.
+mn021: Yeah, I think so too, but, eh, you know, it also depends on the subjects because sometimes
+mn081: Sure.
+mn021: subjects are fixed so you cannot - you cannot, uh
+mn081: OK .
+mn021: uh, give any - any stuff you want. You have to - to provide a certain - a certain prime
+mn081: O-
+mn021: for the subject too,
+mn081: Of course.
+mn021: but, you know, sometimes, especially in the - in the latest, eh uh, courses uh, things are probably more open and, well, it - it is something that can be changed.
+mn082: Mm-hmm. OK. Thank you. Claudia, I still mentioned, Have you other things? For me, as I said before I will be funded by a d- uh by the ministry of, uh, the German government for research in the project so-called Invinet That seems to be sure. And I got absolutely freedom to do what I would like to do, and I would like to go on with the QS in advance mechanism and, uh, in the relation of USAIA I also have the activities with Georgia Tech. They have now a PHD. It is settled, and my other next, uh, generation of contract is also going in that sense so the topic is still going - go- going on. and when I will come back here, I would like to use these things too to maybe come to a closer, a bigger project um, outside of this goal, with contributions here from, uh first of all from the NSA group and then from - from other partners. But this I have definitely ou- uh discussed with my management and this will happened, I believe, in December, maybe, and in the beginning of January. and I will keep informed to the management of ICSI anyway, but also, I assume that my suggestions that we have a weekly phone conference and email exchange during that time so that we can inform each other concerning what are the questions, what are the problems, what is the status and so on. Uh? But I think we will uh detail these things then in one of the last meetings. So how is your status and - and your ideas and your plans and your future and -
+mn030: Yeah. Well I will -
+mn082: You're addicted to the testbeds you run on the hour, so that's -
+mn030: No, no, no, no, no. So I will stay here till the end of February and afterwards, um, at Berlin I'm yeah, funded by an institution of the German government, so, they are paying me, and I have to do research for them, of course. I have to um well, uh, reach some goals and so on. But on the other hand there will be some time left I think to do some work on this area I started here. And for me, myself, I'm also very interested in - in continue this work and so that will be manageable and, um, on the other hand there are also uh, some students or - well, at the moment it's quite difficult to find students, eh, who are doing their master's thesis and so on because there are not a lot of students, uh, which are in this state in Germany now, but um, about two years ago the numbers of students were, um, studying computer science, uh, started to increase again and so in one or two years we will have, uh, many students, uh, which are performing their master's thesis and so I think there will also be, uh, many students which are joining in this work. So, hopefully, uh, I will found - will find some students which are joining in and, um So, hopefully this work will be go on.
+mn082: Mm-hmm. OK, sounded good to me. And Michael?
+mn035: So, I won't change the topic then. I'm here until end of May and after that I presumably going to a Siemens project with some - department of gee-mens , but related to that topic what I have done here. So, it's some of pre-stage to that, so it might be more related or loosely related. So it's at least it's in the same topic. And progress, it's going on, but it's not that fast going on as I would have like it.
+mn082: Mm-hmm.
+mn035: Oh, I would like to have it. Sorry. Well but oder?
+mn082: Yeah, then, what is the current status anyway? @@ this is.
+mn035: Um, I'm - currently I'm looking into Quality of Service Routing, and I had discussions with a post-doc from the U- UCB. Well, we want to - we started to collect information to write the paper about Quality of Serving routing. for MPLS in an MPLS domain.
+mn082: Mm-hmm.
+mn035: So you have um distributed routing at the edges, and one aspect is that the information is outdated, so that you know to always have the exact information of your links, dates, and so on. It what we have plans of that. And trying to look at some routing policies, or routing algorithms.
+mn082: Mm-hmm. Now as I see, in principle, uh fff that's a really raw view . MPLS offers certain kind of success of active routing, because in principle, the forwarding pass is a little bit decoupled from this - from the routing pass, and this was, in principle -
+mn035: Yeah.
+mn082: OK, it's - it's not
+mn035: It - it -
+mn082: really the subject but in a broader sense it could be seen
+mn035: It d- yeah.
+mn082: in that sense. I think uh, there are in a certain degree some alignment with - with both of you guys, right?
+mn035: Yeah. So at least from the desh- definition of Christian Tschudin, MPLS is a subset of - of active route- active routing. So it's very - It's static? It's - No, active? But it's sort of active because they have these program
+mn082: Yeah.
+mn035: statements.
+mn082: Yeah, maybe it's a separation, in principle, that I do not use the normal traditional,
+mn035: But y- Yeah. Yeah.
+mn082: uh, data forwarding pass and update, in principle, only the routing information uh, to - to - to use it.
+mn021: Well, they are - they are using the - the - the same idea of labeling packets
+mn082: Yeah. Yeah.
+mn021: with a -
+mn035: Yeah.
+mn021: with a content descriptor or something.
+mn035: That's right.
+mn082: Yeah, so what I mean is at a certain degree,
+mn021: Yeah.
+mn082: yeah, that has to be figured out.
+mn021: There's a connection point.
+mn082: There is, uh, there are some linkage between them. @@
+mn021: Mm-hmm.
+mn082: in both of your - your work.
+mn035: Yeah.
+mn082: So, my last point, uh, in principle, is the proposal itself. Um I know, in the past it was always if I'm not writing something nothing gonna happen. So, I believe, Wilbert, you are going out of these activity. You have to use your time to finish your work as you uh, have in mind until your end of February, or is that right?
+mn081: January, yes.
+mn082: End of January, sorry, so you will not - y- you will not find any time to contribute anymore to this activity.
+mn081: No.
+mn082: OK. Then from Miguel's side I expect more detailed vision. We can do it, as I mentioned before, bilateral afterwards,
+mn021: Later.
+mn082: uh, concerning your work and how you think it could be beneficial contribution to the activity maybe based on the generic uh, uh, USAIA architecture. I will write as long as I have time here, uh, on the proposal itself and in the near-term future, I will distribute a list of the small cluster of people. I tried to access Juan Peire several times, he didn't answer, because he still had mentioned that there's some minor funding, that I think would help, for instance, to have initial meeting either here or in Europe or - or wherever. I've, uh, contact one more time the professor, what is his name? Rao? or - ? uh, L- Landay mentioned, uh,
+mn035: L- Lan-
+mn082: Rao, right?
+mn035: Landay?
+mn082: Yeah. because he's a professor in - uh, responsible for the infrastructure at UCB and he has some projects
+mn035: Landay. Ah.
+mn082: which are related to um, these - these, uh, activities I would c- c- name it cor- intelligent classroom. I don't know whether I can succeed to get an appointment then but I will distribute a list - contact list and @@ the interests of each partner so that everybody can see and everybody knows, yeah, I have in mind maybe it's a small NSA group activity itself, with no linkage to the outer world maybe it's a NSA group activity with a linkage to the outer world based on the uh universities at home or the companies at home there's some linkage and the third stage is, let's say there's a NSA group activity in this area, uh, with the supported, um, home entities and with certain kind of linkage here to the companies or u- or universities here in this area. The last one, I think it's, uh, the best one. But, you see the question is always "Where's the money?" and I say "Oh poo, currently I don't know." The second question is how long I stay here and say ooo, I don't know", so everybody's waiting. Yeah, and the only rea- um, activity could come from the NSA group itself, but I think it's a - a work in process and that it will take some time and, uh, everything must be just settled a little bit more. So, but anyway, I would like to get contributions from the people here of the NSA group concerning proposals, this is a living thing and it's a pity that Multicast is, in principle, removed and we do not have any expert from Multicast anymore. And, uh, that's makes very hard, I believe. Because that is a major @@ , at least twenty-five percent of the whole network uh, stuff and, um, but neverless we have to live with this situation. Right. You are laughing, again?
+mn081: Right. Right.
+mn082: So maybe we have to rewrite something, have new ideas going forward more in certain kind of really telecommunication network and the routing and QS stuff, and remove, in principle, the Multicast stuff which, in principle, a pity because I think that's a really really good eh - uh mmm source of research work for the future telecommunication core networks because they are still not able to deal with Multicast, they still have there that tunnel generations and all those kind of things and I - I believe that would be very beneficial to use it for the really uh, mobile scenarios in - in that network, so - but anyway we have to live with a real situation and that means we have to drop Multicast from the proposal. Any comments?
+mn021: Oh, not really, you know, uh, I - I - I - I think that - Well, in the future, somebody will come to the NSA group eh
+mn082: Then we can extend the proposal one more time with Multicast.
+mn021: Ah, so - No, I mean that - OK , I - I - I think that it cannot, eh, be, eh considered the first type task to do because nobody is - is knowledgeable about multicasting but I think that, eh, any of us could address these things in the future, or maybe a new person could address this. in the future. So if - I mean, wh- what I think is that, uh, it - it makes no sense to me to reduce, uh, uh, uh, uh, something which is more or less complete, because we don't have the person. I think that the - the way to - to go is probably the opposite, to try to find something which has a meaning by itself and then try to get the resources to - to - to do this -
+mn082: Oh, maybe you understand me in the wrong way. Uh, I do not mean to drop it, to remove the text from the proposal.
+mn021: OK ,
+mn082: I mean, activities, planning activities.
+mn021: OK . Sorry. Yeah,
+mn082: Work packages.
+mn021: that's OK. Sorry, sorry, heh?
+mn082: Yeah, so
+mn021: Now I
+mn082: no, no, because that's, uh, that's why I mentioned that it is important thing. But, currently there's only one new group member, Sven Buchholz, who will figure out the thing, hmm how to say, um, the taking into account the end system, or the limited end system capabilities with respect to mobility and the network itself. Where it should be ada- @@ - where should be, uh, the adaptation process performed to deal with the different devices, for ubiquitous access to the network? Should it be in the end system itself? Should be in the edge device? It should it be in the core? should it be on the server? These are the questions he would like to figure out. And to p- uh, to have, in principle, the pro and cons of, uh, different - of all these different approaches. So that's the only new member.
+mn081: Who is that?
+mn082: Sven Buchholz. He was here. I invited him and discussed with him his potential work, I @@ . quite sure
+mn081: Oh, he was here one day.
+mn082: Yeah.
+fn083: Yeah.
+mn035: Hmm.
+mn082: But he showed up the next day but only for administration stuff, but for the technical discussion he was here one day.
+mn035: Several days. Yeah. Yeah. Yeah.
+mn082: I- I'm do not remember whether - w- whether you were -
+fn083: That must be three weeks ago, cuz I r-
+mn081: Yeah, I do remember him, but I didn't talk with him about, uh - about the research
+fn083: I just met him when I arrived.
+mn035: Yeah.
+mn082: Mm-hmm.
+mn081: topic. So I didn't know what he was going to do.
+mn082: Yeah, he will come mid of January, I believe, yeah,
+mn035: Mm-hmm.
+mn082: as far as I know. So, but this is the only guy, you know, but that is not reflected in that sense that we remove the text. @@ what I mean is - is, uh, the -
+mn021: OK .
+mn082: that we - what's kind of activity we are going more in detail in describing, the network packages and - and detailed, uh, uh, descriptions - more detailed descriptions. So Any other question? Any other comment? Oh. Then we pu- should start with reading the numbers one more time.
+fn083: Oh, again?
+mn081: We have to do that? Oh!
+mn082: Yes, we have to do it, so that means we have to read the transcript script
+fn083: I don't know .
+mn082: number and then the numbers, and if there's a new line, a short break. And, afterwards we have to, uh, that device is switched on, so please do not switch off the devices. And I will call Herr Janin and that - Adam @@ . So I will start. OK, the next one please.
+fn083: Should I?
+mn082: Oh. Yeah, yeah. Fine.
+fn083: OK,
+mn082: He's laughing all the time.
+fn083: Oh, oh Wilbert Oh, I'm sorry.
+mn081: Did you get that?
+fn083: Oh, I'm so sorry. That was mean, OK.
+mn081: No, it wasn't. I - I - I saw it already standing there when I was here so then I started laughing, @@ oh, oh, oh, oh.
+mn082: OK, Michael please.
+mn030: That's it.
+mn082: OK. Thank you. OK, then I will call Adam. Adam?

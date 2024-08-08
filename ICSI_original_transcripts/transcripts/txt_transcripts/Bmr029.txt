@@ -1,0 +1,517 @@
+me018: OK.
+me013: OK. So the one - one thing I knew I wanted to talk about was about, uh, sort of last minute stuff to- to, uh, try to get some recognition results.
+mn017: Recognition results for -
+me013: Yeah. So, uh, on - on - on meeting data. And so, I'm - I'm not sure exactly what you're doing already, and - and there's some stuff I've talked to Dave -
+mn017: Well, we- I just started recognition on the on Thilo's segments, which was - but using the far- far- the close-talking microphone.
+me013: OK. So - Um -
+mn017: And you wanted - I know you wanted the far-field data.
+me013: Right. So - so, we have some stuff with no overlap, uh, for which there would be near - near-field results.
+mn017: Uh-huh.
+me013: We wanted to get the far-field results for that. And then this - this real, uh, long shot thing would be, that we'd apply Dave's processing to, uh, potentially training and test data
+mn017: Mm-hmm.
+me013: and do the - look at the same thing. And in talking this morning with, uh, Chuck and with Dave one thought was to use - We couldn't remember how different the numbers were, but if you just worked with males only and used the short training there're - there're - uh, I think Chuck's recollection was that when he was doing the feature stuff, it took maybe a day and a half to do the training. Yeah.
+mn017: To retrain? Uh Yeah. Um. That's about right. Actually, it should probably be - It depends on who else is using machines, but we have more machines now. So.
+me018: That's true.
+mn017: It's more like a day, probably.
+me013: Um, how much worse is the short training set than the large one, in terms of the ultimate performance?
+mn017: Mmm, it's like - Something like three - three percent - three or four percent absolute.
+me013: Yep. So, it's - that should be fine for this, I would think. So we - an- and you have the short - you have short training results for the close case?
+mn017: Um, not for meetings. Because we didn't train - we didn't re- ever recognize with the - with the small models on meeting data. But I - I have the models, so I could
+me013: So, how do you know it's - ? Oh, it's three percent on - on, uh, on Hub-five.
+mn017: run reco- On -
+me018: Hub-five.
+me013: I see. Yeah. But we have the models so we could get that number, and - So the question is, what - ?
+mn017: I mean, the - the - mmm-
+me013: w-
+mn017: The recognition also takes non-negligible amount of time. So - we might wanna restrict it to, maybe, a few meetings, if you want to do a full comparison.
+me013: It has to be enough so that -
+mn017: Uh.
+me013: I mean, it's the non-overlap only. Um - And - it has to be enough to be sort of comparable to what you folks were seeing and what you reported already.
+mn017: Hmm.
+me013: I mean -
+mn017: Well, do we have the - do we have the processed data? That - that's also -
+me013: No. He has to create that.
+mn017: Right.
+me013: But - but - s- but - so - Um - We have a whole parallel set of things over here
+mn017: Mmm.
+me013: which are all with digits.
+mn017: I see.
+me013: And - and - and Dave has been working with that and there's all of those issues. But - I know that if I go in with something that's not just digits it would be good. And, um, so - We already have these results that you - I mean, on - uh, a l- a lot- tha- tha- a particular test set, that you - that we reported at HLT.
+mn017: Hmm. Right.
+me013: Um, it'd be nice to have something more than that. And w- we had talked about was having distant - Um, and then, uh, if we could on top of that - I mean, so this is gonna be a lot worse. Right? Whatever comparison we - w- w- one would presume. But we don't know how much worse,
+mn017: Mm-hmm. Right.
+me013: w- w- uh, which is certainly one interesting thing. And then, um, Dave - I think we figured that it'd probably take a day or two to compute the - the, uh - uh - Well - How many hours of training - ?
+mn017: Actually, I did retrain - I recently retrained, um, for another reason, on the full training set. And that took only - I think it took only two days.
+me013: Yeah.
+mn017: So, it's actually conceivable to do - use the full training set.
+me013: Yeah, but we also have to do this other processing, so having a smaller training set, if it's only a few percent difference, it might be -
+mn017: Oh, I see.
+me013: be worth doing it. But- m- How big is the small training set? Do you remember?
+mn017: Hmm. Uh. Whew. Hhh. I don't know, something - something like - something between thirty and fifty hours, maybe. I f- I forget the
+me013: It's around there.
+mn017: exac- Right.
+me013: And ha- and - and male is roughly half of that, or - ? Or - or - or was that only male?
+me018: Well, that's only male.
+mn017: Uh. Actually, I don't know. I'd - I - I can look it up. It's - it's - it's just, uh, I don't know the - remember the - the number.
+me018: We could only jus- just do the male only right? Or
+me013: OK.
+mn017: Well, the males account for most of this meeting data anyhow. So -
+me018: will we run into trouble when we g- ? Yeah.
+mn017: Yeah. I would say we - you do only males.
+me013: Yeah. So - Yeah. So that's certainly part of the issue, is that right now he's - he hasn't written his stuff for efficiency. Yeah. It's - it's in Matlab and so on, and -
+mn017: Mm-hmm.
+me013: And, uh, it's not an impossible amount of time. We - we were guesstimating it was like one and a half times faster than real time, or something? So, if there's thirty hours of data, you can calculate
+mn017: u-
+me013: that he can do, uh, the enhancement in a day and something. So -
+mn017: Hmm.
+me013: But if we were dealing with two hundred hours or something, I think it'd be prohibitive.
+mn017: No. It's definitely - It's less than a hundred hours, for sure. It's -
+me013: Yeah.
+mn017: It's probably actually, uh - It's - uh, I think it's around thirty hours just for -
+me018: That's what I was thinking. Yeah.
+me013: Yeah.
+mn017: for one gender. Yeah.
+me013: Yeah. So, I mean, it's a bit of a push, but it seems like, OK, we've got some models, we've got some training data, we have software that works, he's got a method that helps with, you know, other ta- another task. Um - It, you know, appears to be, you know, debugged.
+me018: S-
+mn017: Mm-hmm.
+me013: Um -
+me018: So - We- Yo- So, one thing I was wondering is, did you already do that middle one or should we re-do that one, too?
+mn017: No. I didn't do that, because we haven't even
+me018: You didn't do that. OK.
+mn017: cut the waveforms for that. So -
+me018: Yeah. That's what I was gonna say next. We hafta cut the, uh -
+mn017: Right. So.
+me018: W- s- so is - Morgan, is the plan to just pick one of the far-field mikes? Uh -
+mn014: Yeah.
+mn017: And there's a bit of a question whether you want to use -
+me013: Yes.
+mn017: um, what segmentations you want to use. Uh - Uh, David just - Um, I'm sorry. Don just, uh, created a new version of the first meetings that we had previously recognized, but with different segmentation. And so - Um - It would be nice - I mean, if the results are comparable to what we had before - to use those segmentations, because th- then we could claim that everything's automatic.
+me018: Do you know when he'll have the - the comparison?
+mn017: Right. Well, I'm - as I said, I just started the recognizer, um - It will - uh, it will probably be a couple hours before - before I have some results. So -
+me013: Oh. Well, that's not bad.
+me018: Oh, OK. So - cuz I don't think the new data will be ready, uh, for a couple days may- probably.
+me013: You mean the training.
+me018: So, the training.
+mn017: But the segmentations matter for the
+me013: Yeah.
+mn017: filtering. Right? Because -
+me013: For the test.
+mn017: For the test set. Yeah. So,
+me013: Yeah, fo-
+me018: Yeah.
+mn017: need to be - But, first - first, of course, you would wanna process the training data, because we wanna get that started. Yeah.
+me013: Right. Yeah. I mean, it - it'd be really great if it was all automatic, but I think that, you know, given the pressure of time, if - i- i- I mean, since you're gonna find out in a short amount of time, that's great.
+mn017: Mm-hmm.
+me013: But i- if - if it doesn't work out, I think we would rather charge ahead with the older
+mn017: Mm-hmm.
+me013: segmentations and -
+mn017: Right.
+me013: Um, and we were gonna use one of the PZMs. I don- I don't know what - Probably whatever one you've been using for - for - for the digits. Is it this one?
+me018: I think it's that one. Right?
+me026: It's e- F.
+me018: F. Yeah, that's it.
+me013: I - I'd - which - ? That's F? How do you know?
+me018: That's F. It's the second nearest the machine room.
+me013: Oh. Bien sur OK. Alright, so - Bet they'll have fun with that one. OK, so. Uh -
+me018: OK. So, uh, I just want to make sure I understand what we need to run. Um - Let's see. So, it's - OK, so if we're talking about - Let's - let's assume that we're gonna use the new segmentations. We need to, um, run recognition o- just looking at the no overlap column. Basically, we have to d- r- do recognitions for all three of those cases. Right?
+me013: Mm-hmm. Right.
+me018: Um, because we're gonna be using the - just the male, uh, model - short training set for the male. So we need to have results for all three of those, even though we have -
+mn017: Mm-hmm. Ma- maybe you should limit ourselves to the Meeting Recorder meetings?
+me018: OK.
+mn017: Um, if you were gonna cut down on the test set, I would suggest that.
+me013: Well - Maybe. But, I - I mean, how long does it take
+mn017: Actually, the longer - the Robustness meetings take longer, because there's this one speaker who talks a lot.
+me013: for the test?
+mn017: And so the - Um. No. It's because for all the - for the adaptation and normalization steps, you cannot - you have to d- you have to, uh, um, you cannot chop it up into small pieces. So, you're sort of limited by how long the longest speaker, uh, is s- speaking. So how much data there is from the - the speaker who talks the most. So, um, you parallelize across different speakers,
+me018: Mm-hmm.
+mn017: but you know, if you have a bunch of speakers who speak very little and then one wh-
+me013: Right.
+mn017: who - who speaks a lot, then effectively, everybody waits for the longest one to process. So.
+me018: Right. Yeah.
+me013: Bu- But what - what was your result for - uh, that we had at the HLT? Was that a combination of me?
+mn017: That was both types of meetings, but most - but there were only two Robustness meetings, and four or five,
+me018: And if we're re-doing the baseline anyways, it - it - it would be OK. Right? I mean -
+mn017: uh, Meeting Recorders. Right.
+me018: To - to just limit ourselves to a smaller - How long would it take to run recognition, if we did that?
+mn017: Oh. Uh, I - I - I don't have - I don't have a good gue-
+me018: I mean, is - is it like a day or is it a few hours or - roughly?
+mn017: For everything? For all the meetings?
+me018: For - yeah, let's say we just did the Meeting Recorder meetings for our test set.
+mn017: Uh. Um. It's probably more than a day, but probably less than two.
+me018: Oh, really. I didn't realize each test took that long.
+mn017: Well, i- No. I mean for all the meetings. Because it's - Again, it's, um - So each meeting - each meetings takes,
+me013: So you were doing like -
+mn017: uh, something like - Again, we - we - I ran - when we ran these, we were sort of short on machines, and, um,
+me018: Mmm.
+mn017: I don't know, I - I would estimate maybe four hours per meeting. Something like that.
+me018: Four hours per meeting.
+mn017: Right.
+me018: Wow.
+me013: Yeah. But if you - So, if you do half a dozen meetings, that's - that's about a day. We also have more machines now.
+mn017: Right.
+me013: well
+mn017: Right. So that's why I'm saying I'm not sure how they would scale with more machines.
+me013: Yeah. Yeah. I mean, if we had about six - A six hour test set's not bad. Right?
+mn017: Right.
+me018: S- six hour test set. Six meetings. OK.
+me013: You know? Right? I mean, a lot of the evaluations have been -
+mn014: Yeah. We did.
+mn017: We have MR - two, th- We have two, three, four, fi- I think there are four Meeting Recorder meetings that we worked with.
+me013: Four that you worked with?
+mn014: I think it's - Is it the same set as the alignments? I think it's five Meeting Recorder meetings.
+mn017: Yeah. Five? OK.
+me013: That would be OK, too. I mean, I'm - i- So, if they have a set that they worked with, and you - you got -
+mn017: @@
+me013: Did you do similarly in performance between them and the other meetings, or was it - ?
+mn017: Uh, with the Robust- compared to Robustness? Yeah. The big variation is by - whether it's a native speaker
+me013: Yeah.
+mn017: or not. And whether it's, um - Uh, I think that's the o- actually - and - and of course what, um, you know, whether it's lapel or, uh, headset microphone.
+me013: And overlap or not. Yeah.
+mn017: Yeah.
+me013: So maybe just with the - the - the Meeting Recorder set of the -
+mn017: And we can exclude - we don't need to recognize the non-natives, because we know that -
+me013: De- th- that you did before.
+mn017: I mean, in fact, we excluded them previously
+me013: Yeah. So we want to do the same - same thing.
+mn017: from - Right.
+me018: OK. So - Alright. So if we got a list of the, uh, segmentations for these five Meeting Recorder meetings, we could start, uh, the first two experiments going right away, using the short male models.
+mn017: Mm-hmm.
+me018: So, you could get those going while Dave is, um, creating waveforms for the r- retraining the short male models.
+me013: Yeah. Once we know which segmentations we're using. Yeah.
+me018: Right. OK. OK. And then - OK. So, do we w- also want to run that bottom experiment without retraining the short male models on his thing? Did you want that? Or - ?
+me013: Um, I - I agree that that would be an interesting thing to do, but I sort of regard it as secondary.
+me018: OK. So, we'll save that.
+me013: So if there's sort of machines sitting around and people sitting around and they're waiting for other things to finish, then sure. But - Uh, Chuck had been asking about that earlier as kind of a control to know, um - Cuz, I mean, you could imagine a fantasy in which you said that Dave's processing made the, uh, far microphone like the near microphone. In which case
+mn017: Mm-hmm.
+me013: you shouldn't have to actually retrain. But it's - it's not really true. It's - it's sort of fantasy. It does - it does muck up the data in - in some funny ways. And so,
+mn017: Mm-hmm.
+me013: I'm - I'm kind of questioning that. But -
+me018: Well, i- it -
+me013: But -
+me018: Well, on a more basic level, also, it means that that third experiment, there are actually two differences between the other experiments, not one.
+me013: Right.
+me018: So, it's hard to know -
+me013: It involves retraining and it involves a -
+me018: Right.
+me013: Uh, that's right. I mean the other thing which - which it might come in - to is if there was some problem in the retraining. I mean, maybe you'd just have some mechanical thing we do wrong.
+me018: Mm-hmm.
+me013: Uh, that, uh - since Dave's experience was that
+me018: Right.
+me013: it didn't help as much if you didn't retrain, but it does help some, that we would hopefully see that.
+me018: Mm-hmm.
+me013: So, that - that's - that's true.
+mn017: Wait, did - ?
+me013: I- i-
+mn017: So when you used original - the original models, and you just process the test set in this way, d- do you get any -
+me026: u-
+mn017: do you get decent performance or not?
+me026: I - I - I think, um, for the far-mike HTK system I was using,
+mn017: Mm-hmm.
+me026: it did help somewhat. I could re-check that. But it was such a bad baseline
+mn017: Mmm.
+me026: that I don't know what that means.
+mn017: Right. Right. OK.
+me026: Cuz the baseline word error rate was around forty percent on digits.
+mn017: Mm-hmm.
+me018: On the far-field?
+me026: Right.
+me013: Right. So -
+mn017: OK. Well, I'll - I can get started on the - well, the first - the one that already has a cross there. We need to re-do that with small models. Right.
+me013: Yeah.
+mn017: And then, have to ask, um, I guess, Don to, uh, cut the, um, cut the segments for the sh- for the tis- distant mike. Uh, uh - that's - So we would be using the same channel for each - fo- for everything?
+me018: Mm-hmm.
+me013: Yeah.
+mn017: OK.
+me013: I mean, do you ha- do you have to rely on his segmentations at all to do the top one?
+mn017: So. No, no. We would use the same segmentations, but he needs to extract - extract the wavef- form segments from a different channel.
+me013: Oh. OK. Got it.
+mn017: Right.
+me018: So when you said you were gonna start that top one, were you gonna use the new segmentations?
+mn017: Mm-hmm. Um - Yeah.
+me018: OK.
+mn017: If - assuming that the performance turns out to be comparable with - with the old experiments
+me018: Right. OK.
+mn017: and the old segmentations. Now there's the issue of - Oh, OK. So there's the issue of speaker normalization. So, with the distant microphone you wouldn't know which speaker is talking. Right?
+me018: Can we - ?
+me013: We - we talked about this before. I think what we were saying was that, um, the very fact that in both cases we're ignoring the overlap section means that, um, uh, we're to some extent finessing that. So, um, I think, for the purposes of just determining whether a far-field microphone - uh, what the effect of the far-field microphone is, we should do the same to both.
+mn017: Mm-hmm. I see. So you want to cheat?
+me013: I mean - We want to i- incorporate certain data that would not be available during final tests, uh, under a - a full fair test of it, much as we are in the - all the numbers that we have so far.
+mn017: OK. So we assume - we assume knowledge of the speakers as -
+mn014: Oops.
+mn017: as, um - in a way that's compatible with the close-talking
+me013: Yeah.
+mn017: test set. OK.
+me013: We - we simply wanna determine what's the difference in performance due to being distant versus close.
+mn017: Oh, OK.
+me018: So, does that mean you turn off speaker normalization when you run it? Or you just let it do what it would do, an- ?
+mn017: No. It means - No. It just means you - you group together the segments that by magic you know belong to one speaker, and - and treat -
+me013: I mean to a lesser extent you had that same magic the other way, too, because you have leakage into other microphones. Right? But, it's just you're using the fact that
+mn017: Right.
+me013: this is where this person is. Right?
+mn017: Right.
+me013: So.
+mn017: But, um -
+me013: It's just easier to do.
+mn017: Well, in the new test, actually, that's not true. So - Again, if this - if these new segmentations work OK,
+me013: Yeah.
+mn017: then we - then it's a fair - it's a completely fair test.
+me013: So, how do you determine what you use to group together to be a - a - ?
+mn017: You group together all the data coming in through one channel and where Thilo's speech detector has - has determined that there is speech. And that speech is - is deemed to come from that speaker, whether that's true or not. So if you get some cross-talk from another microphone, then you just process this - it as if it were from that speaker.
+me013: The only other alternative would be to turn off speaker adaptation in both.
+mn017: Well, that's more of a problem. I mean, because it's - You can just pretend it's some kind of gene- I mean you can pretend it's all from one speaker and do all this processing the same, but then you're gonna get results that are worse on account of not doing proper
+me013: Mm-hmm.
+mn017: speaker normalization and you're gonna have - So, you could certainly do better than that by doing, for instance - uh, cluster the segments, which is what we do, say, in a Broadcast News system, where you don't have speaker labels. But that would be another processing step that I'm - I would have to debug first, and so forth, and so we wanna avoid that.
+me018: Hmm.
+mn017: So I agree with you. We should - we should, uh, do the - you know, this sort of cheating experiment.
+me013: OK. Yeah. An- and e- so that will tell us what the difference it between the mikes, and then, uh, in order to - The - the other difference that we'd have to take care of is that, uh - yeah, we - we don't have a mike that, uh, is particular to a person. And so we'll have to do some clustering, and that'll be another - another, uh, issue, too.
+mn017: Mm-hmm.
+me013: But, it - it - I could be wrong, but it seems to me that - that the speaker - the - the level of degradation that you get from having the distant mike in a normal acoustic
+mn017: Hmm.
+me013: is much greater than what you get from, say, not applying speaker adaptation or applying speaker adaptation. I think that the - I mean, we'll see. But - but, I think that the kind of gains that we've seen from speaker adaptation on Hub-five sort of things are like a few percent. Right? And -
+mn017: It's not just speaker adaptation. It's the whole norm- feature normalization process. I- it's spea- uh, all that is speaker-based. You know, so we - So, in that I'm, um - Y- you know, d- d- b- the most important, of course, is the cepstral mean subtraction. And that -
+me013: Yeah.
+mn017: I don't know if we - we never really - I don't remember, because it's so far - s- so long ago that we didn't do that on a per speaker basis, but -
+me013: It doesn't make that much difference, I think. I would doubt that it would be a huge amount of difference for that. So, I mean, I - I think that that difference would definitely be marginal. I think the main thing is to do something - to do some cepstral mean subtraction on some level. And, uh, so what's different about this processing is just that we're doing it at a much longer time scale. Right?
+me018: Hmm.
+mn017: Mmm.
+me013: But - Um -
+mn017: A- and by the way,
+me026: What wo-
+mn017: it's - actually we're - we're already - If we use the same segmentations that we use for the close-talking microphone, then the segmentations assume that we have access to all channels and cross
+me013: That's right.
+mn017: correlate them, so there's no point in not using that knowledge for speaker identification.
+me013: Yeah.
+me018: Mm-hmm.
+me026: Uh, I- I think also for the log spectral mean subtraction,
+me013: Yeah.
+me026: uh, we wanna know which speaker's talking when, cuz we wanna chain together the audio from one particular speaker to calculate the mean and subtract it, and we don't -
+mn017: Yeah. Right.
+me013: Right.
+mn017: OK.
+me013: Um. Yeah, I guess. But, um, I also think that a- again once we got into it, that, um, using some kind of clustering would probably work reasonably well there, too. Certainly for the - the two microphone case, which we're not gonna mess with because it's another whole deal with the low-quality microphones, um, we ought to be able to at least tell that it appears that things are coming from a particular direction.
+me026: Hmm.
+me013: So we ought to be able to use that information, um, as well. But, I think we might be able to do not too bad a job of separating out sp- uh, segments that appear to come from a single speaker both in terms of s- acoustic similarity and in terms of direction. So, I mean - But that's another research thing to do and probably won't get done the next week.
+mn017: Right. So what - what is the schedule here?
+me013: Well, I mean, I'm - I'm leaving for for the, uh, the New Orleans meeting, uh, next Saturday, and -
+mn017: Mm-hmm.
+me013: and, um, it'd be kinda nice to have some results at least a day or two before that, so that I could
+mn017: Mm-hmm.
+me013: figure out what I wanted to say about it.
+mn017: Oh, we'll call you when you get there.
+me018: You'll have email. Right?
+me013: Yeah. Uh, not to mention that - that, uh, Mari's putting together this report
+mn017: Mmm.
+me013: next week, too, you know. So - Uh, what we were hoping was that over the weekend we could do, uh, the, um, calculation on the training set
+mn017: Mmm.
+me013: and, uh - uh, maybe, you know, we could - by the end of the weekend, we could have the top one, and - and then early next week, do these.
+mn017: Mmm.
+me013: If we had enough machines, maybe do them in parallel.
+mn017: Mm-hmm.
+me013: So that by the middle of the week we had s- had some kind of result. I mean, it's - it's one of these Hail Mary kinds of things. I mean, it - it, uh -
+mn017: Mmm.
+me013: might - might not work out. But, uh, f- figured I may as well ask for it.
+mn017: OK. I'll ask -
+me018: So - ?
+mn017: The other thing is, um - and I'll ask Don which is easier to process in terms of creating these - the - the test data for the far - far microphone. If - if it turns out that for some reason it's easier for him to use the old - um, the - the - the old, uh, segmentations,
+me018: Segmentation?
+mn017: then we'll just use that, I figure.
+me013: Right.
+mn017: Um -
+me018: S- So, um. I don't want you to have to be burdened with doing a lot of stuff. What - what can I do to - ? Y- y- you said it would be easy for you to do that top one there, and I guess Don can do the segmentations of the, uh, channel F?
+mn017: Mm-hmm. Um -
+me018: I mean, I can certainly help with, uh, retraining the short male models,
+mn017: Right.
+me018: uh, once we have the new data.
+me013: You have models of short males?
+mn017: Yeah. Um - Right. Uh, let's see. The - the You - you can - I mean you could - you could run the, um, you c- Basically, once the, um,
+me018: The top one is done. I c-
+mn017: whe- the top - the top one's done, you could easily re-run the whole set of experiments.
+me018: I can re-do the next one. Yeah. Mm-hmm.
+mn017: Uh, I mean, manage the jobs and so forth, uh -
+me018: Yeah. Sure.
+mn017: Um, that's all -
+me018: Yeah, the - the bottom one would b- just be a matter of pointing it at a new set of files and kicking it off, so that would be re- I mean, th- not the bottom one, but the middle one
+mn017: Mm-hmm.
+me018: would be really easy once you've got the top one going. I could do that.
+mn017: Yeah. Right.
+me018: OK. So I guess I just need to get Don to, uh -
+mn017: Right. So, somehow the - Assuming he uses the new naming scheme, then he should call the waveforms the - so, the waveform names have the, you know, meeting - meeting ID, and the microphone, and the, um - I guess, the channel and the microphone and the speaker, um, speaker - some- something that identifies the speaker.
+me018: Mm-hmm.
+mn017: So -
+me018: To keep it the same but j- just change them all to channel F?
+mn017: Exactly. So, uh - well, you still need to be able to distinguish the different speakers. That's the key point. Because, if we wanna do what we just discussed - So -
+me018: Right. Right. Yeah.
+mn017: Uh, uh, the - the best - the easiest way to do that would be to just take - You know, you make the channel be channel F, but then keep the speaker names the same as they would be in the old -
+me018: Yeah. OK. OK.
+mn017: in the close-talking, uh, version.
+me018: OK. And so that's something that Don would do - right? - when he creates these.
+mn017: Right. Exactly.
+me018: OK. OK. So will you talk to him about that, or do you want me to talk to him?
+mn017: I, uh, I - I can talk to him.
+me018: OK. And then the bottom one in terms of the test will be - ? Uh - That will just be a copy of the one above it, except for different models
+me026: Well, we also have to mean subtract the test data.
+me018: from training. Ah. OK. So, we need to run - ? OK. Well, once we have the new, uh - Well, once I do that, uh, second experiment, we'll have the, um, files, and I can give you those to - to process.
+me026: OK. And there's, um, S- so the way this means subtraction expects to work, is it expects to have, um, this continuous stream of audio data from a particular speaker to operate on. And it goes along it with this sliding window, calculating the mean using the data in the window, and then subtracting that.
+me018: So, do you create this continuous stream from the individual utterance files?
+me026: I mean, uh - That's - that's how I've been doing it, just by concatenating files together.
+mn017: Hmm.
+me026: Um, and if these files - and the- since they're individual utterance files, um, s- long silence periods are removed, which is a good thing. Because this method might estimate the mean badly, if it had to face long silence periods. But that does mean that I need as much - I need twice as much disk space as the original set cuz I need - while I'm running it - cuz I need to create this intermediate set, um, of these big files,
+me018: Yeah.
+mn017: Hmm.
+me026: and then create the - finally, the mean subtracted, um, little files. And then I can get rid of the big files. But st- while I'm doing the processing, I'll nee- I need twice as much disk space.
+me018: OK. I'm gonna - I'll check with, um, Markham, and see what happened with the - the disks. He went to put those on a couple of weeks ago and something -
+me013: I think Markham's out on vacation. I think, che- check with Dave. Yeah.
+me018: Oh, OK. I'll ask David, then.
+mn014: Yeah.
+me018: You haven't seen new disks pop up, have you?
+mn014: Nope. I was wondering if they were in.
+me018: OK. Yeah.
+mn017: Well, they grow them on trees now.
+me013: I thought they were like mushrooms. They're popping up.
+me018: Well, he went to put them on -
+mn017: Just, you shake them and they fall down.
+me018: Yeah. He went to put them on and then something happened.
+mn014: Yeah.
+me018: And he sent around a note saying "Oh, uh,
+mn014: Yeah. Something w- went wrong.
+me018: it didn't work, and we'll have to schedule another time." And then, didn't see - nothing happened.
+mn014: Nothing happened. No? Yeah.
+me018: So - I'll check with David about that. OK.
+mn017: OK.
+me013: Yeah. Cuz we still all have tha- the - that other one going, which is the, uh - the Macrophone
+me026: Right, an- and -
+me013: training.
+me026: So - so, Andreas, um,
+mn017: Mm-hmm?
+me026: in U doctor speech data SRI Hub-five, there's this, uh, Hub-five training set. Now, is that the long training set there?
+mn017: Mmm. Mm-hmm. Mm-hmm. That's everything. Yeah, so -
+me026: OK.
+mn017: So, I can give you a list of the short version.
+me026: OK. I th- I think you already did, actually.
+mn017: So you can - Oh, OK.
+me026: OK. And so, say the Macrophone files that are included in this short training, are just a subset of the Macrophone files. Right?
+mn017: That's right.
+me026: OK. So - so, um - when you - You did some TI-digits t- t- experiments training on Macrophone.
+mn017: Yeah.
+me026: Um. But that's not necessarily any less data than the SRI Hub-five set. It's not a - it's not a subset of the short SRI Hu- Hub-five set. Right?
+mn017: Um - Wel- No, it is. Th- the - Sorry. Um. Can you repeat the question? There wa- it is a subse- Yeah.
+me026: Uh, whe- when you trained on Macrophone, um, to do those digits experiments, did you use the entire Macrophone corpus?
+mn017: No. Only the portion that was in the Hub-five training set.
+me026: Oh. OK.
+me013: That was in the Hub-five small training set?
+mn017: Well, the Hub-five small training set contains as much Macrophone as the large training set,
+me013: Yes.
+mn017: for historical reasons. Yeah.
+me026: OK- OK. So - Um -
+mn017: So, do you have that processed there, then - right? Because you already did - did y- didn't you already do that experiment?
+me026: I- I - I got confused, cuz I thought - I thought you were using
+mn017: Mm-hmm.
+me026: the whole Macrophone set.
+mn017: No.
+me026: Um. OK. Well, if - if - if I just need to use that subset, I - I can get it processed. I actually got - I think I got f- into it before, and then I thought I was doing the wrong thing and I stopped. And it shouldn- it shouldn't take that long to do.
+mn017: Mmm. OK. Right.
+me013: OK.
+mn017: And you need only the males. So.
+me026: Oh, OK.
+me018: So, basically, Dave, so y- for you to get your processing going, you need the list of the, uh, wave- Well, I guess it'll dep- you'll - you'll - we'll need to get the segmentations.
+me026: Yeah.
+me018: Figure out whether we're using the new or the old from Don.
+mn017: Hmm.
+me018: And then, uh, from that you need the - from the segmentations you'll have the list of wavefiles that the short, uh, set is trained on. And then you'll need disk space. And once you've got those things, then you can start your processing. Right?
+me026: Yeah.
+me018: OK.
+mn017: Does this - th- this - ? It- it's sort of - f- f- not very nice to use the small training set for another reason, which is that the you also are losing on - Again, because you don't use all the data you have for one speaker. So, the normalizations you compute for your training speakers will be, uh, crummier than they would in the large training set. So, um, I have to - So, to make it really a matching experiment, I have to find - uh, I have to use short models that were trained on normalizations that were also only estimated on the short set. Which is, uh -
+me018: Do you have this, uh - ?
+mn017: I think so. I've - I - I have to check. In any case, I could retrain short models within a few hours actually at - if I use machines at SRI.
+me013: I wonder about that, though.
+mn017: Hmm?
+me013: I mean, because all we're doing - The only reason we're using the short training set is - is for speed. And there - we're not really making any claims about using a smaller training set.
+mn017: Yeah.
+me013: So as long as we're not using any testing data from -
+mn017: No. But the thing is, if - if we used - if we used the whole training set for normalizations,
+me013: Yeah.
+mn017: then David would have to process much more data, which - That's a - that's one bottleneck, for us right, in terms of get-
+me013: Oh, you mean for - for his normalizations.
+mn017: Yeah.
+me013: Oh, oh, oh. I'm sorry.
+mn017: Right. So, you wanna do the exact same thing, or else you'll have apples and oranges.
+me013: Right. Yeah.
+mn017: So. It doesn't make - I don't think it makes that much of a difference. It's just this little detail that
+me013: Mm-hmm.
+mn017: if you can take care of that, then you should. I - I think I have - I have the models, I have - I have, um - let's see, um - Yeah. And if not I can retrain those models very
+me018: Oh, there's - there's one other issue,
+mn017: quickly.
+me018: uh, and that is that Dave throws out speakers that have less than twelve seconds of training data. And he said there were a few in the Macrophone set like that. So, do we need to wait to find out who he's gonna throw out, so that we create a new set of short models that don't include those speakers?
+mn017: Uh -
+me013: Say this again? Sorry I missed it.
+me018: So i- in - Th- the problem is that if we proceed like we just described, um, when he goes to m- um, create the new s- training data with his processing, he throws out some speakers. So the t- two training sets won't be identical.
+mn017: Yeah.
+me013: He throws out some speakers that are - that are very small.
+me018: Yeah. Have just a little bit.
+mn017: Yeah. I don't think it'll make a - matter.
+me013: Yeah. I think there was only a few
+me018: OK.
+me013: we thought to be the case. Righ- ?
+mn017: In fact, I thought about throwing those out too, because when I heard how little speech there was for some of them, I thought they can only hurt your models, because they're - again their normalizations will be all -
+me018: Yeah.
+me013: Right.
+mn017: all - all over the map, and you won't get very - very clean models from them, anyhow. So.
+me018: So you think it's OK, then?
+mn017: Yeah. In fact, if - if you wanna do this, uh, to speed things up, um, you - we can leave out the Macrophone data altogether. That hurt - Actually. Oh, no. Sorry. Not in the short. Then you have too little data. OK. Sorry. Forget that. Um, When you use - when you go to the large training set, then leaving out Macrophone actually sometimes helps you, because it's - it- it's just not relevant to the -
+me018: It's read.
+mn017: to the meeting and - or to conversational speech anyway. OK. Yeah. Leave it out, and - Um, in the event that I retrain the short models, um, why don't you give me a list of the files that you throw out, and I - I'll throw them out, too.
+me026: Right.
+mn017: And then we have complete - completely identical training conditions.
+me018: We sh- M- Right. A- actually you should be able to figure out, Dave, right, once you know the segmentations,
+me026: Mm-hmm.
+me018: uh, who you're going to - which speakers will get left out, even before you run your processing. Right?
+me026: The segmentations?
+me018: Yeah. The segmentations from Don?
+mn017: But th- the segmentations are only -
+me018: Once we - ?
+me026: Oh.
+mn017: they only affect the test set. We're talking about the training speakers.
+me018: Ah. Right, right, right, right, right.
+me013: No. The training set he could go through right now, and see how - how long the -
+mn017: Right.
+me018: Right. But I'm just wondering how long it will take to get that information.
+me026: Um -
+mn017: He already has the in- you already have the information. Right?
+me026: I - I have i- I have it for - for Macrophone, um, already, I think, and, um, I think by tomorrow I'll have it
+mn017: Mm-hmm. OK.
+me026: for th- for the rest.
+mn017: Alright.
+me018: OK.
+mn017: OK.
+me013: At that one? Maybe. Uh - Been looking at synthesizers?
+mn014: Synthesizers?
+me013: You were looking at Festival. Yeah.
+mn014: Yeah, yeah. I was doing something for the SmartKom data collectioners. Robert has taken his laptop t- back to Germany so we needed a new synthesis machine. And we have now a SUN workstation in the library, which does the synthesis and the Festival speech s- s- system is running on it.
+me018: Sorry, Robert did what? Robert took what?
+mn014: His laptop where, uh - which we used for the SmartKom data collection, for the synthesis.
+me018: Uh-huh.
+mn014: And so he took it to Germany and so we couldn't do any data collection. Uh -
+me018: Oh. Is he gone now?
+mn014: No. He's just gone to a SmartKom workshop.
+me018: Oh. Oh, oh. Oh, OK.
+mn014: And so, we have now the SUN in the library which can do that.
+me018: Ah.
+mn014: And I looked into the ts- Fzero thing and talked to - to Liz, and it seems that it's quite s- what she wants, but we'll have to think about the - the energy thing - uh, what we wanna do.
+me013: Right. This was a business about, uh, um, coming up with something that - that was purely prosodic.
+mn017: Mm-hmm.
+me013: And so, uh, we're just gonna use a pitch detector, drive a synthesizer, and since it doesn't have a hook in it for, uh, modifying energy, we'll have a little box at the output that'll modify the energy. So -
+mn017: Hmm.
+me018: Hmm.
+mn017: OK.
+me013: So. Rrrrr-rrrrm-rr. Something like that.
+me018: Are you - are you interfacing to that thing with the Cplus-plus routines? Or are you - is there another interface that you use?
+mn014: For w- for Festival?
+me018: Yeah.
+mn014: Uh, you can just use it from the - Yeah. Basically from the command line, and the- defining the phones, whatever you want to have synthesized, and
+me018: Oh. And it saves it in a -
+mn014: give the Fzero targets, and then ts- get - gives out a - a waveform, and I - I want to manipulate the - the waveform, then.
+me018: I see. Oh, that's neat.
+mn017: Hmm.
+me013: OK? Digits?
+me018: Ah. OK.
+me013: That's all folks.
