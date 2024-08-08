@@ -34,46 +34,7 @@ navigating to the folder and running:
 
 jupyter notebook notebook.ipynb
 ________________________________________
-#### 5. Directory structure
-
-|   README.txt
-|   requirements.txt
-|   MRTtoTXT.ipynb
-|   Chat.ipynb
-|   GPT_action_items_v1.xml
-|   GPT_action_items_v2.xml
-|   GPT_action_items_v3.xml
-|   Human_action_items.xml
-|   ROUGE_score.ipynb
-|   BERT_score.ipynb
-|   Sentence_pairing_with_BERTScore_Not_Used.ipynb
-|
-----ICSI_original_transcripts
-    |   index.html
-    |
-    |---doc
-    |       all.blp
-    |       file.tbl
-    |       icsi1.spk
-    |       Meeting1_annotated.dtd
-    |       Meeting1_annotated_dtd.html
-    |       naming.html
-    |       naming.txt
-    |       overview.txt
-    |       seatingchart.txt
-    |       trans_guide.txt
-    |
-    |---transcripts
-        |   75 .mrt files
-        |
-        |---chosen_transcripts
-        |       25 .txt files
-        |
-        |---txt_transcripts
-                75 .txt files
-
-______________________________________________
-#### 6. List of source code files and their role
+#### 5. List of source code files and their role
 
 Jupyter Notebooks:
 
@@ -111,7 +72,7 @@ Human_action_items.xml
 ---> Contains the ground truth list of action items; the combined list of all lists extracted by our annotators.
 
 ________________________________________
-#### 7. File Pathnames
+#### 6. File Pathnames
 Already pre-processed into .txt files meeting transcripts are located in the dataset’s folder:
 \ICSI_original_transcripts\transcripts\txt_transcripts.
 The subset of 25 transcripts we chose to use in this study can be found at:
@@ -125,7 +86,7 @@ komsiyski_atanas
 - Human_action_items.xml
 
 ________________________________________
-#### 8. Main methods:
+#### 7. Main methods:
 
 def MRTtoTXT(xml_file)
 ---> Reads an .mrt file and cleans up the additional XML-format information, only keeping the speaker and their uninterrupted speech segment. Writes the cleaned up, human-readable content to a .txt file.
@@ -158,12 +119,11 @@ def compute_bert_score(gpt_meetings, human_meetings)
 ---> Computes the BERTScore metrics between the GPT’s output and the human reference. Returns a dictionary of the scores.
 
 ________________________________________
-#### 9. Direction for future improvements
+#### 8. Direction for future improvements
 The attempted development of a scoring metric inspired by BERTScore, located in the Sentence_pairing_with_BERTScore_Not_Used.ipynb file may be explored further. Another future improvement that can be implemented is potentially creating a visual interface for the GPT action item extraction or developing an online application using our functions to allow people to automatically extract action items from their meeting transcripts.
 
 
-################################################################################
-
+-------------------------------------------------------
 ### User Manual
 
 The main folder contains a number of XML files and Jupyter notebooks alongside a copy of the original ICSI dataset. We also provide the already pre-processed into .txt files meeting transcripts, located in the dataset’s folder:
