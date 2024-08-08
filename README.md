@@ -1,22 +1,20 @@
-------------------------------------------------------------------------------
-| Evaluating GPT-3.5-turbo for Action Item Extraction in Meeting Transcripts |
-------------------------------------------------------------------------------
+## Evaluating GPT-3.5-turbo for Action Item Extraction in Meeting Transcripts 
 By: Atanas Komsiyski
 
 
-Maintenance Manual
+### Maintenance Manual
 ________________________________________
-1. Installing the dependencies
+#### 1. Installing the dependencies
 Install the dependencies needed to execute the code by navigating to the main folder in Terminal
 and running the following command:
 pip install -r requirements.txt
 ________________________________________
-2. Hardware requirements:
+#### 2. Hardware requirements:
 • internet connection to use OpenAI’s API
 • 64-bit processor
 • 4GB of RAM or higher
 ________________________________________
-3. Software requirements
+#### 3. Software requirements
 • Python 3.8 or higher
 • the dependencies included in requirements.txt
 	– ipython 8.21.0
@@ -27,7 +25,7 @@ ________________________________________
 	– pandas 2.2.1
 	– etc.
 ________________________________________
-4. Installation
+#### 4. Installation
 As the code is presented in Jupyter notebooks it does not require any specific installation beyond
 the initial dependencies as specified above. Those notebooks can be viewed using either VSCode
 and the Jupyter add-on or the basic Python distribution of jupyter, which can be installed using
@@ -36,7 +34,7 @@ navigating to the folder and running:
 
 jupyter notebook notebook.ipynb
 ________________________________________
-5. Directory structure
+#### 5. Directory structure
 
 |   README.txt
 |   requirements.txt
@@ -75,7 +73,7 @@ ________________________________________
                 75 .txt files
 
 ______________________________________________
-6. List of source code files and their role
+#### 6. List of source code files and their role
 
 Jupyter Notebooks:
 
@@ -113,7 +111,7 @@ Human_action_items.xml
 ---> Contains the ground truth list of action items; the combined list of all lists extracted by our annotators.
 
 ________________________________________
-7 File Pathnames
+#### 7. File Pathnames
 Already pre-processed into .txt files meeting transcripts are located in the dataset’s folder:
 \ICSI_original_transcripts\transcripts\txt_transcripts.
 The subset of 25 transcripts we chose to use in this study can be found at:
@@ -127,7 +125,7 @@ komsiyski_atanas
 - Human_action_items.xml
 
 ________________________________________
-8. Main methods:
+#### 8. Main methods:
 
 def MRTtoTXT(xml_file)
 ---> Reads an .mrt file and cleans up the additional XML-format information, only keeping the speaker and their uninterrupted speech segment. Writes the cleaned up, human-readable content to a .txt file.
@@ -160,13 +158,13 @@ def compute_bert_score(gpt_meetings, human_meetings)
 ---> Computes the BERTScore metrics between the GPT’s output and the human reference. Returns a dictionary of the scores.
 
 ________________________________________
-9. Direction for future improvements
+#### 9. Direction for future improvements
 The attempted development of a scoring metric inspired by BERTScore, located in the Sentence_pairing_with_BERTScore_Not_Used.ipynb file may be explored further. Another future improvement that can be implemented is potentially creating a visual interface for the GPT action item extraction or developing an online application using our functions to allow people to automatically extract action items from their meeting transcripts.
 
 
 ################################################################################
 
-User Manual
+### User Manual
 
 The main folder contains a number of XML files and Jupyter notebooks alongside a copy of the original ICSI dataset. We also provide the already pre-processed into .txt files meeting transcripts, located in the dataset’s folder:
 \ICSI_original_transcripts\transcripts\txt_transcripts.
